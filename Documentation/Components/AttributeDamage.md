@@ -5,14 +5,14 @@ Attribute damage is a way of causing an [action](Action.md) or [attack](AttackAc
 The variable name of the attribute this property will affect.
 ### Damage
 The amount that the attribute will be modified by or to. This can be either a number or calculation.
-### Operation
+### Operation (Required)
 What the attribute damage will do to the attribute.
 * Damage
 	* The attribute will have its value decremented by the value of the attribute damage.
 * Set
 	* The attribute will have its current value set to the value of the attribute damage.
 
-### Target
+### Target (Required)
 The target of the attribute damage and the way that the damage will be calculated if a roll is involved in the damage field.
 * Self
 	* You are the victim of the attribute damage.
