@@ -11,4 +11,6 @@
 
 * [Attributes](Documentation/Components/Attribute.md)
 * [Effects](Documentation/Components/Effect.md)
+* [Features](Documentation/Components/Feature.md)
 * [Folders](Documentation/Components/Folder.md)
+* [Skills](Documentation/Components/Skill.md)
