@@ -28,6 +28,8 @@ What the effect does to the variables.
 * Conditional Benefit
   * Marks the vairable in question with an astreisk on the stats page. This is used to indicate an ability that provides some benefit only under certain circumstances, such as magic resistance. This otherwise functions in the same way as advantage.
   
+### Stats
+The names of the variables that the effect will impact. You can't pass it a specific component of a variable, such as ``constitution.modifier``.
 ### Value
 What the value of the modification is. This field cannot be edited for advantage, disadvantage, fail and conditional benefit type effects. This can store either a number or a calculation.
 ### Tags
