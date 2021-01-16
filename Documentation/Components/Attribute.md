@@ -17,7 +17,7 @@ The type of the attribute. This is a dropdown, used to be more specific about th
 - Modifier
   - A modifier is used to track a value that will be added or subtracted from rolls or other calculations. These include things such as proficiency bonus and initiative. They will appear on your stats page alongside either a plus or minus sign, depending on if the value is positive or negative.
 - Hit Dice
-  - A hit dice is used to restore hit points during a short rest. The base value field controls how many of this type of hit dice you have, and they appear on the stats page as the current value slash the max value, with an increment button to one side and the hit dice size on the other side, which will be followed by "+ your consitution modifier".
+  - A hit dice is used to restore hit points during a short rest. The base value field controls how many of this type of hit dice you have, and they appear on the stats page as the current value slash the max value, with an increment button to one side and the hit dice size on the other side, which will be followed by "+ constitution.modifier". Failing to have a constitution ability score will result in it reading "+ constitution.modifier".
     - **Hit Dice Size**
       - An additional field that only appears for hit dice type attributes, this allows you to select what the dice size of the hit dice is. Your options are d20, d12, d10, d8, d6 and d4.
 - Health Bar
