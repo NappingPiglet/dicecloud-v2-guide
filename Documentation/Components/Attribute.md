@@ -30,6 +30,7 @@ The type of the attribute. This is a dropdown, used to be more specific about th
       - An additional field that only appears for spell slot type attributes, this allows you to specify the level the spell slot. This can be either a number or a calculation and currently has no use, though a spellcasting update is planned for the future.
 - Utility
   - A utility is used to track a value that is normally hidden, such as whether a certain feature has been taken or your spellcaster level. These don't appear on the stats page.
+
 ### Description
 The description of the attribute. This field accepts markdown and can have calculations within {}. This will appear when you click on the property, whether from the stats page or from another property.
 ## Advanced Components
