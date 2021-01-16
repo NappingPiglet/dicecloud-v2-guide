@@ -5,4 +5,5 @@
 ## Creating Your First Character
 
 * [Character Creation 101](creating-your-first-character/character-creation-101.md)
+* [The Stats Tab](creating-your-first-character/the-stats-tab.md)
 
