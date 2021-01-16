@@ -17,7 +17,7 @@ The type of the attribute. This is a dropdown, used to be more specific about th
 * Modifier
   * A modifier is used to track a value that will be added or subtracted from rolls or other calculations. These include things such as proficiency bonus and initiative. They will appear on your stats page alongside either a plus or minus sign, depending on if the value is positive or negative.
 * Hit Dice
-  * A hit dice is used to restore hit points during a short rest. The base value field controls how many of this type of hit dice you have, and they appear on the stats page as the current value slash the max value, with an increment button to one side and the hit dice size on the other side, which will be followed by "+ constitution.modifier". Failing to have a constitution ability score will result in it reading "+ constitution.modifier".
+  * A hit dice is used to restore hit points during a short rest. The base value field controls how many of this type of hit dice you have, and they appear on the stats page as the current value slash the max value, with an increment button to one side and the hit dice size on the other side, which will be followed by ``+ constitution.modifier``.
     * __Hit Dice Size__
       * An additional field that only appears for hit dice type attributes, this allows you to select what the dice size of the hit dice is. Your options are d20, d12, d10, d8, d6 and d4.
 * Health Bar
@@ -32,7 +32,7 @@ The type of the attribute. This is a dropdown, used to be more specific about th
   * A utility is used to track a value that is normally hidden, such as whether a certain feature has been taken or your spellcaster level. These don't appear on the stats page.
 
 ### Description
-The description of the attribute. This field accepts markdown and can have calculations within {}. This will appear when you click on the property, whether from the stats page or from another property.
+The description of the attribute. This field accepts markdown, HTML, and calculations within {}. This will appear when you click on the property, whether from the stats page or from another property.
 ## Advanced Components
 ### Tags
 Tags used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
@@ -42,7 +42,17 @@ Allows the attribute to store a decimal as a value. When set to false, decimals 
 This field cannot be interacted with.
 ### Reset
 This controls when the property is restored to its max value. The options are short rest and long rest. If you choose short rest, it will also regain its max value on a long rest. Rests can be triggered from the stats page.
-## Accessable Values
+## Accessible Values
+### attributeType
+Returns the type of the attribute, given in the type field.
+### name
+Returns the name of the attribute, given in the name field. If the field has not been filled out, returns the text ``<attributeName>.name``.
+### reset
+Returns longRest if the attribute's reset field is set to a long rest and returns shortRest if it is set to short rest. If the field has not been filled out, returns the text ``<attributeName>.reset``.
+### decimal
+Returns true if the attribute can have a decimal point for it's value. Returns ``<attributeName>.decimal`` otherwise.
+### damage
+Returns the current attribute damage the attribute is suffering from. If this value is 0, returns ``<attributeName>.damage``.
 ### currentValue
 The current value of the attribute, with attribute damage and all calculations applied.
 ### value
