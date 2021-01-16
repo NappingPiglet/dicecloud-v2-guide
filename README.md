@@ -6,8 +6,8 @@ This is an unofficial guide for users and library developers working with [Dicec
 
 To be able to access Dicecloud V2, you will need one of two things:
 
-* A Patreon account backing [Dicecloud on Patreon](https://www.patreon.com/dicecloud) at the Adventurer tier \($5/month\) or higher.
-* An invite from a Patron of the Hero \($10/month\) tier or above.
+* A Patreon account backing [Dicecloud on Patreon](https://www.patreon.com/dicecloud) at the Adventurer tier \($5/month\) or above.
+* An invite from a Patron of the Hero tier \($10/month\) or above.
 
 If you are using your own Patreon account, the first thing you'll need to do is create a Dicecloud account. You can sign in with Google, Patreon, or create a new account; I recommend creating your account through Patreon, but you can link your Patreon successfully to any of the above by accessing the Account menu with the gear icon in the top left.
 

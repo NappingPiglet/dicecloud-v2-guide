@@ -8,7 +8,7 @@ Actions are Dicecloud's primary automation tool, and once your character is set 
 
 ![An example action card.](../.gitbook/assets/image.png)
 
-Clicking the circular button at the top left of the action card will perform the action; a use \(top left\) will be consumed, along with the number shown of each attribute or ammunition item above the description. Additionally, rolls will be performed and attributes modified as shown below the description.
+Clicking the circular button at the top left of the action card will perform the action; a use \(top right\) will be consumed, along with the number shown of each attribute or ammunition item above the description. Additionally, rolls will be performed and attributes modified as shown below the description.
 
 ### Attacks
 
