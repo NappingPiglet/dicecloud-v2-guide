@@ -1,0 +1,18 @@
+# Container
+A container is used to store items in the inventory.
+## Components
+### Name
+The name of the container, which will appear on the inventory tab.
+### Carried
+When this is set to true, the container will count towards your weight carried.
+### Value
+The value of the container in GP.
+### Weight
+The wieght of the container in pounds.
+### Description
+A description of the container, which will appear when you click on the containers's name on the inventory tab. This field accepts markdown, HTML, and calculations within {}.
+## Advanced
+### Tags
+Tags used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
+### Contents are Weightless
+When this is set to true, only the container's weight will count towards your weight carried. If set to false, items that are stored in the container will also contribute their weight.
