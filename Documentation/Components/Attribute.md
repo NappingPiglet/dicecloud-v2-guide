@@ -6,9 +6,9 @@ An attribute adds a variable to the character sheet. Common attributes include t
 The base value is the starting value of the attribute. This can be either a number or a calculation. If you apply a second base value later, such as from an effect component, the highest base value will be used.
 ### Name
 The name of the attribute. This will appear on the stats page alongside the attribute's current value.
-### Variable Name
+### Variable Name (Required)
 The name of the attribute used to identify it in calculations or other components. This will both uppercase and lowercase latin characters, numbers and underscores, but will not accept characters such as spaces.
-### Type
+### Type (Required)
 The type of the attribute. This is a dropdown, used to be more specific about the purpose of the attribute, as well as control where on the stats page it appears.
 * Ability Score
   * A stat such as strength, dexterity or constitution. These appear on your stats page alongside a modifier (which is calculated as the attribute's current value, minus 10, divided by 2 and then rounded down).
