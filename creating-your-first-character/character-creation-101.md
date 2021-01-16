@@ -40,13 +40,13 @@ The tab you'll probably spend the most time on is the Stats tab. This is where y
 
 Actions are Dicecloud's primary automation tool, and once your character is set up, you'll likely find a number of them hanging out on your Stats tab. They look something like this:
 
-![An example action card.](../.gitbook/assets/image%20%281%29.png)
+![An example action card.](../.gitbook/assets/image.png)
 
 Clicking the circular button at the top left of the action card will perform the action; a use \(top left\) will be consumed, along with the number shown of each attribute or ammunition item above the description. Additionally, rolls will be performed and attributes modified as shown below the description.
 
 Actions can also sometimes apply buffs, which are persistent modifiers to your character representing a status condition or temporary ability. While these don't show on the action card itself, they will appear in a list on the left-hand side of the Stats tab when applied, and can be removed with the trash can icon.
 
-![The buffs list, showing two examples of applied buffs.](../.gitbook/assets/image%20%282%29.png)
+![The buffs list, showing two examples of applied buffs.](../.gitbook/assets/image%20%281%29.png)
 
 ### The Features Tab
 
