@@ -14,7 +14,7 @@ The type of skill this is.
 * Save
   * A saving throw, which is used to protect yourself from a harmful ability or measure your ability to use a certain ability defensively.
 * Check
-	* No clear purpose at the moment, but each check type skill displays on its own card on the stats page instead of in a column with other skills of the same type.
+	* Each check type skill displays on its own card on the stats page instead of in a column with other skills of the same type.
 * Tool
 	* A tool proficiency represents your ability to use a tool to achieve a goal, such as picking a lock or crafting a sword.
 * Weapon
