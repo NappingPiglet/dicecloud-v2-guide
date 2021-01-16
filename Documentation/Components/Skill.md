@@ -37,7 +37,13 @@ An override to the bonus you have to checks using this skill before factoring in
 ### Base Proficiency
 The basic level of proficiency you have in a skill. By default, this is not proficient.
 
-## Accessable Values
+## Accessible Values
+### ability
+Returns the name of the ability score given for the skill's ability field. If the field has not been filled out, returns the text ``<skillName>.ability``.
+### name
+Returns the name of the skill.
+### baseProficiency
+Returns the base proficiency of the skill, given in the base proficiency field. If the field has not been filled out, returns the text ``<skillName>.baseProficiency``.
 ### abilityMod
 Returns the modifier of the ability score given for the skill's ability field. If the field has not been filled out, returns the text ``<skillName>.abilityMod``.
 ### baseValue
