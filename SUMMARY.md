@@ -9,6 +9,8 @@
 
 ## Documentation for Properties
 
+* [Actions](Documentation/Components/Action.md)
+* [Attack Actions](Documentation/Components/AttackAction.md)
 * [Attributes](Documentation/Components/Attribute.md)
 * [Effects](Documentation/Components/Effect.md)
 * [Features](Documentation/Components/Feature.md)
