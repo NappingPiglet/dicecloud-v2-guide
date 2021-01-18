@@ -12,6 +12,7 @@
 * [Actions](Documentation/Components/Action.md)
 * [Attack Actions](Documentation/Components/AttackAction.md)
 * [Attributes](Documentation/Components/Attribute.md)
+* [Attribute Damage](Documentation/Components/AttributeDamage.md)
 * [Buffs](Documentation/Components/Buff.md)
 * [Class Levels](Documentation/Components/ClassLevel.md)
 * [Containers](Documentation/Components/Container.md)
