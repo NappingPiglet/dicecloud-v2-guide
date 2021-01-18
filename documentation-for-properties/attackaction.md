@@ -55,7 +55,7 @@ Resources are a method of consuming either an item or an attribute during the us
 
 ### Tags
 
-Tags used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
+Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
 
 ### Target
 
