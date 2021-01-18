@@ -28,3 +28,6 @@ The users who have contributed to this guide are as follows:
 * KatrinaKitten\#2401 \(@KatrinaKitten on Github\)
 * Ganonsmasher\#4160 \(@Ganonsmasher on Github\)
 
+## Typos and Incorrect Information
+
+If you find typos or incorrect information in this guide, DM one of the contributers on Discord or create on issue on [GitHub](https://github.com/KatrinaKitten/dicecloud-v2-guide).
