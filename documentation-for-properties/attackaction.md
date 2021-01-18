@@ -1,6 +1,6 @@
 # Attacks
 
-An attack is a specialized type of [Action](https://app.gitbook.com/@katrinakitten/s/dicecloud-v2-guide/~/drafts/-MRM659OMmr_IKN5sfje/documentation-for-properties/action) used to indicate attacking an enemy.
+An attack is a specialized type of [Action](action.md) used to indicate attacking an enemy.
 
 ## Components
 
