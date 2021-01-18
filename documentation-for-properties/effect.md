@@ -1,10 +1,17 @@
-# Effect
+# Effects
+
 An effect modifies an variable. These are used for things like giving yourself a base move speed or recieving a bonus to strength because of a feat.
+
 ## Components
+
 ### Name
+
 The name of the effect. This will appear on the expanded view of the variables it applies to.
+
 ### Operation
+
 What the effect does to the variables.
+
 * Base Value
   * This gives the variables a base value. In the event that more than one base value exists, it will use the highest number.
 * Add
@@ -22,15 +29,21 @@ What the effect does to the variables.
 * Disadvantage
   * This is the same as advantage, but insteads marks you as having disadvantage on rolls.
 * Passive Bonus
-  * This applies a bonus to the passive value of the variable. A variable will only show the passive bonus if at least one effect of this type is applied to it. A passive bonus is calculated as ``10+<skillName>`` and will appear next to the variable's name on the stats page. Currently, this only produces a visible effect on skills.
+  * This applies a bonus to the passive value of the variable. A variable will only show the passive bonus if at least one effect of this type is applied to it. A passive bonus is calculated as `10+<skillName>` and will appear next to the variable's name on the stats page. Currently, this only produces a visible effect on skills.
 * Fail
   * Marks you as automatically failing all rolls involving the given variable. Functions like advantage in all other regards.
 * Conditional Benefit
   * Marks the vairable in question with an astreisk on the stats page. This is used to indicate an ability that provides some benefit only under certain circumstances, such as magic resistance. This otherwise functions in the same way as advantage.
-  
+
 ### Stats
-The names of the variables that the effect will impact. You can't pass it a specific component of a variable, such as ``constitution.modifier``.
+
+The names of the variables that the effect will impact. You can't pass it a specific component of a variable, such as `constitution.modifier`.
+
 ### Value
+
 What the value of the modification is. This field cannot be edited for advantage, disadvantage, fail and conditional benefit type effects. This can store either a number or a calculation.
+
 ### Tags
+
 Tags used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
+

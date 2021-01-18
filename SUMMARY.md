@@ -9,14 +9,15 @@
 
 ## Documentation for Properties
 
-* [Actions](Documentation/Components/Action.md)
-* [Attack Actions](Documentation/Components/AttackAction.md)
-* [Attributes](Documentation/Components/Attribute.md)
-* [Attribute Damage](Documentation/Components/AttributeDamage.md)
-* [Buffs](Documentation/Components/Buff.md)
-* [Class Levels](Documentation/Components/ClassLevel.md)
-* [Containers](Documentation/Components/Container.md)
-* [Effects](Documentation/Components/Effect.md)
-* [Features](Documentation/Components/Feature.md)
-* [Folders](Documentation/Components/Folder.md)
-* [Skills](Documentation/Components/Skill.md)
+* [Actions](documentation-for-properties/action.md)
+* [Attacks](documentation-for-properties/attackaction.md)
+* [Attributes](documentation-for-properties/attribute.md)
+* [Attribute Damage](documentation-for-properties/attributedamage.md)
+* [Buffs](documentation-for-properties/buff.md)
+* [Class Levels](documentation-for-properties/classlevel.md)
+* [Containers](documentation-for-properties/container.md)
+* [Effects](documentation-for-properties/effect.md)
+* [Features](documentation-for-properties/feature.md)
+* [Folders](documentation-for-properties/folder.md)
+* [Skills](documentation-for-properties/skill.md)
+
