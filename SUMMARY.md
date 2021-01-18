@@ -16,8 +16,11 @@
 * [Buffs](documentation-for-properties/buff.md)
 * [Class Levels](documentation-for-properties/classlevel.md)
 * [Containers](documentation-for-properties/container.md)
+* [Damage](documentation-for-properties/damage.md)
+* [Damage Multipliers](documentation-for-properties/damagemultiplier.md)
 * [Effects](documentation-for-properties/effect.md)
 * [Features](documentation-for-properties/feature.md)
 * [Folders](documentation-for-properties/folder.md)
+* [Items](documentation-for-properties/item.md)
 * [Skills](documentation-for-properties/skill.md)
 
