@@ -1,6 +1,6 @@
 # Roll
 
-Unfortunantly, the roll property currently has no functionality. However, we can learn it's functionality from comments in the DiceCloud code as well as the field names. The same is true of [saving throws](https://katrinakitten.gitbook.io/dicecloud-v2-guide/documentation-for-properties/savingthrow).
+Unfortunantly, the roll property currently has no functionality. However, we can learn it's functionality from comments in the DiceCloud code as well as the field names. The same is true of [saving throws](savingthrow.md).
 
 The roll component is used to automate rolling some quantity of dice in response to an action. The intended use of this seems to be activating abilities in response to certain dice rolls, at least from the comments.
 
