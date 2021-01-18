@@ -28,7 +28,7 @@ A condition to check if you can take levels in this class. Unless you are making
 
 ### Tags
 
-Tags used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
+Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
 
 ## Accessible Values
 
