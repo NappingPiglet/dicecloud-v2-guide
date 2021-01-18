@@ -4,11 +4,11 @@ Unfortunantly, the roll property currently has no functionality. However, we can
 
 The roll component is used to automate rolling some quantity of dice in response to an action. The intended use of this seems to be activating abilities in response to certain dice rolls, at least from the comments.
 
-> \* \# Rolls are resolved in one of two ways:\
-> \* Regular rolls:\
-> \* The target number is computed in the target's context\
-> \* The roll is computed in the action taker's context\
-> \* If the roll meets or exceeds the target number, the adjustments and buffs\
+> \* \# Rolls are resolved in one of two ways:  
+> \* Regular rolls:  
+> \* The target number is computed in the target's context  
+> \* The roll is computed in the action taker's context  
+> \* If the roll meets or exceeds the target number, the adjustments and buffs  
 > \* are applied
 
 ## Components
