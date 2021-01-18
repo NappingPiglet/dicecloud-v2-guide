@@ -22,5 +22,9 @@
 * [Features](documentation-for-properties/feature.md)
 * [Folders](documentation-for-properties/folder.md)
 * [Items](documentation-for-properties/item.md)
+* [Notes](documentation-for-properties/note.md)
+* [Proficiencies](documentation-for-properties/proficiency.md)
+* [Rolls](documentation-for-properties/roll.md)
+* [Saving Throws](documentation-for-properties/savingthrow.md)
 * [Skills](documentation-for-properties/skill.md)
 
