@@ -49,7 +49,7 @@ The description of the attribute. This field accepts markdown, HTML, and calcula
 
 ### Tags
 
-Tags used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
+Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
 
 ### Allow Decimal Values
 
