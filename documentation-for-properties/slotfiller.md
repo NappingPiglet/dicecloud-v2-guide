@@ -28,6 +28,10 @@ This allows a slot filler to pretend to be a different type of property to a slo
 
 How many properties this counts as. When added to a slot, the slot filler will take up an amount of space in the slot equal to this value instead of simply 1. This will accept any non-negative number.
 
+### Condition
+
+A condition to check if you can add this slot filler to a slot. Unless you are making a library, this can be left blank. For this slot filler to be added to a slot, this condition must evaluate to true.
+
 ### Tags
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
