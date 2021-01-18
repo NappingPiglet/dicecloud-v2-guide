@@ -14,4 +14,4 @@ The text of the note. This field accepts Markdown, HTML, and calculations within
 
 ### Tags
 
-Tags used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
+Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
