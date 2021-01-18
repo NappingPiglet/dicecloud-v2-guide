@@ -34,5 +34,5 @@ The target of the attribute damage and the way that the damage will be calculate
 
 ### Tags
 
-Tags used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
+Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
 
