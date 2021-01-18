@@ -45,7 +45,7 @@ A description of the purpose of the skill, which will display when the skill is 
 
 ### Tags
 
-Tags used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
+Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
 
 ### Base Value
 
