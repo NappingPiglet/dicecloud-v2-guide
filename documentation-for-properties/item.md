@@ -40,7 +40,7 @@ A description of the item, which will appear when you click on the item's name o
 
 ### Tags
 
-Tags used to control which slots this property can be added to. Tags for items have a unique property in that they are also used for ammo tracking, allowing you to consume an item when performing an action.
+Tags are used to control which slots this property can be added to. Tags for items have a unique property in that they are also used for ammo tracking, allowing you to consume an item when performing an action.
 
 ### Show Increment Button
 
