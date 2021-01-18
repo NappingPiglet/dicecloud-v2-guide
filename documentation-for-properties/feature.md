@@ -18,5 +18,5 @@ A long description of the feature, which will appear when you click on the featu
 
 ### Tags
 
-Tags used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
+Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
 
