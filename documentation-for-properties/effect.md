@@ -45,5 +45,5 @@ What the value of the modification is. This field cannot be edited for advantage
 
 ### Tags
 
-Tags used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
+Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
 
