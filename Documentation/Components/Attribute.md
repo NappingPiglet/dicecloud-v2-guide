@@ -56,7 +56,7 @@ Returns the current attribute damage the attribute is suffering from. If this va
 ### currentValue
 The current value of the attribute, with attribute damage and all calculations applied.
 ### value
-See currentValue.
+Returns the current value of the attribute without attribute damage.
 ### modifier
 The modifier of the value. This only exists for ability score type attributes and is calculated as ``floor((attributeName-10)/2)``.
 ### baseValue
