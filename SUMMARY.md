@@ -27,4 +27,5 @@
 * [Rolls](documentation-for-properties/roll.md)
 * [Saving Throws](documentation-for-properties/savingthrow.md)
 * [Skills](documentation-for-properties/skill.md)
-
+* [Slots](documentation-for-properties/slot.md)
+* [Slot Fillers](documentation-for-properties/slotfiller.md)
