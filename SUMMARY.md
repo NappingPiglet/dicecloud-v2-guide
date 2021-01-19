@@ -29,3 +29,5 @@
 * [Skills](documentation-for-properties/skill.md)
 * [Slots](documentation-for-properties/slot.md)
 * [Slot Fillers](documentation-for-properties/slotfiller.md)
+* [Spell Lists](documentation-for-properties/spelllist.md)
+* [Spells](documentation-for-properties/spell.md)
