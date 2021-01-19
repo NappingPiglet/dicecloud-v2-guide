@@ -101,3 +101,6 @@ The modifier of the value. This only exists for ability score type attributes an
 
 The value of the attribute without any modifiers.
 
+### spellSlotLevelValue
+
+Returns the level of the spell slot this attribute represents if the attribute type is spell slot. Otherwise returns `<attributeName>.spellSlotLevelValue`.
