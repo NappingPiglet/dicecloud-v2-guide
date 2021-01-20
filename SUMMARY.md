@@ -32,3 +32,7 @@
 * [Spell Lists](documentation-for-properties/spelllist.md)
 * [Spells](documentation-for-properties/spell.md)
 * [Toggles](documentation-for-properties/toggle.md)
+
+## Miscellaneous Documentation
+
+* [The Parser](parser-documentation.md)
