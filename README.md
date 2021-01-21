@@ -26,7 +26,7 @@ This guide is a work in progress, and could never hope to cover everything V2 is
 The users who have contributed to this guide are as follows:
 
 * KatrinaKitten\#2401 \(@KatrinaKitten on Github\)
-* Ganonsmasher\#4160 \(@Ganonsmasher on Github\)
+* Ganonslayer\#4160 \(@Ganonslayer on Github\)
 
 ## Typos and Incorrect Information
 
