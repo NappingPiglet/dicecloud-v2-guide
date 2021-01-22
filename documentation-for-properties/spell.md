@@ -34,7 +34,7 @@ How far away from the caster the spell is capable of acting.
 
 ### Spell Components
 
-What do you have to be able to in order to cast the spell? You can select as many or as few as you need.
+What do you have to be able to in order to cast the spell? You can select as many or as few as you need. They are also used asfilter conditions when casting a spell.
 
 * Verbal: Speaking is required for the spell.
 * Somatic: You must be able to move your hands to cast the spell.
@@ -59,4 +59,4 @@ Tags are used to control which slots this property can be added to. This will us
 
 ## Casting
 
-Casting is not currently implemented in DiceCloud V2, but it is planned that it will generate actions for the spell. This section is identical to the [action](action.md) property, with the only difference being that the description will match the text in the description field above.
+This section is identical to the [action](action.md) property, with the only difference being that the description will match the text in the description field above. When you set an icon in this section, it will appear with the spell name on the spell list and on the list of castable spells. After you cast a spell from the stats page, children of the spell will be carried out as if you had taken an action.
