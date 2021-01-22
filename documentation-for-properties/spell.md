@@ -34,7 +34,7 @@ How far away from the caster the spell is capable of acting.
 
 ### Spell Components
 
-What do you have to be able to in order to cast the spell? You can select as many or as few as you need.
+What do you have to be able to in order to cast the spell? You can select as many or as few as you need. They are also used asfilter conditions when casting a spell.
 
 * Verbal: Speaking is required for the spell.
 * Somatic: You must be able to move your hands to cast the spell.
