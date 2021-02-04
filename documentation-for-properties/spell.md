@@ -1,4 +1,4 @@
-# Spell
+# Spells
 
 A spell is a magical effect that wizards, clerics and other casters can produce. These will usually be the children of [spell lists](spelllist.md) but do not have to be. If they are not, they will appear as a card on the spells tab.
 
@@ -60,3 +60,4 @@ Tags are used to control which slots this property can be added to. This will us
 ## Casting
 
 This section is identical to the [action](action.md) property, with the only difference being that the description will match the text in the description field above. When you set an icon in this section, it will appear with the spell name on the spell list and on the list of castable spells. After you cast a spell from the stats page, children of the spell will be carried out as if you had taken an action.
+

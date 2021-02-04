@@ -6,6 +6,7 @@
 
 * [Character Creation 101](creating-your-first-character/character-creation-101.md)
 * [The Stats Tab](creating-your-first-character/the-stats-tab.md)
+* [The Features Tab](creating-your-first-character/the-features-tab.md)
 
 ## Documentation for Properties
 
@@ -35,4 +36,5 @@
 
 ## Miscellaneous Documentation
 
-* [The Parser](parser-documentation.md)
+* [The Parser](miscellaneous-documentation/parser-documentation.md)
+

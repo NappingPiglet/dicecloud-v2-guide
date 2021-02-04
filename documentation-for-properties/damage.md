@@ -22,7 +22,8 @@ The target of the buff and the way that all rolled effects of the buff's childre
   * Each creature that the buff effects will have the dice for the children rolled seperately.
 * Roll once and Apply to Every Target
   * The dice will be rolled once and that value will be used for every creature the effect targets.
-  
+
 ### Tags
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
+

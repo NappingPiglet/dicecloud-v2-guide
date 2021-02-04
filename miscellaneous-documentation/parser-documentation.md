@@ -1,4 +1,4 @@
-# DiceCloud V2's Parser
+# The Parser
 
 DiceCloud V2 uses a custom parser that accepts all the common mathematical equations, such as addition, subtraction and exponents, as well as multiple functions. In text that accepts calculations, anything contained within `{}` will be parsed and only the final value of the parsing will display.
 
@@ -94,3 +94,4 @@ The syntax `sign(number)` will return positive 1 if the number is greater than 0
 * `sign(-3) == -1`
 * `sign(3) == 1`
 * `sign(0) == 0`
+

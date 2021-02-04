@@ -1,4 +1,4 @@
-# Proficiency
+# Proficiencies
 
 A proficiency represents your character having training, natural talent or uncanny luck when performing certain kinds of tasks.
 
@@ -6,13 +6,13 @@ A proficiency represents your character having training, natural talent or uncan
 
 ### Name
 
-The name of this proficiency.  This is seperate from what it actually indicates proficiency in, and only appears if you expand the skill it affects.
+The name of this proficiency. This is seperate from what it actually indicates proficiency in, and only appears if you expand the skill it affects.
 
 ### Skills
 
 A list of the variable names of all skills you want this property to affect.
 
-* __Note:__ The variables `allSaves` and `allChecks` exist in the code, but have no functionality at the moment.
+* **Note:** The variables `allSaves` and `allChecks` exist in the code, but have no functionality at the moment.
 
 ### Proficiency \(Required\)
 
@@ -21,3 +21,4 @@ The level of proficiency this property grants. Proficient means you can add your
 ### Tags
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
+

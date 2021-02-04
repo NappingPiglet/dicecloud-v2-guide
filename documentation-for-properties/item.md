@@ -1,4 +1,4 @@
-# Item
+# Items
 
 An item represents an object in your character's possession, whether magical or mundane.
 
@@ -53,3 +53,4 @@ Does this item need to be attuned to? Currently has no functionality beyond reve
 #### Attuned
 
 Are you currently attuned to the item? Currently has no functionality.
+

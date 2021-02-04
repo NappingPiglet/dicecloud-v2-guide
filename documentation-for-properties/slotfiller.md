@@ -1,4 +1,4 @@
-# Slot Filler
+# Slot Fillers
 
 A slot filler is a property that is intended to allow for greater control over filling slots, and will usually have additional properties as children that grant features or other effects.
 
@@ -18,7 +18,7 @@ A description of the slot filler, which will appear when you click on the slot f
 
 ### Picture URL
 
-A URL to an image to represent this slot filler, which will be visible when in the dialogue to add it to a slot. Currently bugged (?), a bug report was submitted on the Discord, but no card has been made for it.
+A URL to an image to represent this slot filler, which will be visible when in the dialogue to add it to a slot. Currently bugged \(?\), a bug report was submitted on the Discord, but no card has been made for it.
 
 ### Type
 
@@ -35,3 +35,4 @@ A condition to check if you can add this slot filler to a slot. Unless you are m
 ### Tags
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
+

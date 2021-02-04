@@ -1,4 +1,4 @@
-# Damage Multiplier
+# Damage Multipliers
 
 A damage multiplier represents a character having an above average ability to withstand certain types of damage or being especially weak to certain types. These will appear on the stats page, with one card each for vulnerability, resistance and immunity.
 
@@ -19,3 +19,4 @@ What the multiplier to damage of the selected types will be. Resistance is times
 ### Tags
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
+

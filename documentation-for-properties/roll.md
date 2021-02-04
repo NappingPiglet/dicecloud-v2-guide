@@ -1,4 +1,4 @@
-# Roll
+# Rolls
 
 Unfortunantly, the roll property currently has no functionality. However, we can learn it's functionality from comments in the DiceCloud code as well as the field names. The same is true of [saving throws](savingthrow.md).
 
@@ -20,3 +20,4 @@ A calculation for the dice that are to be rolled, which will likely include dice
 ### Tags
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
+

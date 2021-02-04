@@ -22,5 +22,7 @@ Actions can also sometimes apply buffs, which are persistent modifiers to your c
 
 ![The buffs list, showing two examples of applied buffs.](../.gitbook/assets/image%20%281%29.png)
 
-### 
+### Spellcasting
+
+// TODO
 
