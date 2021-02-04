@@ -104,3 +104,23 @@ The value of the attribute without any modifiers.
 ### spellSlotLevelValue
 
 Returns the level of the spell slot this attribute represents if the attribute type is spell slot. Otherwise returns `<attributeName>.spellSlotLevelValue`.
+
+## Hidden Values
+
+Note that the following values can only be accessed by using the `#attribute.<valueName>` syntax from a child of the attribute.
+
+### description
+
+Returns the description of the attribute
+
+### baseValueCalculation
+
+Returns the text entered into the base value field, unparsed.
+
+### spellSlotLevelCalculation
+
+Returns the text entered into the slot level field, unparsed. If the attribute is not a spell slot type, it instead returns `#attribute.spellSlotLevelCalculation`.
+
+### constitutionMod
+
+Returns the modifier for the constition attribute. This can only be accessed if the attribute is of type hit dice. This does not return a value with any relation to this particular attribute, but instead equivalent to putting `constitution.modifier`.
