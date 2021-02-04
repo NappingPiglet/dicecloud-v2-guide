@@ -73,46 +73,46 @@ This controls when the property is restored to its max value. The options are sh
 
 Note that all values listed here can only be accessed using the `#action.<valueName>` syntax from a child of the property.
 
-### .name
+### name
 
 The name of the action.
 
-### .description
+### description
 
 Returns the description of the action.
 
-### .summary
+### summary
 
 Returns the summary of the action.
 
-### .actionType
+### actionType
 
 Returns what the action has is the action type field.
 
-### .target
+### target
 
 Returns what has been selected in the target field under advanced, in camelCase.
 
-### .tags
+### tags
 
 Returns an array containing all tags on the property, but because V2 cannot handle non-constant arrays yet, this causes an error to be thrown.
 
-### .uses
+### uses
 
 Returns the number of uses the action has at max.
 
-### .usesUsed
+### usesUsed
 
 Returns the number of times this action has been used since the uses were last reset.
 
-### .reset
+### reset
 
 Returns the type of rest need for the action's uses to reset, in camelCase.
 
-### .usesResult
+### usesResult
 
 Returns the number of times you can use the action before one resource, ammo or uses remaining is insufficient.
 
-### .insufficientResources
+### insufficientResources
 
 Returns true if the action cannot be taken because the resources consumed aren't satisified. If no resources are consumed, returns `#action.insufficientResources`.
