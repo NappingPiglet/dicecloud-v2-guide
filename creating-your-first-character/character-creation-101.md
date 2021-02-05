@@ -6,7 +6,7 @@ This section of the guide assumes that you are playing Dungeons and Dragons Fift
 
 ### Selecting a Base
 
-The first thing you'll need to do when creating a new character is choose your base. While it's quite possible to create your own, this is a lot of unnecessary work, and avoiding this type of work is the purpose of libraries.
+The first thing you'll need to do when creating a new character is choose your base - in other words, an implementation of the core rules and stats of whatever game system your character is designed for. While it's quite possible to create your own, this is a lot of unnecessary work, and avoiding this type of work is the purpose of libraries.
 
 These are currently the most prominent bases for 5e:
 
@@ -28,7 +28,7 @@ A slot is, in essence, a hole in your character sheet, which can be filled with 
 Selecting which base to use for a given character is just as simple as making further decisions via slots; just hit the + button, select your base, and hit Insert. From there, you're good to go!
 
 {% hint style="info" %}
-Slots are primarily a library creation utility. The options they pull in aren't actually in your sheet until you click "Insert"; rather, they're in whatever libraries you've subscribed to. You should almost never need to create a slot manually.
+Slots are primarily a library creation utility. The options they pull in aren't actually in your sheet until you click "Insert"; rather, they're stored in whatever libraries you've subscribed to. You should almost never need to create a slot in your own sheet manually.
 {% endhint %}
 
 Once you've made your selections to create your character, you can switch to the Stats, Features, Inventory, and Spells tabs to see the result.
