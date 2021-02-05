@@ -26,9 +26,9 @@ Actions can also sometimes apply buffs, which are persistent modifiers to your c
 
 The spellcasting interface is your hub for casting spells of any kind. If you're playing a character with spell slots, you should see this card on your Stats tab:
 
-![A spellcasting card for a level 5 wizard.](../.gitbook/assets/image%20%286%29.png)
+![A spellcasting card for a level 5 wizard.](../.gitbook/assets/image%20%2816%29.png)
 
 By clicking the red flame icon next to a spell slot level, you can open up the Cast a Spell dialog. On the left-hand side, you can select the level of spell slot you wish to use; spells of that level and lower will appear on the right-hand side for you to select from. If you have a higher-level slot selected for a lower-level spell, it will be upcast to that slot level; for example, selecting a 2nd-level slot and a 1st-level spell will still spend the 2nd-level slot. Selecting a cantrip will automatically change your slot level to Cantrip, since they can't be upcast.
 
-![The Cast a Spell dialog, with slot levels on the left and spells on the right.](../.gitbook/assets/image%20%287%29.png)
+![The Cast a Spell dialog, with slot levels on the left and spells on the right.](../.gitbook/assets/image%20%2815%29.png)
 

@@ -7,6 +7,9 @@
 * [Character Creation 101](creating-your-first-character/character-creation-101.md)
 * [The Stats Tab](creating-your-first-character/the-stats-tab.md)
 * [The Features Tab](creating-your-first-character/the-features-tab.md)
+* [The Inventory Tab](creating-your-first-character/the-inventory-tab.md)
+* [The Spells Tab](creating-your-first-character/the-spells-tab.md)
+* [The Character Tab](creating-your-first-character/the-character-tab.md)
 
 ## Documentation for Properties
 
