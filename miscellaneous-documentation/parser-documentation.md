@@ -74,7 +74,16 @@ Dicecloud supports the following operators for logical operations and comparison
 The normal `==` and `!=` will convert types to check equality; for example, `5 == "5"` will return `true`.  The strict `===` and `!==` will not; for example, `5 === "5"` will return `false`.
 {% endhint %}
 
-### Conditional Operators
+{% hint style="info" %}
+For the logical operators `&&` and `||`, as well as for the conditional operator `? :` and built-in condition checks like for toggles, most values will be considered equivalent to `true`, except for the following:
+
+* `false`
+* `0` and all equivalent values
+* `NaN`
+* Empty strings \(`""` and `''`\)
+{% endhint %}
+
+### Conditional Operator
 
 Dicecloud uses the following syntax for conditionals:
 
