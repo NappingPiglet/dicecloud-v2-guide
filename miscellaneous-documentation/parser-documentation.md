@@ -2,11 +2,103 @@
 
 DiceCloud V2 uses a custom parser that accepts all the common mathematical equations, such as addition, subtraction and exponents, as well as multiple functions. In text that accepts calculations, anything contained within `{}` will be parsed and only the final value of the parsing will display.
 
+## Data Types
+
+* Numbers
+  * `54`
+  * `3.14`
+  * `NaN` \("not a number", can't be manually written but results from some invalid operations\)
+  * `Infinity` \(can't be manually written but results from some invalid operations\)
+* Strings
+  * `"Hello, world!"`
+  * `'Hello, world!'`
+* Variables
+  * `cantripDice`
+  * `barbarian.level` \(access a sub-property of a variable\)
+  * `#attribute` \(reference the nearest tree ancestor of the given type\)
+* Booleans
+  * `true`
+  * `false`
+* Arrays
+  * `[1,2,3,4,5,6][index]` \(get the `index`th element in the array, starting from `1`\)
+
+{% hint style="info" %}
+If a variable doesn't exist, its value will default to `0`.
+{% endhint %}
+
+{% hint style="info" %}
+Arrays must currently be defined in the same place they are accessed; an upcoming update will allow them to be defined in constants with the syntax `[1,2,3,4,5,6]`, and accessed later via `variable[index]`.
+{% endhint %}
+
+{% hint style="warning" %}
+Ancestor reference variables \(e.g.`#attribute`\) are not currently implemented, and will be added in an upcoming update.
+{% endhint %}
+
+## Operators
+
+### Basic Math
+
+Dicecloud supports the following operators for basic math operations:
+
+* `5 + 7` Add
+* `5 - 7` Subtract
+* `5 * 7` Multiply
+* `5 / 7` Divide
+* `5 ^ 7` Exponents
+* `5 % 7` Modulus \(remainder\)
+
+{% hint style="info" %}
+Division by `0` will not result in an error, but will instead return `Infinity`.
+{% endhint %}
+
+{% hint style="warning" %}
+The modulus operator `%` is intended but not currently functional due to a bug, and will be fixed in an upcoming update.
+{% endhint %}
+
+### Logic and Comparisons
+
+Dicecloud supports the following operators for logical operations and comparisons:
+
+* `5 == 7`  Equal \(also `5 = 7`\)
+* `5 === 7` Strict equal
+* `5 != 7` Not equal
+* `5 !== 7` Strict not equal
+* `5 > 7` Greater than
+* `5 >= 7` Greater than or equal to
+* `5 < 7` Less than
+* `5 <= 7` Less than or equal to
+* `true && false` Logical AND  \(also `true & false`\)
+* `true || false` Logical OR \(also `true | false`\)
+
+{% hint style="info" %}
+The normal `==` and `!=` will convert types to check equality; for example, `5 == "5"` will return `true`.  The strict `===` and `!==` will not; for example, `5 === "5"` will return `false`.
+{% endhint %}
+
+### Conditional Operators
+
+Dicecloud uses the following syntax for conditionals:
+
+`condition ? ifTrue : ifFalse`
+
+**Examples**
+
+* `level >= 6 ? 2 : 1`
+* `raging && hp.currentValue > 5 ? 5*barbarian.level : 0`
+
+### Dice Rolls
+
+Dicecloud allows dice rolls to be embedded into formulas using the following syntax:
+
+* `d6` Roll a 6-sided die
+* `4d6` Roll four 6-sided dice
+
+**Examples**
+
+* `2d20`
+* `4d(3+level)`
+* `cantripDice d8`
+
 ## Functions
-
-### If-Else Statements
-
-V2 uses a ternary if statement, with the syntax of `conditional ? truthy : falsey`. Conditions can have ANDs using `&` or `&&`, ORs with `|` or `||`, NOT with `!` and both `==` and `===` forms of equality operators.
 
 ### Absolute Value
 
