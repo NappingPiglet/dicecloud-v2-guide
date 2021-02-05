@@ -1,4 +1,4 @@
-# The Parser
+# Parser Documentation
 
 DiceCloud V2 uses a custom parser that accepts all the common mathematical equations, such as addition, subtraction and exponents, as well as multiple functions. In text that accepts calculations, anything contained within `{}` will be parsed and only the final value of the parsing will display.
 
@@ -40,12 +40,14 @@ Ancestor reference variables \(e.g.`#attribute`\) are not currently implemented,
 
 Dicecloud supports the following operators for basic math operations:
 
-* `5 + 7` Add
-* `5 - 7` Subtract
-* `5 * 7` Multiply
-* `5 / 7` Divide
-* `5 ^ 7` Exponents
-* `5 % 7` Modulus \(remainder\)
+| Name | Syntax |
+| :--- | :--- |
+| Add | `5 + 7` |
+| Subtract | `5 - 7` |
+| Multiply | `5 * 7` |
+| Divide | `5 / 7` |
+| Exponents | `5 ^ 7` |
+| Modulus \(remainder\) | `5 % 7` |
 
 {% hint style="info" %}
 Division by `0` will not result in an error, but will instead return `Infinity`.
@@ -59,16 +61,78 @@ The modulus operator `%` is intended but not currently functional due to a bug, 
 
 Dicecloud supports the following operators for logical operations and comparisons:
 
-* `5 == 7`  Equal \(also `5 = 7`\)
-* `5 === 7` Strict equal
-* `5 != 7` Not equal
-* `5 !== 7` Strict not equal
-* `5 > 7` Greater than
-* `5 >= 7` Greater than or equal to
-* `5 < 7` Less than
-* `5 <= 7` Less than or equal to
-* `true && false` Logical AND  \(also `true & false`\)
-* `true || false` Logical OR \(also `true | false`\)
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Name</th>
+      <th style="text-align:left">Syntax</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Equal</td>
+      <td style="text-align:left">
+        <p><code>5 = 7</code>
+        </p>
+        <p><code>5 == 7</code>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Strict equal</td>
+      <td style="text-align:left"><code>5 === 7</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Not equal</td>
+      <td style="text-align:left"><code>5 != 7</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Strict not equal</td>
+      <td style="text-align:left"><code>5 !== 7</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Greater than</td>
+      <td style="text-align:left"><code>5 &gt; 7</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Greater than or equal to</td>
+      <td style="text-align:left"><code>5 &gt;= 7</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Less than</td>
+      <td style="text-align:left"><code>5 &lt; 7</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Less than or equal to</td>
+      <td style="text-align:left"><code>5 &lt;= 7</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Logical AND</td>
+      <td style="text-align:left">
+        <p><code>true &amp; false</code>
+        </p>
+        <p><code>true &amp;&amp; false</code>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Logical OR</td>
+      <td style="text-align:left">
+        <p><code>true | false</code>
+        </p>
+        <p><code>true || false</code>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 {% hint style="info" %}
 The normal `==` and `!=` will convert types to check equality; for example, `5 == "5"` will return `true`.  The strict `===` and `!==` will not; for example, `5 === "5"` will return `false`.
@@ -89,7 +153,7 @@ Dicecloud uses the following syntax for conditionals:
 
 `condition ? ifTrue : ifFalse`
 
-**Examples**
+#### **Examples**
 
 * `level >= 6 ? 2 : 1`
 * `raging && hp.currentValue > 5 ? 5*barbarian.level : 0`
@@ -101,7 +165,7 @@ Dicecloud allows dice rolls to be embedded into formulas using the following syn
 * `d6` Roll a 6-sided die
 * `4d6` Roll four 6-sided dice
 
-**Examples**
+#### **Examples**
 
 * `2d20`
 * `4d(3+level)`

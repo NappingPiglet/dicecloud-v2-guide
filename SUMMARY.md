@@ -3,6 +3,12 @@
 * [Dicecloud V2 Unofficial User Guide](README.md)
 * [Using Markdown](using-markdown.md)
 
+## External Links
+
+* [Dicecloud V2](https://beta.dicecloud.com)
+* [Dicecloud Discord Server](https://discord.gg/qEvdfeB)
+* [View on Github](https://github.com/KatrinaKitten/dicecloud-v2-guide)
+
 ## Creating Your First Character
 
 * [Character Creation 101](creating-your-first-character/character-creation-101.md)
@@ -11,6 +17,12 @@
 * [The Inventory Tab](creating-your-first-character/the-inventory-tab.md)
 * [The Spells Tab](creating-your-first-character/the-spells-tab.md)
 * [The Character Tab](creating-your-first-character/the-character-tab.md)
+* [The Tree Tab](creating-your-first-character/the-tree-tab.md)
+
+## Creating a Library
+
+* [Basic Library Conventions](creating-a-library/basic-library-conventions.md)
+* [Parser Documentation](creating-a-library/parser-documentation.md)
 
 ## Documentation for Properties
 
@@ -37,8 +49,4 @@
 * [Spell Lists](documentation-for-properties/spelllist.md)
 * [Spells](documentation-for-properties/spell.md)
 * [Toggles](documentation-for-properties/toggle.md)
-
-## Miscellaneous Documentation
-
-* [The Parser](miscellaneous-documentation/parser-documentation.md)
 
