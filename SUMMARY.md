@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Dicecloud V2 Unofficial User Guide](README.md)
+* [Using Markdown](using-markdown.md)
 
 ## Creating Your First Character
 
