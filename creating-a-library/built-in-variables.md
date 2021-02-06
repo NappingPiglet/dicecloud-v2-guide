@@ -34,6 +34,11 @@ You can override any built-in variable by adding your own attribute with the sam
       <td style="text-align:left">Your character&apos;s total level in all classes.</td>
     </tr>
     <tr>
+      <td style="text-align:left"><code>milestoneLevels</code>
+      </td>
+      <td style="text-align:left">The number of milestone levels your character has.</td>
+    </tr>
+    <tr>
       <td style="text-align:left"><code>slotLevel</code>
       </td>
       <td style="text-align:left">
@@ -43,6 +48,10 @@ You can override any built-in variable by adding your own attribute with the sam
       </td>
     </tr>
     <tr>
+      <td style="text-align:left"><code>weightCarried</code> *</td>
+      <td style="text-align:left">The current weight of all carried items.</td>
+    </tr>
+    <tr>
       <td style="text-align:left"><code>xp</code>
       </td>
       <td style="text-align:left">The amount of experience points your character has.</td>
@@ -50,11 +59,15 @@ You can override any built-in variable by adding your own attribute with the sam
   </tbody>
 </table>
 
-{% hint style="warning" %}
-The `allChecks`, `allSaves`, and `attackRolls` effect/proficiency targets are present in Dicecloud's code, but do not currently function.
+{% hint style="info" %}
+The `xp` and `milestoneLevels` variables reflect the events created in the [Experience view](../creating-your-first-character/the-character-tab.md#levels) on the Character tab, and are intended for determining when a character is ready to level up. Calculations for most actual character functionality should be based on `level` or `<class>.level` instead.
 {% endhint %}
 
 {% hint style="warning" %}
-The `xp` variable doesn't currently work with experience events granting milestone levels.
+`allChecks`, `allSaves`, and `attackRolls` are present in Dicecloud's code, but do not currently function.
+{% endhint %}
+
+{% hint style="warning" %}
+`weightCarried` is present and accessible, but is not currently calculated, and will always have a value of `0`.
 {% endhint %}
 

@@ -33,3 +33,9 @@ Slots are primarily a library creation utility. The options they pull in aren't 
 
 Once you've made your selections to create your character, you can switch to the Stats, Features, Inventory, and Spells tabs to see the result.
 
+### The Dice Roller
+
+When you first open a character sheet, you'll see an empty right-hand sidebar with a text field at the bottom. This is the dice roller, and it serves as an output log for the results of your character's actions. You can enter any [expression](../creating-a-library/parser-documentation.md) in the text field at the bottom to calculate it, and things like damage rolls from your actions and attacks will be automatically displayed here.
+
+You can show or hide the dice roller by clicking the three lines at the top right of the character sheet.
+
