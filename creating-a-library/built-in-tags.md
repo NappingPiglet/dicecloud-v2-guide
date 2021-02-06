@@ -13,3 +13,7 @@ Dicecloud V2 has some built-in property tags with special functionality. This pa
 The `carried` and `equipped` tags allow for managing inventory organization when working with the Carried and Equipped lists. By default, items will be moved to the top level of the tree when moved to either of these lists from a container. If the container is inside a property tagged appropriately, they will be made children of that property instead.
 {% endhint %}
 
+{% hint style="info" %}
+The `base` tag is looked for by an automatically created slot property on new characters. While it is not technically built-in, as this slot can be removed, library creators should generally treat it as a built-in tag regardless.
+{% endhint %}
+

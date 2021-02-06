@@ -17,18 +17,15 @@ You can override any built-in variable by adding your own attribute with the sam
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left"><code>allChecks</code>
-      </td>
+      <td style="text-align:left"><code>allChecks</code> *</td>
       <td style="text-align:left">Target for proficiencies to give proficiency in all checks.</td>
     </tr>
     <tr>
-      <td style="text-align:left"><code>allSaves</code>
-      </td>
+      <td style="text-align:left"><code>allSaves</code> *</td>
       <td style="text-align:left">Target for proficiencies to give proficiency in all saving throws.</td>
     </tr>
     <tr>
-      <td style="text-align:left"><code>attackRolls</code>
-      </td>
+      <td style="text-align:left"><code>attackRolls</code> *</td>
       <td style="text-align:left">Target for bonuses to all attack to-hit rolls.</td>
     </tr>
     <tr>
@@ -45,10 +42,19 @@ You can override any built-in variable by adding your own attribute with the sam
         </p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left"><code>xp</code>
+      </td>
+      <td style="text-align:left">The amount of experience points your character has.</td>
+    </tr>
   </tbody>
 </table>
 
 {% hint style="warning" %}
 The `allChecks`, `allSaves`, and `attackRolls` effect/proficiency targets are present in Dicecloud's code, but do not currently function.
+{% endhint %}
+
+{% hint style="warning" %}
+The `xp` variable doesn't currently work with experience events granting milestone levels.
 {% endhint %}
 
