@@ -13,7 +13,7 @@ DiceCloud V2 uses a custom parser that accepts all the common mathematical equat
   </thead>
   <tbody>
     <tr>
-      <td style="text-align:left">Number</td>
+      <td style="text-align:left">Numbers</td>
       <td style="text-align:left">
         <p><code>54</code>
         </p>

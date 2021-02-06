@@ -14,7 +14,7 @@ Dicecloud uses a system called [Markdown](https://en.wikipedia.org/wiki/Markdown
 
 ## Dicecloud Formulas
 
-While Markdown is used in many places across the internet, Dicecloud add a special feature in _formulas_; essentially, the ability to write math expressions in between curly brackets `{}` and have Dicecloud calculate it for you, using variables and functions the same way as you would when building automation functions using Dicecloud's property tree. You can see [The Parser](creating-a-library/parser-documentation.md) for more details on what all can be used in a formula.
+While Markdown is used in many places across the internet, Dicecloud adds a special feature in _formulas_; essentially, the ability to write math expressions in between curly brackets `{}` and have Dicecloud calculate it for you, using variables and functions the same way as you would when building automation functions using Dicecloud's property tree. You can see the [Parser Documentation](creating-a-library/parser-documentation.md) for more details on what all can be used in a formula.
 
 ```text
 You can use this feature {barbarian.level+2} times, after which you must
