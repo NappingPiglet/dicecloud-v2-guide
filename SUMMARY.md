@@ -23,6 +23,8 @@
 
 * [Basic Library Conventions](creating-a-library/basic-library-conventions.md)
 * [Parser Documentation](creating-a-library/parser-documentation.md)
+* [Built-in Variables](creating-a-library/built-in-variables.md)
+* [Built-in Tags](creating-a-library/built-in-tags.md)
 
 ## Documentation for Properties
 

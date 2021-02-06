@@ -4,30 +4,68 @@ DiceCloud V2 uses a custom parser that accepts all the common mathematical equat
 
 ## Data Types
 
-* Numbers
-  * `54`
-  * `3.14`
-  * `NaN` \("not a number", can't be manually written but results from some invalid operations\)
-  * `Infinity` \(can't be manually written but results from some invalid operations\)
-* Strings
-  * `"Hello, world!"`
-  * `'Hello, world!'`
-* Variables
-  * `cantripDice`
-  * `barbarian.level` \(access a sub-property of a variable\)
-  * `#attribute` \(reference the nearest tree ancestor of the given type\)
-* Booleans
-  * `true`
-  * `false`
-* Arrays
-  * `[1,2,3,4,5,6][index]` \(get the `index`th element in the array, starting from `1`\)
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Data Type</th>
+      <th style="text-align:left">Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Number</td>
+      <td style="text-align:left">
+        <p><code>54</code>
+        </p>
+        <p><code>3.14</code>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Strings</td>
+      <td style="text-align:left">
+        <p><code>&quot;Hello, world!&quot;</code>
+        </p>
+        <p><code>&apos;Hello, world!&apos;</code>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Booleans</td>
+      <td style="text-align:left">
+        <p><code>true</code>
+        </p>
+        <p><code>false</code>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Arrays</td>
+      <td style="text-align:left"><code>[1,2,3,4,5,6][index]</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Variables</td>
+      <td style="text-align:left">
+        <p><code>cantripDice</code>
+        </p>
+        <p><code>barbarian.level</code> (sub-properties)</p>
+        <p><code>#attribute</code> (ancestor reference by type)</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 {% hint style="info" %}
 If a variable doesn't exist, its value will default to `0`.
 {% endhint %}
 
 {% hint style="info" %}
-Arrays must currently be defined in the same place they are accessed; an upcoming update will allow them to be defined in constants with the syntax `[1,2,3,4,5,6]`, and accessed later via `variable[index]`.
+Array indexes start from `1`.
+{% endhint %}
+
+{% hint style="warning" %}
+Arrays must currently be defined in the same place they are accessed; an upcoming update will allow them to be defined in a new "constant" property with the syntax `[1,2,3,4,5,6]`, and accessed later via `variable[index]`.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -38,19 +76,66 @@ Ancestor reference variables \(e.g.`#attribute`\) are not currently implemented,
 
 ### Basic Math
 
-Dicecloud supports the following operators for basic math operations:
-
-| Name | Syntax |
-| :--- | :--- |
-| Add | `5 + 7` |
-| Subtract | `5 - 7` |
-| Multiply | `5 * 7` |
-| Divide | `5 / 7` |
-| Exponents | `5 ^ 7` |
-| Modulus \(remainder\) | `5 % 7` |
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Name</th>
+      <th style="text-align:left">Syntax</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Add</td>
+      <td style="text-align:left"><code>5 + 7</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Subtract</td>
+      <td style="text-align:left"><code>5 - 7</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Multiply</td>
+      <td style="text-align:left"><code>5 * 7</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Divide</td>
+      <td style="text-align:left"><code>5 / 7</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Exponents</td>
+      <td style="text-align:left"><code>5 ^ 7</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Modulus (remainder)</td>
+      <td style="text-align:left"><code>5 % 7</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Dice Rolls</td>
+      <td style="text-align:left">
+        <p><code>d6</code>
+        </p>
+        <p><code>2d20</code>
+        </p>
+        <p><code>cantripDice d8</code>
+        </p>
+        <p><code>4d(3+level)</code>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 {% hint style="info" %}
 Division by `0` will not result in an error, but will instead return `Infinity`.
+{% endhint %}
+
+{% hint style="info" %}
+Dice rolls can use any variable or equation on either side of the `d` operator. They will be rerolled whenever the property using them is recalculated; if you want to save the result of a roll indefinitely, you should use an [action](../documentation-for-properties/action.md) with [attribute damage](../documentation-for-properties/attributedamage.md) to store the result.
 {% endhint %}
 
 {% hint style="warning" %}
@@ -58,8 +143,6 @@ The modulus operator `%` is intended but not currently functional due to a bug, 
 {% endhint %}
 
 ### Logic and Comparisons
-
-Dicecloud supports the following operators for logical operations and comparisons:
 
 <table>
   <thead>
@@ -131,6 +214,11 @@ Dicecloud supports the following operators for logical operations and comparison
         </p>
       </td>
     </tr>
+    <tr>
+      <td style="text-align:left">Conditional</td>
+      <td style="text-align:left"><code>condition ? ifTrue : ifFalse</code>
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -143,35 +231,130 @@ For the logical operators `&&` and `||`, as well as for the conditional operator
 
 * `false`
 * `0` and all equivalent values
-* `NaN`
+* `NaN` \(results from some calculation errors\)
 * Empty strings \(`""` and `''`\)
 {% endhint %}
 
-### Conditional Operator
-
-Dicecloud uses the following syntax for conditionals:
-
-`condition ? ifTrue : ifFalse`
-
-#### **Examples**
-
-* `level >= 6 ? 2 : 1`
-* `raging && hp.currentValue > 5 ? 5*barbarian.level : 0`
-
-### Dice Rolls
-
-Dicecloud allows dice rolls to be embedded into formulas using the following syntax:
-
-* `d6` Roll a 6-sided die
-* `4d6` Roll four 6-sided dice
-
-#### **Examples**
-
-* `2d20`
-* `4d(3+level)`
-* `cantripDice d8`
-
 ## Functions
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Name</th>
+      <th style="text-align:left">Syntax</th>
+      <th style="text-align:left">Examples</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Absolute Value</td>
+      <td style="text-align:left"><code>abs(number)</code>
+      </td>
+      <td style="text-align:left">
+        <p><code>abs(9) == 9</code>
+        </p>
+        <p><code>abs(-3) == 3</code>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Square Root</td>
+      <td style="text-align:left"><code>sqrt(number)</code>
+      </td>
+      <td style="text-align:left">
+        <p><code>sqrt(16) == 4</code>
+        </p>
+        <p><code>sqrt(10) == 3.1622776601683795</code>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Maximum</td>
+      <td style="text-align:left"><code>max(number, ...)</code>
+      </td>
+      <td style="text-align:left"><code>max(12, 6, 3, 168) == 168</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Minimum</td>
+      <td style="text-align:left"><code>min(number, ...)</code>
+      </td>
+      <td style="text-align:left"><code>min(12, 6, 3, 168) == 3</code>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Round (round to nearest whole)</td>
+      <td style="text-align:left"><code>round(number)</code>
+      </td>
+      <td style="text-align:left">
+        <p><code>round(5.95) == 6</code>
+        </p>
+        <p><code>round(5.5) == 6</code>
+        </p>
+        <p><code>round(5.05) == 5</code>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Floor (round down)</td>
+      <td style="text-align:left"><code>floor(number)</code>
+      </td>
+      <td style="text-align:left">
+        <p><code>floor(5.95) == 5</code>
+        </p>
+        <p><code>floor(5.05) == 5</code>
+        </p>
+        <p><code>floor(5) = 5</code>
+        </p>
+        <p><code>floor(-5.5) == -6</code>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Ceiling (round up)</td>
+      <td style="text-align:left"><code>ceil(number)</code>
+      </td>
+      <td style="text-align:left">
+        <p><code>ceil(5.95) == 6</code>
+        </p>
+        <p><code>ceil(5.05) == 6</code>
+        </p>
+        <p><code>ceil(5) == 5</code>
+        </p>
+        <p><code>ceil(-5.5) == -5</code>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Truncate (round toward 0)</td>
+      <td style="text-align:left"><code>trunc(number)</code>
+      </td>
+      <td style="text-align:left">
+        <p><code>trunc(5.95) == 5</code>
+        </p>
+        <p><code>trunc(5.05) == 5</code>
+        </p>
+        <p><code>trunc(5) == 5</code>
+        </p>
+        <p><code>trunc(-5.5) == -5</code>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Sign</td>
+      <td style="text-align:left"><code>sign(number)</code>
+      </td>
+      <td style="text-align:left">
+        <p><code>sign(-3) == -1</code>
+        </p>
+        <p><code>sign(3) == 1</code>
+        </p>
+        <p><code>sign(0) == 0</code>
+        </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Absolute Value
 
