@@ -41,7 +41,11 @@ DiceCloud V2 uses a custom parser that accepts all the common mathematical equat
     </tr>
     <tr>
       <td style="text-align:left">Arrays</td>
-      <td style="text-align:left"><code>[1,2,3,4,5,6][index]</code>
+      <td style="text-align:left">
+        <p><code>[1,2,3,4,5,6][index]</code>
+        </p>
+        <p><code>[1,2,3,4,5,6]</code> *</p>
+        <p><code>arrayVariable[index]</code> *</p>
       </td>
     </tr>
     <tr>
@@ -50,7 +54,7 @@ DiceCloud V2 uses a custom parser that accepts all the common mathematical equat
         <p><code>cantripDice</code>
         </p>
         <p><code>barbarian.level</code> (sub-properties)</p>
-        <p><code>#attribute</code> (ancestor reference by type)</p>
+        <p><code>#attribute</code> (ancestor reference by type *)</p>
       </td>
     </tr>
   </tbody>
@@ -110,7 +114,7 @@ Ancestor reference variables \(e.g.`#attribute`\) are not currently implemented,
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Modulus (remainder)</td>
+      <td style="text-align:left">Modulus (remainder) *</td>
       <td style="text-align:left"><code>5 % 7</code>
       </td>
     </tr>
