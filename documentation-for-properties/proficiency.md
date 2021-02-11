@@ -6,7 +6,7 @@ A proficiency represents your character having training, natural talent or uncan
 
 ### Name
 
-The name of this proficiency. This is seperate from what it actually indicates proficiency in, and only appears if you expand the skill it affects.
+The name of this proficiency. This is separate from what it actually indicates proficiency in, and only appears if you expand the skill it affects.
 
 ### Skills
 
@@ -16,9 +16,20 @@ A list of the variable names of all skills you want this property to affect.
 
 ### Proficiency \(Required\)
 
-The level of proficiency this property grants. Proficient means you can add your proficiency bonus to checks with the skill, half proficient means you can add half your proficiency bonus to checks, and double proficieny bonus means you can add twice your proficiency bonus to checks.
+The level of proficiency this property grants. Proficient means you can add your proficiency bonus to checks with the skill, half proficient means you can add half your proficiency bonus to checks, and double proficiency bonus means you can add twice your proficiency bonus to checks.
 
 ### Tags
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
 
+## Accessible Values
+
+Note that all values listed here can only be accessed using the `#proficiency.<valueName>` syntax from a child of the property.
+
+### name
+
+The name of the proficiency.
+
+### value
+
+Returns the numeric value that `proficiencyBonus` is multiplied by before being added to the skill. 0.5 for half proficient, 1 for proficient and 2 for expertise.

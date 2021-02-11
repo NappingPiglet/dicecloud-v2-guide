@@ -17,7 +17,7 @@ The name of the action, which will appear on the action's card on the stats page
 The type of the action, which represents how much time or effort it takes to perform the action.
 
 * Action
-  * A standard action, the default used for tasks during gameplay.
+  * A standard action, the default used for tasks during game play.
 * Bonus Action
   * A bonus action is less time intensive than a standard action, and is commonly used to represent performing a task that is either low effort or that you have trained to do in a very brief time.
 * Attack Action
@@ -43,7 +43,7 @@ A long description of the action, which will appear when you click on the action
 
 ## Resources
 
-Resources are a method of consuming either an item or an attribute during the useage of an action.
+Resources are a method of consuming either an item or an attribute during the usage of an action.
 
 * Attribute
   * This consumes a quantity of an attribute when you use the action.
@@ -73,3 +73,58 @@ How many times you have used this ability since it was last restored. If you hav
 
 This controls when the property is restored to its max value. The options are short rest and long rest. If you choose short rest, it will also regain its max value on a long rest. Rests can be triggered from the stats page.
 
+## Accessible Values
+
+Note that all values listed here can only be accessed using the `#attack.<valueName>` syntax from a child of the property.
+
+### name
+
+The name of the attack.
+
+### description
+
+Returns the description of the attack, unparsed.
+
+### rollBonus
+
+Returns the text entered into the roll bonus field.
+
+### rollBonusResult
+
+Returns the modifier used for the roll bonus. Unlike `#attack.rollBonus` this returns a number instead of a string.
+
+### summary
+
+Returns the summary of the attack.
+
+### actionType
+
+Returns what the action has is the action type field.
+
+### target
+
+Returns what has been selected in the target field under advanced, in camelCase.
+
+### tags
+
+Returns an array containing all tags on the property, but because V2 cannot handle non-constant arrays yet, this causes an error to be thrown.
+
+### uses
+
+Returns the number of uses the attack has at max.
+
+### usesUsed
+
+Returns the number of times this attack has been used since the uses were last reset.
+
+### reset
+
+Returns the type of rest need for the attack's uses to reset, in camelCase.
+
+### usesResult
+
+Returns the number of times you can use the attack before one resource, ammo or uses remaining is insufficient.
+
+### insufficientResources
+
+Returns true if the attack cannot be taken because the resources consumed aren't satisfied. If no resources are consumed, returns `#attack.insufficientResources`.

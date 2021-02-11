@@ -40,3 +40,18 @@ The name of the class.
 
 The current level you have in the class
 
+## Hidden Values
+
+Note that all values listed from here on out can only be accessed using the `#classLevel.<valueName>` syntax from a child of the property.
+
+### description
+
+The text entered into the description field, unparsed.
+
+### variableName
+
+The text entered into the variable name field.
+
+### slotFillerCondition
+
+The string entered into the condition field, unparsed.

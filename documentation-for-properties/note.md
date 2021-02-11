@@ -16,3 +16,14 @@ The text of the note. This field accepts Markdown, HTML, and calculations within
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
 
+## Accessible Values
+
+Note that all values listed here can only be accessed using the `#note.<valueName>` syntax from a child of the property.
+
+### name
+
+Returns the name of the note.
+
+### description
+
+Returns the text entered into the description field, unparsed.

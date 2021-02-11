@@ -24,3 +24,26 @@ The maximum number of spells that can be prepared at one time in this spell list
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
 
+## Accessible Values
+
+Note that all values listed here can only be accessed using the `#spellList.<valueName>` syntax from a child of the property.
+
+### name
+
+The name of the spell list.
+
+### description
+
+The text entered into the description field, unparsed.
+
+### variableName
+
+The text entered into the variable name field.
+
+### maxPrepared
+
+The string entered into the max prepared field, unparsed.
+
+### maxPreparedResult
+
+The parsed value for the max prepared field.

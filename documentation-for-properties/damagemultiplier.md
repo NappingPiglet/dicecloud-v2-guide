@@ -20,3 +20,14 @@ What the multiplier to damage of the selected types will be. Resistance is times
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
 
+## Hidden Values
+
+Note that all values listed here can only be accessed using the `#damageMultiplier.<valueName>` syntax from a child of the property.
+
+### name
+
+Returns the name of the damage multiplier.
+
+### value
+
+Returns 0.5 if the damage multiplier is set to resistance, 0 if it is set to immunity and 2 if it is set to vulnerability.

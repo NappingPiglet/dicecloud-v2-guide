@@ -36,3 +36,30 @@ A condition to check if you can add this slot filler to a slot. Unless you are m
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
 
+## Accessible Values
+
+Note that all values listed here can only be accessed using the `#slotFiller.<valueName>` syntax from a child of the property.
+
+### name
+
+The name of the slot filler.
+
+### picture
+
+The URL given in the image field.
+
+### description
+
+The text entered into the description field, unparsed.
+
+### slotFillerType
+
+The type of property the slot filler is for the purposes of filling a slot, spelled the same way as you would to access it with the access ancestor syntax.
+
+### slotQuantityFilled
+
+The number in the quantity filled field.
+
+### slotFillerCondition
+
+The text in the condition field, unparsed.

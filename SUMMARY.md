@@ -20,6 +20,7 @@
 * [Attribute Damage](documentation-for-properties/attributedamage.md)
 * [Buffs](documentation-for-properties/buff.md)
 * [Class Levels](documentation-for-properties/classlevel.md)
+* [Constants](documentation-for-properties/constant.md)
 * [Containers](documentation-for-properties/container.md)
 * [Damage](documentation-for-properties/damage.md)
 * [Damage Multipliers](documentation-for-properties/damagemultiplier.md)

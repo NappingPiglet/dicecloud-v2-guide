@@ -1,6 +1,6 @@
 # Skills
 
-A skill is used to track your ability to perform a task, such as hiding from an enemy or running a marathon. They appear on the stats page, in columns seperated by skill type.
+A skill is used to track your ability to perform a task, such as hiding from an enemy or running a marathon. They appear on the stats page, in columns separated by skill type.
 
 ## Components
 
@@ -14,7 +14,7 @@ The name of the skill's variable, which will be used to access the skill for cal
 
 ### Ability
 
-The ability score that is used to determine the base bonus you recieve when making checks with this skill. The bonus will only appear if a value is given for this field, and will appear to the left of the skill's name on the stats page. Only attributes who's type is ability score can be used for this field.
+The ability score that is used to determine the base bonus you receive when making checks with this skill. The bonus will only appear if a value is given for this field, and will appear to the left of the skill's name on the stats page. Only attributes who's type is ability score can be used for this field.
 
 ### Type \(Required\)
 
@@ -105,3 +105,18 @@ Should return an array containing all conditional benefits to the skill, but cur
 
 Should return an array containing all bonuses to rolls using to the skill, but currently just throws an error and hides whatever text it is part of.
 
+## Hidden Values
+
+Note that all values listed from here on out can only be accessed using the `#skill.<valueName>` syntax from a child of the property.
+
+### variableName
+
+Returns the variable name of the skill.
+
+### baseValueCalculation
+
+Returns the unparsed string entered into the base value field.
+
+### hide
+
+Returns true if the skill's type is set to utility.

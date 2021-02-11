@@ -18,11 +18,11 @@ The value of the container in GP.
 
 ### Weight
 
-The wieght of the container in pounds.
+The weight of the container in pounds.
 
 ### Description
 
-A description of the container, which will appear when you click on the containers's name on the inventory tab. This field accepts markdown, HTML, and calculations within {}.
+A description of the container, which will appear when you click on the container's name on the inventory tab. This field accepts markdown, HTML, and calculations within {}.
 
 ## Advanced
 
@@ -34,3 +34,38 @@ Tags are used to control which slots this property can be added to. This will us
 
 When this is set to true, only the container's weight will count towards your weight carried. If set to false, items that are stored in the container will also contribute their weight.
 
+## Accessible Values
+
+Note that all values listed here can only be accessed using the `#container.<valueName>` syntax from a child of the property.
+
+### name
+
+The name of the container.
+
+### carried
+
+Returns true if carried is set to true, false if it isn't.
+
+### contentsWeightless
+
+Returns true if the contents are weightless field is set to true, otherwise returns false.
+
+### weight
+
+Returns the value entered into the weight field. If no value has been entered, returns `#container.weight`.
+
+### value
+
+Returns the value entered into the value field. If no value has been entered, returns `#container.value`.
+
+### description
+
+Returns the text entered into the description field, unparsed.
+
+### contentsWeight
+
+Currently unimplemented.
+
+### contentsValue
+
+Currently unimplemented.
