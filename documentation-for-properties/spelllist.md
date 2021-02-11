@@ -1,4 +1,4 @@
-# Spell List
+# Spell Lists
 
 A spell list is a way to sort your spells, most often by which features gives you them. They will appear on the spells tab, with every spell property that is a child of them listed below them in a column.
 
@@ -23,3 +23,4 @@ The maximum number of spells that can be prepared at one time in this spell list
 ### Tags
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
+

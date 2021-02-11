@@ -1,4 +1,4 @@
-# Toggle
+# Toggles
 
 A toggle allows you to enable or disable other properties in response to a condition. Only children of the toggle can be affected directly by it.
 
@@ -19,3 +19,4 @@ A calculation to test if the toggle should be enabled or disabled. When the togg
 ### Tags
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
+

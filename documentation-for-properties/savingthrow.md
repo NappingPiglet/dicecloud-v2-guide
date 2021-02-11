@@ -1,4 +1,4 @@
-# Saving Throw
+# Saving Throws
 
 Unfortunantly, the saving throw property currently has no functionality. However, we can learn it's functionality from comments in the DiceCloud code as well as the field names. The same is true of [rolls](roll.md).
 
@@ -9,7 +9,7 @@ The saving throw component is used to automate rolling some quantity of dice in 
 > \* The target number is computed in the action taker's context  
 > \* The roll is computed in the target's context  
 > \* If the roll fails to meet or exceed the target number, the adjustments and  
-> \*  child rolls are applied  
+> \* child rolls are applied
 
 ## Components
 
@@ -28,3 +28,4 @@ Which saving throw type skill this will target.
 ### Tags
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
+

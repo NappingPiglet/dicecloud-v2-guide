@@ -1,4 +1,4 @@
-# Slot
+# Slots
 
 Slots are one of the single most powerful tools in DiceCloud V2. A slot on its own serves no function, but it can be filled from the character tab to add properties from libraries. These can be percisely controlled using tags and can reduce the time to make a character to a matter of seconds when set up properly.
 
@@ -25,6 +25,7 @@ How many properties can be put in the slot before it will stop accepting additio
 When the condition inside this field is true, the slot will hide itself in the character tab and expanded view of the build card, meaning the only way to alter its contents will be the tree tab. This accepts both numbers and calculations, though numbers greater than 0 should be avoided as they are evaluated to true.
 
 ### Description
+
 A description of the slot, which cannot be viewed outside of the tree. This field accepts markdown, HTML, and calculations within {}.
 
 ## Advanced
@@ -40,3 +41,4 @@ Currently serves no purpose. Intended to serve some role in a notification syste
 ### Tags
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
+

@@ -105,6 +105,7 @@ The value of the attribute without any modifiers.
 
 Returns the level of the spell slot this attribute represents if the attribute type is spell slot. Otherwise returns `<attributeName>.spellSlotLevelValue`.
 
+<<<<<<< HEAD
 ## Hidden Values
 
 Note that the following values can only be accessed by using the `#attribute.<valueName>` syntax from a child of the attribute.
@@ -124,3 +125,5 @@ Returns the text entered into the slot level field, unparsed. If the attribute i
 ### constitutionMod
 
 Returns the modifier for the constition attribute. This can only be accessed if the attribute is of type hit dice. This does not return a value with any relation to this particular attribute, but instead equivalent to putting `constitution.modifier`.
+=======
+>>>>>>> c47eaf342d6d896d35a75da11b5a1c56f04c79c9

@@ -31,3 +31,4 @@ The users who have contributed to this guide are as follows:
 ## Typos and Incorrect Information
 
 If you find typos or incorrect information in this guide, DM one of the contributers on Discord or create an issue on [GitHub](https://github.com/KatrinaKitten/dicecloud-v2-guide).
+

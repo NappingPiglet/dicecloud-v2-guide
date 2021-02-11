@@ -1,4 +1,4 @@
-# Note
+# Notes
 
 A note is a way to record miscellaneous on the persona tab, whether this is a note of something that needs to be done, your build for different levels or information about your character. It can also serve as a way to store information for users in libraries.
 
@@ -15,3 +15,4 @@ The text of the note. This field accepts Markdown, HTML, and calculations within
 ### Tags
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
+
