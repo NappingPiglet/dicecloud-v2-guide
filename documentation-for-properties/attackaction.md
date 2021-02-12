@@ -43,7 +43,7 @@ A long description of the action, which will appear when you click on the action
 
 ## Resources
 
-Resources are a method of consuming either an item or an attribute during the useage of an action.
+Resources are a method of consuming either an item or an attribute during the usage of an action.
 
 * Attribute
   * This consumes a quantity of an attribute when you use the action.
@@ -105,10 +105,6 @@ Returns what the action has is the action type field.
 
 Returns what has been selected in the target field under advanced, in camelCase.
 
-### tags
-
-Returns an array containing all tags on the property, but because V2 cannot handle non-constant arrays yet, this causes an error to be thrown.
-
 ### uses
 
 Returns the number of uses the attack has at max.
@@ -127,4 +123,4 @@ Returns the number of times you can use the attack before one resource, ammo or 
 
 ### insufficientResources
 
-Returns true if the attack cannot be taken because the resources consumed aren't satisified. If no resources are consumed, returns `#attack.insufficientResources`.
+Returns true if the attack cannot be taken because the resources consumed aren't satisfied. If no resources are consumed, returns `#attack.insufficientResources`.

@@ -54,7 +54,7 @@ DiceCloud V2 uses a custom parser that accepts all the common mathematical equat
         <p><code>cantripDice</code>
         </p>
         <p><code>barbarian.level</code> (sub-properties)</p>
-        <p><code>#attribute</code> (ancestor reference by type *)</p>
+        <p><code>#attribute</code> (ancestor reference by type)</p>
       </td>
     </tr>
   </tbody>
@@ -69,11 +69,7 @@ Array indexes start from `1`.
 {% endhint %}
 
 {% hint style="warning" %}
-Arrays must currently be defined in the same place they are accessed; an upcoming update will allow them to be defined in a new "constant" property with the syntax `[1,2,3,4,5,6]`, and accessed later via `variable[index]`.
-{% endhint %}
-
-{% hint style="warning" %}
-Ancestor reference variables \(e.g.`#attribute`\) are not currently implemented, and will be added in an upcoming update.
+Arrays must either be declared in the same place they are accessed or in a constant property with the syntax `[1,2,3,4,5,6]` and accessed later via `variable[index]`.
 {% endhint %}
 
 ## Operators

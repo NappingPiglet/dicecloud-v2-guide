@@ -19,7 +19,7 @@ The target of the buff and the way that all rolled effects of the buff's childre
 * Self
   * You are the victim of the attribute damage.
 * Roll Once for Each Target
-  * Each creature that the buff effects will have the dice for the children rolled seperately.
+  * Each creature that the buff effects will have the dice for the children rolled separately.
 * Roll once and Apply to Every Target
   * The dice will be rolled once and that value will be used for every creature the effect targets.
 
@@ -27,3 +27,22 @@ The target of the buff and the way that all rolled effects of the buff's childre
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
 
+## Accessible Values
+
+Note that all values listed here can only be accessed using the `#damage.<valueName>` syntax from a child of the property.
+
+### amount
+
+The text in the amount field, unparsed.
+
+### target
+
+Returns 'self' if the target field is set to self, 'each' if it set to roll once for every target, and 'every' if it is set to roll once and apply to every target.
+
+### damageType
+
+Returns the damage type of the damage, in all lowercase characters.
+
+### amountResult
+
+The parsed value in the amount field. If dice rolls are included, all non-dice components of the string are parsed and the dice are left unparsed.

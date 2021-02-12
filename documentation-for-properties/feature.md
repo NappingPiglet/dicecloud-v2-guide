@@ -1,6 +1,6 @@
 # Features
 
-A feature is an abilty your character has that has text that should be displayed.
+A feature is an ability your character has that has text that should be displayed.
 
 ## Components
 
@@ -20,3 +20,18 @@ A long description of the feature, which will appear when you click on the featu
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
 
+## Accessible Values
+
+Note that all values listed here can only be accessed using the `#feature.<valueName>` syntax from a child of the property.
+
+### name
+
+The name of the feature.
+
+### summary
+
+The text entered into the summary field of the feature, unparsed.
+
+### description
+
+The text entered into the description field of the feature, unparsed.
