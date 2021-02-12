@@ -61,3 +61,68 @@ Tags are used to control which slots this property can be added to. This will us
 
 This section is identical to the [action](action.md) property, with the only difference being that the description will match the text in the description field above. When you set an icon in this section, it will appear with the spell name on the spell list and on the list of castable spells. After you cast a spell from the stats page, children of the spell will be carried out as if you had taken an action.
 
+## Accessible Values
+
+### name\*
+
+The name of the spell.
+
+### alwaysPrepared\*
+
+Returns true if the always prepared field is set to true.
+
+### prepared\*
+
+Returns true if the property is prepared.
+
+### castWithoutSpellSlots\*
+
+Currently unimplemented.
+
+### hasAttackRoll\*
+
+Currently unimplemented.
+
+### castingTime\*
+
+Returns the string in the casting time field.
+
+### range\*
+
+Returns the string in the range field.
+
+### duration\*
+
+Returns the string in the duration field.
+
+### verbal\*
+
+Returns true if the spell has verbal components.
+
+### somatic\*
+
+Returns true if the spell has somatic components.
+
+### concentration\*
+
+Returns true if the spell requires concentration.
+
+### material\*
+
+Returns the string in the material field.
+
+### ritual\*
+
+Returns true if the spell can be cast as a ritual.
+
+### level\*
+
+Returns the spell's level.
+
+### school\*
+
+Returns the spell's school, in all lowercase characters.
+
+{% hint style="info" %} Additionally, all values that can be accessed using an ancestor reference in [actions](action.md) can also be accessed using an ancestor reference to a spell. {& endhint %}
+
+{% hint style="warning" %} Values marked with a \* can only be accessed using an ancestor reference. {% endhint %}

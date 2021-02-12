@@ -36,36 +36,36 @@ When this is set to true, only the container's weight will count towards your we
 
 ## Accessible Values
 
-Note that all values listed here can only be accessed using the `#container.<valueName>` syntax from a child of the property.
-
-### name
+### name\*
 
 The name of the container.
 
-### carried
+### carried\*
 
 Returns true if the carried field is currently set to true.
 
-### contentsWeightless
+### contentsWeightless\*
 
 Returns true if the contents are weightless field is currently set to true.
 
-### weight
+### weight\*
 
 Returns the weight of the container.
 
-### value
+### value\*
 
 Returns the value of the container in GP.
 
-### description
+### description\*
 
 The text entered into the description field of the container, unparsed.
 
-### contentsWeight
+### contentsWeight\*
 
 Currently unimplemented.
 
-### contentsValue
+### contentsValue\*
 
 Currently unimplemented.
+
+{% hint style="warning" %} Values marked with a \* can only be accessed using an ancestor reference. {% endhint %}

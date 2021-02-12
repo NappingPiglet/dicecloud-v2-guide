@@ -20,3 +20,18 @@ The text of the note. This field accepts Markdown, HTML, and calculations within
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
 
+## Accessible Values
+
+### name\*
+
+The name of the note.
+
+### summary\*
+
+The text entered into the summary field of the note, unparsed.
+
+### description\*
+
+The text entered into the description field of the note, unparsed.
+
+{% hint style="warning" %} Values marked with a \* can only be accessed using an ancestor reference. {% endhint %}

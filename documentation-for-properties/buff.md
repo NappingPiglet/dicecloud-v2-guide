@@ -29,28 +29,28 @@ Tags are used to control which slots this property can be added to. This will us
 
 ## Accessible Values
 
-Note that all values listed here can only be accessed using the `#buff.<valueName>` syntax from a child of the property.
-
-### name
+### name\*
 
 The name of the buff.
 
-### description
+### description\*
 
 The text in the description field of the buff, unparsed.
 
-### duration
+### duration\*
 
 Currently unused.
 
-### applied
+### applied\*
 
 Returns true if the buff is applied. A buff will be applied if it is currently active on the character, while it will not be applied if it is a child of an action or spell that applies the buff.
 
-### target
+### target\*
 
 Returns 'self' if the buff's target field is set to self, 'every' if it is set to roll once and apply to each target, and 'each' if it is set to roll once for every target.
 
-### durationSpent
+### durationSpent\*
 
 Currently unused.
+
+{% hint style="warning" %} Values marked with a \* can only be accessed using an ancestor reference. {% endhint %}

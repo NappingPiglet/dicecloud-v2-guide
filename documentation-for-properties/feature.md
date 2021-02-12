@@ -22,16 +22,16 @@ Tags are used to control which slots this property can be added to. This will us
 
 ## Accessible Values
 
-Note that all values listed here can only be accessed using the `#feature.<valueName>` syntax from a child of the property.
-
-### name
+### name\*
 
 The name of the feature.
 
-### summary
+### summary\*
 
 The text entered into the summary field of the feature, unparsed.
 
-### description
+### description\*
 
 The text entered into the description field of the feature, unparsed.
+
+{% hint style="warning" %} Value marked with a \* can only be accessed using an ancestor reference. {% endhint %}

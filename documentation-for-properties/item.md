@@ -56,44 +56,44 @@ Are you currently attuned to the item? Currently has no functionality.
 
 ## Accessible Values
 
-Note that all values listed here can only be accessed using the `#item.<valueName>` syntax from a child of the property.
-
-### name
+### name\*
 
 The name of the item.
 
-### plural
+### plural\*
 
 The plural name of the item.
 
-### description
+### description\*
 
 The description of the item, unparsed.
 
-### quantity
+### quantity\*
 
 The number entered in the quantity field.
 
-### weight
+### weight\*
 
 The number entered into the weight field.
 
-### value
+### value\*
 
 The number entered into the value field.
 
-### requiresAttunment
+### requiresAttunment\*
 
 Returns true if the requires attunment field is set to true.
 
-### attuned
+### attuned\*
 
 Returns true if you are attuned to the item.
 
-### showIncrement
+### showIncrement\*
 
 Returns true if the show increment button field is set to true.
 
-### equipped
+### equipped\*
 
 Returns true if the item is currently equipped.
+
+{% hint style="warning" %} Values marked with a \* can only be accessed using an ancestor reference. {% endhint %}

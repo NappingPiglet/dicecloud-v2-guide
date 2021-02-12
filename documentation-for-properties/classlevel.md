@@ -40,18 +40,16 @@ The name of the class.
 
 The current level you have in the class
 
-## Hidden Values
-
-All values listed here are not accessible in normal calculations, and can only be accessed using the `#classLevel.<valueName>` syntax from a child of the property.
-
-### description
+### description\*
 
 The text entered into the description field of the class level, unparsed.
 
-### variableName
+### variableName\*
 
 The text entered into the variable name field of the class level.
 
-### slotFillerCondition
+### slotFillerCondition\*
 
 The text entered into the condition field, unparsed.
+
+{% hint style="warning" %} Values marked with a \* can only be accessed using an ancestor reference. {% endhint %}

@@ -24,3 +24,26 @@ The maximum number of spells that can be prepared at one time in this spell list
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
 
+## Accessible Values
+
+### name\*
+
+Returns the name of the spell list.
+
+### description\*
+
+Returns the description of the spell list, unparsed.
+
+### variableName\*
+
+The variable name of the spell list.
+
+### maxPrepared\*
+
+The string in the maximum spells prepared field, unparsed.
+
+### maxPreparedResult\*
+
+Returns the string in the maximum spells prepared field, parsed.
+
+{% hint style="warning" %} Values marked with a \* can only be accessed using an ancestor reference. {% endhint %}

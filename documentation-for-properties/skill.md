@@ -1,6 +1,6 @@
 # Skills
 
-A skill is used to track your ability to perform a task, such as hiding from an enemy or running a marathon. They appear on the stats page, in columns seperated by skill type.
+A skill is used to track your ability to perform a task, such as hiding from an enemy or running a marathon. They appear on the stats page, in columns separated by skill type.
 
 ## Components
 
@@ -14,7 +14,7 @@ The name of the skill's variable, which will be used to access the skill for cal
 
 ### Ability
 
-The ability score that is used to determine the base bonus you recieve when making checks with this skill. The bonus will only appear if a value is given for this field, and will appear to the left of the skill's name on the stats page. Only attributes who's type is ability score can be used for this field.
+The ability score that is used to determine the base bonus you receive when making checks with this skill. The bonus will only appear if a value is given for this field, and will appear to the left of the skill's name on the stats page. Only attributes who's type is ability score can be used for this field.
 
 ### Type \(Required\)
 
@@ -57,17 +57,29 @@ The basic level of proficiency you have in a skill. By default, this is not prof
 
 ## Accessible Values
 
-### ability
-
-Returns the name of the ability score given for the skill's ability field. If the field has not been filled out, returns the text `<skillName>.ability`.
-
 ### name
 
 Returns the name of the skill.
 
+### variableName\*
+
+The variable name of the skill.
+
+### ability
+
+Returns the name of the ability score given for the skill's ability field. If the field has not been filled out, returns the text `<skillName>.ability`.
+
+### baseValueCalculation\*
+
+Returns the string in the base value field, unparsed.
+
 ### baseProficiency
 
 Returns the base proficiency of the skill, given in the base proficiency field. If the field has not been filled out, returns the text `<skillName>.baseProficiency`.
+
+### description\*
+
+Returns the description of the skill, unparsed.
 
 ### abilityMod
 
@@ -105,3 +117,8 @@ Should return an array containing all conditional benefits to the skill, but cur
 
 Should return an array containing all bonuses to rolls using to the skill, but currently just throws an error and hides whatever text it is part of.
 
+### hide\*
+
+Returns true if the skill is hidden for some reason.
+
+{% hint style="warning" %} Values marked with a \* can only be accessed using an ancestor reference. {% endhint %}

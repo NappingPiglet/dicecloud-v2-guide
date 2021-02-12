@@ -40,13 +40,11 @@ Tags are used to control which slots this property can be added to. This will us
 
 ## Accessible Values
 
-Note that all values listed here can only be accessed using the `#effect.<valueName>` syntax from a child of the property.
-
-### name
+### name\*
 
 The name of the effect.
 
-### operation
+### operation\*
 
 Returns the operation of the effect.
 
@@ -64,10 +62,12 @@ Returns the operation of the effect.
 | Fail | fail |
 | Conditional Bonus | conditional |
 
-### calculation
+### calculation\*
 
 The string in the calculation field, unparsed.
 
-### result
+### result\*
 
 The string in the calculation field, parsed. If dice rolls are included, all non-dice components are parsed.
+
+{% hint style="warning" %} Values marked with a \* can only be accessed using an ancestor reference. {% endhint %}
