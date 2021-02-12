@@ -8,6 +8,10 @@ A note is a way to record miscellaneous on the persona tab, whether this is a no
 
 The name of the note, which will appear above the description in the persona tab.
 
+### Summary
+
+A brief summary of the note. This will appear beneath the name of the note on the persona page. This field accepts Markdown, HTML, and calculations within {}.
+
 ### Description
 
 The text of the note. This field accepts Markdown, HTML, and calculations within {}. This will appear when you click on the note, whether from the persona page or from another property.

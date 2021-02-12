@@ -39,7 +39,7 @@ A long description of the action, which will appear when you click on the action
 
 ## Resources
 
-Resources are a method of consuming either an item or an attribute during the useage of an action.
+Resources are a method of consuming either an item or an attribute during the usage of an action.
 
 * Attribute
   * This consumes a quantity of an attribute when you use the action.
@@ -115,4 +115,4 @@ Returns the number of times you can use the action before one resource, ammo or 
 
 ### insufficientResources
 
-Returns true if the action cannot be taken because the resources consumed aren't satisified. If no resources are consumed, returns `#action.insufficientResources`.
+Returns true if the action cannot be taken because the resources consumed aren't satisfied. If no resources are consumed, returns `#action.insufficientResources`.
