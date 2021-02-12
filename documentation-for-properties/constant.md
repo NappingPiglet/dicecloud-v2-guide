@@ -1,6 +1,6 @@
 # Constants
 
-A constant is a variable that is invisible outside of the tree and cannot have its value use other variables. Unlike normal attributes however, constants can have arrays as their value, which can then be accessed using `<variableName>[n]` where n can be any positive number, so long as it isn't greater than the number of values in the array.
+A constant is a variable that is invisible outside of the tree and cannot have its value use other variables. Unlike normal attributes however, constants can store non-numeric data types such as strings, booleans, and arrays. This is most notable when using an array as its value, which can then be accessed using `<variableName>[n]`, rather than needing to define your array in the same place it's used (see [Parser Documentation](../creating-a-library/parser-documentation.md#data-types)).
 
 ## Components
 
