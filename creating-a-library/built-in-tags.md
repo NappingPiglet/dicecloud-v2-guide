@@ -14,5 +14,3 @@ Dicecloud V2 has some built-in property tags with special functionality. This pa
 The `carried` and `equipment` tags allow for managing inventory organization when working with the Carried and Equipped lists. By default, items will be moved to the top level of the tree when moved to either of these lists from a container. If the container is inside a property tagged appropriately, they will be made children of that property instead.
 {% endhint %}
 
-
-

@@ -26,6 +26,12 @@
 * [Built-in Variables](creating-a-library/built-in-variables.md)
 * [Built-in Tags](creating-a-library/built-in-tags.md)
 
+## Advanced Library Techniques
+
+* [Bitfields](advanced-library-techniques/bitfields.md)
+* [Saving Roll Results Permanently](advanced-library-techniques/saving-roll-results-permanently.md)
+* [Zero-Quantity Slot Fillers](advanced-library-techniques/zero-quantity-slot-fillers.md)
+
 ## Documentation for Properties
 
 * [Actions](documentation-for-properties/action.md)
