@@ -24,7 +24,7 @@ The description of the class. This field accepts markdown, HTML, and calculation
 
 A condition to check if you can take levels in this class. Unless you are making a library, this can be left blank. For this class level to be added to a slot, this condition must evaluate to true.
 
-* Note: One useful example of a condition is `<classVariableName>.level==<classLevel>-1`, which will only allow you to take this particular level if you already had taken the previous level in the class.
+{% hint style="info" %} One useful example of a condition is `<classVariableName>.level==<classLevel>-1`, which will only allow you to take this particular level if you already had taken the previous level in the class. {% endhint %}
 
 ### Tags
 
@@ -40,3 +40,16 @@ The name of the class.
 
 The current level you have in the class
 
+### description\*
+
+The text entered into the description field of the class level, unparsed.
+
+### variableName\*
+
+The text entered into the variable name field of the class level.
+
+### slotFillerCondition\*
+
+The text entered into the condition field, unparsed.
+
+{% hint style="warning" %} Values marked with a \* can only be accessed using an ancestor reference. {% endhint %}

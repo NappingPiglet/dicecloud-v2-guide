@@ -10,7 +10,7 @@ Select an icon to represent this item on the inventory page. Icons come from [ga
 
 ### Equipped
 
-Is this item currently being worn or otherwise in a position from which it can be immediatly used? If this is false, then the item must be equipped before any of its children become active.
+Is this item currently being worn or otherwise in a position from which it can be immediately used? If this is false, then the item must be equipped before any of its children become active.
 
 ### Name
 
@@ -26,7 +26,7 @@ The cost of the item in GP. Accepts numbers only. Currently serves no purpose, b
 
 ### Weight
 
-The wieght of the container in pounds. Only accepts numbers. Currently serves no purpose, but this will change in later updates.
+The weight of the container in pounds. Only accepts numbers. Currently serves no purpose, but this will change in later updates.
 
 ### Quantity \(Required\)
 
@@ -54,3 +54,46 @@ Does this item need to be attuned to? Currently has no functionality beyond reve
 
 Are you currently attuned to the item? Currently has no functionality.
 
+## Accessible Values
+
+### name\*
+
+The name of the item.
+
+### plural\*
+
+The plural name of the item.
+
+### description\*
+
+The description of the item, unparsed.
+
+### quantity\*
+
+The number entered in the quantity field.
+
+### weight\*
+
+The number entered into the weight field.
+
+### value\*
+
+The number entered into the value field.
+
+### requiresAttunment\*
+
+Returns true if the requires attunment field is set to true.
+
+### attuned\*
+
+Returns true if you are attuned to the item.
+
+### showIncrement\*
+
+Returns true if the show increment button field is set to true.
+
+### equipped\*
+
+Returns true if the item is currently equipped.
+
+{% hint style="warning" %} Values marked with a \* can only be accessed using an ancestor reference. {% endhint %}

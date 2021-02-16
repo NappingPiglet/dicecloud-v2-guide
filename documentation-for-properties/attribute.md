@@ -14,7 +14,7 @@ The name of the attribute. This will appear on the stats page alongside the attr
 
 ### Variable Name \(Required\)
 
-The name of the attribute used to identify it in calculations or other components. This will both uppercase and lowercase latin characters, numbers and underscores, but will not accept characters such as spaces.
+The name of the attribute used to identify it in calculations or other components. This will both uppercase and lowercase Latin characters, numbers and underscores, but will not accept characters such as spaces.
 
 ### Type \(Required\)
 
@@ -33,7 +33,7 @@ The type of the attribute. This is a dropdown, used to be more specific about th
 * Health Bar
   * A health bar appears at the top of your stats page and is used to track values on a sliding bar. When damage is applied to a character using an action, it will be applied to the lowest health bar, as will healing.
 * Resource
-  * A resource is used to track the uses of an ability or a value like ki that you expend to fuel powers. These appear on the stats page in the same way as hit dice, but with the attribute name instead of the dice size.
+  * A resource is used to track the uses of an ability or a value like Ki that you expend to fuel powers. These appear on the stats page in the same way as hit dice, but with the attribute name instead of the dice size.
 * Spell Slot
   * A spell slot is used by the spellcasting classes of D&D to fuel their magic. These appear on the stats page as a series of bubbles that are either empty or filled, with the name of the attribute next to them.
     * **Spell Slot Type**
@@ -105,3 +105,20 @@ The value of the attribute without any modifiers.
 
 Returns the level of the spell slot this attribute represents if the attribute type is spell slot. Otherwise returns `<attributeName>.spellSlotLevelValue`.
 
+### description\*
+
+Returns the description of the attribute
+
+### baseValueCalculation\*
+
+Returns the text entered into the base value field, unparsed.
+
+### spellSlotLevelCalculation\*
+
+Returns the text entered into the slot level field, unparsed. If the attribute is not a spell slot type, it instead returns `#attribute.spellSlotLevelCalculation`.
+
+### constitutionMod\*
+
+Returns the modifier for the constitution attribute. This can only be accessed if the attribute is of type hit dice. This does not return a value with any relation to this particular attribute, but instead equivalent to putting `constitution.modifier`.
+
+{% hint style="warning" } Values marked with a \* can only be accessed using ancestor references. {% endhint %}

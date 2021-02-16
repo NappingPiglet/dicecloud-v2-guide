@@ -39,7 +39,7 @@ A long description of the action, which will appear when you click on the action
 
 ## Resources
 
-Resources are a method of consuming either an item or an attribute during the useage of an action.
+Resources are a method of consuming either an item or an attribute during the usage of an action.
 
 * Attribute
   * This consumes a quantity of an attribute when you use the action.
@@ -69,3 +69,46 @@ How many times you have used this ability since it was last restored. If you hav
 
 This controls when the property is restored to its max value. The options are short rest and long rest. If you choose short rest, it will also regain its max value on a long rest. Rests can be triggered from the stats page.
 
+## Accessible Values
+
+### name\*
+
+The name of the action.
+
+### description\*
+
+Returns the description of the action.
+
+### summary\*
+
+Returns the summary of the action.
+
+### actionType\*
+
+Returns what the action has is the action type field.
+
+### target\*
+
+Returns what has been selected in the target field under advanced, in camelCase.
+
+### uses\*
+
+Returns the number of uses the action has at max.
+
+### usesUsed\*
+
+Returns the number of times this action has been used since the uses were last reset.
+
+### reset\*
+
+Returns the type of rest need for the action's uses to reset, in camelCase.
+
+### usesResult\*
+
+Returns the number of times you can use the action before one resource, ammo or uses remaining is insufficient.
+
+### insufficientResources\*
+
+Returns true if the action cannot be taken because the resources consumed aren't satisfied. If no resources are consumed, returns `#action.insufficientResources`.
+
+{% hint style="warning" %} Note that all values marked with \* can only be accessed using an ancestor reference. {% endhint %}

@@ -12,3 +12,10 @@ The name of the folder, which is only visible in the tree.
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
 
+## Accessible Values
+
+### name\*
+
+The name of the folder.
+
+{% hint style="warning" %} Values marked with a \* can only be accessed using an ancestor reference. {% endhint %}

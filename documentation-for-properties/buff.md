@@ -19,7 +19,7 @@ The target of the buff and the way that all rolled effects of the buff's childre
 * Self
   * You are the victim of the attribute damage.
 * Roll Once for Each Target
-  * Each creature that the buff effects will have the dice for the children rolled seperately.
+  * Each creature that the buff effects will have the dice for the children rolled separately.
 * Roll once and Apply to Every Target
   * The dice will be rolled once and that value will be used for every creature the effect targets.
 
@@ -27,3 +27,30 @@ The target of the buff and the way that all rolled effects of the buff's childre
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
 
+## Accessible Values
+
+### name\*
+
+The name of the buff.
+
+### description\*
+
+The text in the description field of the buff, unparsed.
+
+### duration\*
+
+Currently unused.
+
+### applied\*
+
+Returns true if the buff is applied. A buff will be applied if it is currently active on the character, while it will not be applied if it is a child of an action or spell that applies the buff.
+
+### target\*
+
+Returns 'self' if the buff's target field is set to self, 'every' if it is set to roll once and apply to each target, and 'each' if it is set to roll once for every target.
+
+### durationSpent\*
+
+Currently unused.
+
+{% hint style="warning" %} Values marked with a \* can only be accessed using an ancestor reference. {% endhint %}

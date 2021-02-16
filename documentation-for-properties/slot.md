@@ -1,6 +1,6 @@
 # Slots
 
-Slots are one of the single most powerful tools in DiceCloud V2. A slot on its own serves no function, but it can be filled from the character tab to add properties from libraries. These can be percisely controlled using tags and can reduce the time to make a character to a matter of seconds when set up properly.
+Slots are one of the single most powerful tools in DiceCloud V2. A slot on its own serves no function, but it can be filled from the character tab to add properties from libraries. These can be precisely controlled using tags and can reduce the time to make a character to a matter of seconds when set up properly.
 
 ## Components
 
@@ -42,3 +42,48 @@ Currently serves no purpose. Intended to serve some role in a notification syste
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
 
+## Accessible Values
+
+### name\*
+
+The name of the slot.
+
+### description\*
+
+The text of the description field, unparsed.
+
+### slotType\*
+
+The property type the slot expects. The string returned will be the one used to perform an ancestor reference to that property type.
+
+### quantityExpected\*
+
+The quantity of properties that the slot will accept at most.
+
+### ignored\*
+
+Returns true if the ignored field is set to true.
+
+### slotCondition\*
+
+Returns the string entered into the condition field, unparsed.
+
+### hideWhenFull\*
+
+Returns true if the hide when full field is set to true.
+
+### quantityExpectedResult\*
+
+Returns the parsed value of the quantity expected field.
+
+### totalFilled\*
+
+Returns the current quantity of properties that are filling the slot, with slot fillers filling up a number of properties equal to what is in their quantity field.
+
+### spaceLeft\*
+
+Returns the current number of properties that could be added to the slot before it is filled up.
+
+{% hint style="warning" %} Note that all values marked with a \* can only be accessed using ancestor references. {% endhint %}
+
+{% hint style="info" %} In order to perform an ancestor reference to a slot, the syntax is `#propertySlot` rather than `#slot`. {% endhint %}
