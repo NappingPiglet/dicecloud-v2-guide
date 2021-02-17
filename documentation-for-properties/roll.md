@@ -20,7 +20,7 @@ A calculation for the dice that are to be rolled, which will likely include dice
 ### Tags
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
- 
+
 ## Accessible Values
 
 ### roll\*
@@ -31,4 +31,7 @@ The string in the roll field, unparsed.
 
 The string in the roll field, parsed. If dice rolls are included, then all non-dice rolls are parsed and a string is returned instead.
 
-{% hint style="warning" %} Values marked with a \* can only be accessed using an ancestor reference. {% endhint %}
+{% hint style="warning" %}
+Values marked with a \* can only be accessed using an ancestor reference.
+{% endhint %}
+

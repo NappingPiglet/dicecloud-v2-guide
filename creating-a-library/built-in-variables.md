@@ -33,11 +33,11 @@ You can override any built-in variable by adding your own attribute with the sam
       </td>
       <td style="text-align:left">Your character&apos;s total level in all classes.</td>
     </tr>
-	<tr>
-	  <td style="text-align:left"><code>proficiencyBonus</code>
-	  </td>
-	  <td style="text-align:left">Your character&apos;s proficiency bonus, calculated as <code>1+ceil&#40;level&#8725;4&#41;</code>.</td>
-	</tr>
+    <tr>
+      <td style="text-align:left"><code>proficiencyBonus</code>
+      </td>
+      <td style="text-align:left">Your character&apos;s proficiency bonus, calculated as <code>1+ceil(level&#x2215;4)</code>.</td>
+    </tr>
     <tr>
       <td style="text-align:left"><code>milestoneLevels</code>
       </td>

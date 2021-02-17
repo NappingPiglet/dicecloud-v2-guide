@@ -34,4 +34,7 @@ The text entered into the summary field of the note, unparsed.
 
 The text entered into the description field of the note, unparsed.
 
-{% hint style="warning" %} Values marked with a \* can only be accessed using an ancestor reference. {% endhint %}
+{% hint style="warning" %}
+Values marked with a \* can only be accessed using an ancestor reference.
+{% endhint %}
+

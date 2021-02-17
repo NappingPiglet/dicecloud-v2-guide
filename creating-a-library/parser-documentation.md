@@ -44,8 +44,9 @@ DiceCloud V2 uses a custom parser that accepts all the common mathematical equat
       <td style="text-align:left">
         <p><code>[1,2,3,4,5,6][index]</code>
         </p>
-        <p><code>[1,2,3,4,5,6]</code> *</p>
-        <p><code>arrayVariable[index]</code> *</p>
+        <p><code>[1,2,3,4,5,6]</code> (constants only)</p>
+        <p><code>arrayConstant[index]</code>
+        </p>
       </td>
     </tr>
     <tr>
@@ -68,8 +69,8 @@ If a variable doesn't exist, its value will default to `0`.
 Array indexes start from `1`.
 {% endhint %}
 
-{% hint style="warning" %}
-Arrays must either be declared in the same place they are accessed or in a constant property with the syntax `[1,2,3,4,5,6]` and accessed later via `variable[index]`.
+{% hint style="info" %}
+Arrays must normally be declared in the same place they are accessed \(the first syntax example\), with the exception of declaring an array in a constant, which allows for storing non-numeric data types.
 {% endhint %}
 
 ## Operators
@@ -110,7 +111,7 @@ Arrays must either be declared in the same place they are accessed or in a const
       </td>
     </tr>
     <tr>
-      <td style="text-align:left">Modulus (remainder) *</td>
+      <td style="text-align:left">Modulus (remainder)</td>
       <td style="text-align:left"><code>5 % 7</code>
       </td>
     </tr>
@@ -136,10 +137,6 @@ Division by `0` will not result in an error, but will instead return `Infinity`.
 
 {% hint style="info" %}
 Dice rolls can use any variable or equation on either side of the `d` operator. They will be rerolled whenever the property using them is recalculated; if you want to save the result of a roll indefinitely, you should use an [action](../documentation-for-properties/action.md) with [attribute damage](../documentation-for-properties/attributedamage.md) to store the result.
-{% endhint %}
-
-{% hint style="warning" %}
-The modulus operator `%` is intended but not currently functional due to a bug, and will be fixed in an upcoming update.
 {% endhint %}
 
 ### Logic and Comparisons
@@ -223,7 +220,7 @@ The modulus operator `%` is intended but not currently functional due to a bug, 
 </table>
 
 {% hint style="info" %}
-The normal `==` and `!=` will convert types to check equality; for example, `5 == "5"` will return `true`.  The strict `===` and `!==` will not; for example, `5 === "5"` will return `false`.
+The normal `==` and `!=` will convert types to check equality; for example, `5 == "5"` will return `true`. The strict `===` and `!==` will not; for example, `5 === "5"` will return `false`.
 {% endhint %}
 
 {% hint style="info" %}

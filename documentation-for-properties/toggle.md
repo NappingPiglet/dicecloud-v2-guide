@@ -40,6 +40,9 @@ Returns the string in the toggle's condition field.
 
 ### toggleResult\*
 
-Returns true if the condition field is evaluated to true. 
+Returns true if the condition field is evaluated to true.
 
-{% hint style="warning" %} Values marked with a \* can only be accessed using an ancestor reference. {% endhint %}
+{% hint style="warning" %}
+Values marked with a \* can only be accessed using an ancestor reference.
+{% endhint %}
+

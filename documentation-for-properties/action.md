@@ -111,4 +111,7 @@ Returns the number of times you can use the action before one resource, ammo or 
 
 Returns true if the action cannot be taken because the resources consumed aren't satisfied. If no resources are consumed, returns `#action.insufficientResources`.
 
-{% hint style="warning" %} Note that all values marked with \* can only be accessed using an ancestor reference. {% endhint %}
+{% hint style="warning" %}
+Note that all values marked with \* can only be accessed using an ancestor reference.
+{% endhint %}
+

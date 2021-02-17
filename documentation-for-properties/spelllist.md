@@ -46,4 +46,7 @@ The string in the maximum spells prepared field, unparsed.
 
 Returns the string in the maximum spells prepared field, parsed.
 
-{% hint style="warning" %} Values marked with a \* can only be accessed using an ancestor reference. {% endhint %}
+{% hint style="warning" %}
+Values marked with a \* can only be accessed using an ancestor reference.
+{% endhint %}
+

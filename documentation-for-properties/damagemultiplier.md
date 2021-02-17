@@ -30,7 +30,9 @@ The name of the property.
 
 Returns 2 if the damage multiplier is set to vulnerability, 0.5 if it is set to resistance and 0 if it is set to immunity.
 
-{% hint style="warning" %} Values marked with a \* can only be accessed using an ancestor reference. {% endhint %}
+{% hint style="warning" %}
+Values marked with a \* can only be accessed using an ancestor reference.
+{% endhint %}
 
 ## Unimplemented Functionality
 
@@ -41,3 +43,4 @@ This will most likely cause the multiplier to not affect damage that has certain
 ### Include Tags
 
 This will most likely cause the multiplier to only affect damage that has certain tags, such as how a Rakshasa has vulnerability to piercing damage from good aligned creatures.
+

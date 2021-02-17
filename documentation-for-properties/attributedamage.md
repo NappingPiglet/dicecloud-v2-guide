@@ -58,6 +58,11 @@ Returns 'set' if the operation is set to set and returns 'increment' if it is se
 
 Returns the parsed value of the amount field. If dice rolls are included, then all non-dice roll components are parsed.
 
-{% hint style="warning" %} All values marked with a \* can only be accessed using an ancestor reference. {% endhint %}
+{% hint style="warning" %}
+All values marked with a \* can only be accessed using an ancestor reference.
+{% endhint %}
 
-{% hint style="info" %} Ancestor references to an attribute damage property must be written as `#adjustment`, rather than `#attributeDamage`.
+{% hint style="info" %}
+
+Ancestor references to an attribute damage property must be written as `#adjustment`, rather than `#attributeDamage`.
+

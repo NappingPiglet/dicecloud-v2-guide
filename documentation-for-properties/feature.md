@@ -34,4 +34,7 @@ The text entered into the summary field of the feature, unparsed.
 
 The text entered into the description field of the feature, unparsed.
 
-{% hint style="warning" %} Value marked with a \* can only be accessed using an ancestor reference. {% endhint %}
+{% hint style="warning" %}
+Value marked with a \* can only be accessed using an ancestor reference.
+{% endhint %}
+

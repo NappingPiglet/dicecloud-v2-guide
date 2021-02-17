@@ -9,11 +9,7 @@ If you want to use bitfields in your libraries, you can use the following formul
 | Operation | Formula | Example for n = 4 |
 | :--- | :--- | :--- |
 | Set the `n`th boolean | `bitfield + 2^(n-1)` | `bitfield + 8` |
-| Get the `n`th boolean | `floor(bitfield/(2^(n-1)))    - 2*floor(bitfield/(2^n))` | `floor(bitfield/8)    - 2*floor(bitfield/16)` |
-
-{% hint style="info" %}
-The formula for getting a boolean from a bitfield will be drastically simplified in an upcoming update, which will add the modulo `%` operator and remove the need for one layer of workarounds.
-{% endhint %}
+| Get the `n`th boolean | `floor(bitfield/(2^(n-1))) % 2` | `floor(bitfield/8) % 2` |
 
 ## Theory
 

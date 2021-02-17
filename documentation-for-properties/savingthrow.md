@@ -47,4 +47,7 @@ The variable name of the skill the saving throw targets.
 
 The DC of the saving throw, parsed. If dice rolls are included, then all non-dice rolls are parsed.
 
-{% hint style="warning" %} Values marked by a \* can only be accessed using an ancestor reference. {% endhint %}
+{% hint style="warning" %}
+Values marked by a \* can only be accessed using an ancestor reference.
+{% endhint %}
+

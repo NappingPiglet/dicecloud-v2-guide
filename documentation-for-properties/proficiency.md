@@ -32,4 +32,7 @@ The name of the proficiency.
 
 Returns 0.5 if the property grants half proficiency, 1 if it grants normal proficiency and 2 if it grants double proficiency.
 
-{% hint style="warning" %} Values marked with a \* can only be accessed using an ancestor reference. {% endhint %}
+{% hint style="warning" %}
+Values marked with a \* can only be accessed using an ancestor reference.
+{% endhint %}
+
