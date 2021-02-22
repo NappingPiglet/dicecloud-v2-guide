@@ -8,7 +8,7 @@ Dicecloud uses a system called [Markdown](https://en.wikipedia.org/wiki/Markdown
 | :--- | :--- |
 | _italic_ | `*italic*` |
 | **bold** | `**bold**` |
-| `code` | ```code``` |
+| `code` | `code` |
 | [link](https://example.com) | `[link](https://example.com)` |
 | ~~strikethrough~~ | `~~strikethrough~~` |
 
@@ -61,13 +61,13 @@ complete a long rest before you can use it again.
 ### Code Blocks
 
 ```text
+
 ```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
-```
+
+{ "firstName": "John", "lastName": "Smith", "age": 25 }
+
+```text
+
 ```
 
 ```text
@@ -109,6 +109,4 @@ complete a long rest before you can use it again.
 ### HTML
 
 Advanced users can write HTML directly in Markdown fields to do much more complex things than Dicecloud's Markdown syntax normally allows; keep in mind, though, that certain elements \(like scripts, CSS styles, etc.\) will be stripped from your HTML before it is rendered.
-
-
 

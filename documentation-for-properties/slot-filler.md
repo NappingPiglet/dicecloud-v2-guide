@@ -65,3 +65,4 @@ This returns the string in the condition field.
 {% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
+

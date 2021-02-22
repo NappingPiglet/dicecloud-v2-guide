@@ -63,9 +63,6 @@ All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
 
 {% hint style="info" %}
-
 Ancestor references to an attribute damage property must be written as `#adjustment`, rather than `#attributeDamage`.
-
 {% endhint %}
-
 

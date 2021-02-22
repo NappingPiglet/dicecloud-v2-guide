@@ -126,3 +126,4 @@ Returns true if the attack cannot be taken because the resources consumed aren't
 {% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
+

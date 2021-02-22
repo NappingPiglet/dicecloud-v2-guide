@@ -41,3 +41,4 @@ The parsed result of the roll. If dice rolls are part of the calculation, this w
 {% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
+

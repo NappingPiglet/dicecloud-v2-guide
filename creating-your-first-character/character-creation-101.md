@@ -4,7 +4,7 @@ Dicecloud is an immensely powerful and flexible character management app, and as
 
 This section of the guide assumes that you are playing Dungeons and Dragons Fifth Edition, 5e for short. The same basic principles apply for other systems, but the examples given will be as such.
 
-### Selecting a Base
+## Selecting a Base
 
 The first thing you'll need to do when creating a new character is choose your base - in other words, an implementation of the core rules and stats of whatever game system your character is designed for. While it's quite possible to create your own, this is a lot of unnecessary work, and avoiding this type of work is the purpose of libraries.
 
@@ -19,7 +19,7 @@ Once you've subscribed to the library for the base of your choice, you can creat
 
 ![The Build view shown when you first create a character.](../.gitbook/assets/image%20%283%29.png)
 
-### The Slot System
+## The Slot System
 
 Now that you're in the Build view, you should see a + button under the heading "Base". This is the slot interface, and is the primary way of making decisions about your character in V2.
 
@@ -33,7 +33,7 @@ Slots are primarily a library creation utility. The options they pull in aren't 
 
 Once you've made your selections to create your character, you can switch to the Stats, Features, Inventory, and Spells tabs to see the result.
 
-### The Dice Roller
+## The Dice Roller
 
 When you first open a character sheet, you'll see an empty right-hand sidebar with a text field at the bottom. This is the dice roller, and it serves as an output log for the results of your character's actions. You can enter any [expression](../creating-a-library/parser-documentation.md) in the text field at the bottom to calculate it, and things like damage rolls from your actions and attacks will be automatically displayed here.
 

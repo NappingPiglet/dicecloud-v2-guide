@@ -49,3 +49,4 @@ Returns the string in the maximum spells prepared field, parsed.
 {% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
+

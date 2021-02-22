@@ -6,7 +6,7 @@ The Spells tab displays a full list of your known spells, organized into lists b
 
 Like the Inventory tab, you can click the individual spells or list heading to see detail views, and reorder or move spells by dragging and dropping with the six dots on the right-hand side.
 
-### Preparation Mode
+## Preparation Mode
 
 If you just leveled up or changed what spells are on your sheet, you may see this switch at the top of one or more of your spell lists. You can click the switch to enter spell preparation mode, which will replace the drag and drop dots with checkboxes so you can select which spells you want prepared. You can also always access this switch from the three dots at the top right of a given list.
 
