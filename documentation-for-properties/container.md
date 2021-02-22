@@ -36,41 +36,6 @@ When this is set to true, only the container's weight will count towards your we
 
 ## Accessible Values
 
-<<<<<<< HEAD
-Note that all values listed here can only be accessed using the `#container.<valueName>` syntax from a child of the property.
-
-### name
-
-The name of the container.
-
-### carried
-
-Returns true if carried is set to true, false if it isn't.
-
-### contentsWeightless
-
-Returns true if the contents are weightless field is set to true, otherwise returns false.
-
-### weight
-
-Returns the value entered into the weight field. If no value has been entered, returns `#container.weight`.
-
-### value
-
-Returns the value entered into the value field. If no value has been entered, returns `#container.value`.
-
-### description
-
-Returns the text entered into the description field, unparsed.
-
-### contentsWeight
-
-Currently unimplemented.
-
-### contentsValue
-
-Currently unimplemented.
-=======
 ### name\*
 
 The name of the container.
@@ -106,5 +71,3 @@ Currently unimplemented.
 {% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
-
->>>>>>> origin/content-that-hasnt-gone-live
