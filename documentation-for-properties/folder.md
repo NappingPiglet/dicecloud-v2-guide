@@ -14,13 +14,6 @@ Tags are used to control which slots this property can be added to. This will us
 
 ## Accessible Values
 
-<<<<<<< HEAD
-Note that all values listed here can only be accessed using the `#folder.<valueName>` syntax.
-
-### name
-
-The name of the folder.
-=======
 ### name\*
 
 The name of the folder.
@@ -28,5 +21,3 @@ The name of the folder.
 {% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
-
->>>>>>> origin/content-that-hasnt-gone-live
