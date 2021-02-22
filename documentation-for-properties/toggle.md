@@ -22,29 +22,6 @@ Tags are used to control which slots this property can be added to. This will us
 
 ## Accessible Values
 
-<<<<<<< HEAD
-Note that all values listed here can only be accessed using the `#toggle.<valueName>` field from a child of the property.
-
-### name
-
-The name of the toggle.
-
-### disabled
-
-Returns true if the toggle is always disabled. Note that this property will technically never return true because it will never be visible outside of the tree if the toggle is disabled.
-
-### enabled
-
-Returns true if the toggle is always enabled.
-
-### condition
-
-Returns the string entered into the condition field.
-
-### toggleResult
-
-Returns true if the toggle is enabled, and false if it is disabled.
-=======
 ### name\*
 
 The name of the toggle.
@@ -68,5 +45,3 @@ Returns true if the condition field is evaluated to true.
 {% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
-
->>>>>>> origin/content-that-hasnt-gone-live
