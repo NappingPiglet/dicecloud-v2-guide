@@ -31,6 +31,6 @@ Returns the variable name of the constant.
 Returns the string in the value field, parsed.
 
 {% hint style="warning" %}
-Values marked with a \* can only be accessed using an ancestor reference.
+All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
 

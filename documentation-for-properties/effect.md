@@ -71,6 +71,6 @@ The string in the calculation field, unparsed.
 The string in the calculation field, parsed. If dice rolls are included, all non-dice components are parsed.
 
 {% hint style="warning" %}
-Values marked with a \* can only be accessed using an ancestor reference.
+All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
 

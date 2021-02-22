@@ -54,6 +54,6 @@ Returns 'self' if the buff's target field is set to self, 'every' if it is set t
 Currently unused.
 
 {% hint style="warning" %}
-Values marked with a \* can only be accessed using an ancestor reference.
+All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
 

@@ -8,7 +8,7 @@ A toggle allows you to enable or disable other properties in response to a condi
 
 The name of the toggle.
 
-### Enabled/Disabled \(Required\)
+### Enabled/Disabled/Conditional \(Required\)
 
 Is the toggle enabled or disabled? When set to calculated, it will be enabled when the condition field evaluates to true and disabled when it evaluates to false.
 
@@ -43,6 +43,6 @@ Returns the string in the toggle's condition field.
 Returns true if the condition field is evaluated to true.
 
 {% hint style="warning" %}
-Values marked with a \* can only be accessed using an ancestor reference.
+All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
 

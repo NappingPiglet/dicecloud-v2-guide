@@ -55,6 +55,6 @@ The text entered into the variable name field of the class level.
 The text entered into the condition field, unparsed.
 
 {% hint style="warning" %}
-Values marked with a \* can only be accessed using an ancestor reference.
+All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
 

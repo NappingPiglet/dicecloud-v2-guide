@@ -19,6 +19,6 @@ Tags are used to control which slots this property can be added to. This will us
 The name of the folder.
 
 {% hint style="warning" %}
-Values marked with a \* can only be accessed using an ancestor reference.
+All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
 

@@ -97,6 +97,6 @@ Returns true if the show increment button field is set to true.
 Returns true if the item is currently equipped.
 
 {% hint style="warning" %}
-Values marked with a \* can only be accessed using an ancestor reference.
+All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
 

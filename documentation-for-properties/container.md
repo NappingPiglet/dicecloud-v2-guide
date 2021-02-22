@@ -69,6 +69,6 @@ Currently unimplemented.
 Currently unimplemented.
 
 {% hint style="warning" %}
-Values marked with a \* can only be accessed using an ancestor reference.
+All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
 

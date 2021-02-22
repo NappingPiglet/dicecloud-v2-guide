@@ -4,7 +4,7 @@ Dicecloud V2 has some built-in property tags with special functionality. This pa
 
 | Tag Name | Description |
 | :--- | :--- |
-| `attack` | Automatically added to all [Attack](../documentation-for-properties/attackaction.md) properties by default. |
+| `attack` | Automatically added to all [Attack](../documentation-for-properties/attack-action.md) properties by default. |
 | `base` | Marks a library item as a base to be imported with the default Base slot. |
 | `carried` | When moving an item to the Carried list, marks an ancestor they should be put in. |
 | `equipment` | When moving an item to the Equipped list, marks an ancestor they should be put in. |

@@ -124,6 +124,6 @@ Returns the number of times you can use the attack before one resource, ammo or 
 Returns true if the attack cannot be taken because the resources consumed aren't satisfied. If no resources are consumed, returns `#attack.insufficientResources`.
 
 {% hint style="warning" %}
-Note that all values marked with a \* can only be accessed using an ancestor reference.
+All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
 

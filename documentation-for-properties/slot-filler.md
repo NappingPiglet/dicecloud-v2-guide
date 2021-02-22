@@ -63,6 +63,6 @@ This returns the number in the quantity field.
 This returns the string in the condition field.
 
 {% hint style="warning" %}
-Values marked with a \* can only be accessed using an ancestor reference.
+All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
 

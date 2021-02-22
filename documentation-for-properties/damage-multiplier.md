@@ -31,7 +31,7 @@ The name of the property.
 Returns 2 if the damage multiplier is set to vulnerability, 0.5 if it is set to resistance and 0 if it is set to immunity.
 
 {% hint style="warning" %}
-Values marked with a \* can only be accessed using an ancestor reference.
+All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
 
 ## Unimplemented Functionality

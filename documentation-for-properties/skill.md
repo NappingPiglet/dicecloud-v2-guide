@@ -122,6 +122,6 @@ Should return an array containing all bonuses to rolls using to the skill, but c
 Returns true if the skill is hidden for some reason.
 
 {% hint style="warning" %}
-Values marked with a \* can only be accessed using an ancestor reference.
+All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
 

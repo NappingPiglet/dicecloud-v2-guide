@@ -21,7 +21,7 @@ The type of the action, which represents how much time or effort it takes to per
 * Bonus Action
   * A bonus action is less time intensive than a standard action, and is commonly used to represent performing a task that is either low effort or that you have trained to do in a very brief time.
 * Attack Action
-  * Unlike in normal D&D 5e, in DiceCloud an attack action represents one of the attacks you make when you attack on your turn. In most cases, you will want to use the [Attack](attackaction.md) property instead.
+  * Unlike in normal D&D 5e, in DiceCloud an attack action represents one of the attacks you make when you attack on your turn. In most cases, you will want to use the [Attack](attack-action.md) property instead.
 * Reaction
   * A reaction is something you can do when it isn't your turn in response to something else happening. Common examples include using a spell such as _Shield_ or responding after taking the ready action.
 * Free Action
@@ -112,6 +112,6 @@ Returns the number of times you can use the action before one resource, ammo or 
 Returns true if the action cannot be taken because the resources consumed aren't satisfied. If no resources are consumed, returns `#action.insufficientResources`.
 
 {% hint style="warning" %}
-Note that all values marked with \* can only be accessed using an ancestor reference.
+All values marked with \* can only be accessed using an ancestor reference.
 {% endhint %}
 

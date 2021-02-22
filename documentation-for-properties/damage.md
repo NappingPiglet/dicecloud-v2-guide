@@ -46,6 +46,6 @@ Returns the damage type of the damage, in all lowercase characters.
 The parsed value in the amount field. If dice rolls are included, all non-dice components of the string are parsed and the dice are left unparsed.
 
 {% hint style="warning" %}
-Values marked with a \* can only be accessed using an ancestor reference.
+All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
 

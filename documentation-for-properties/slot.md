@@ -85,7 +85,7 @@ Returns the current quantity of properties that are filling the slot, with slot 
 Returns the current number of properties that could be added to the slot before it is filled up.
 
 {% hint style="warning" %}
-Note that all values marked with a \* can only be accessed using ancestor references.
+All values marked with a \* can only be accessed using ancestor references.
 {% endhint %}
 
 {% hint style="info" %}

@@ -1,6 +1,6 @@
 # Spells
 
-A spell is a magical effect that wizards, clerics and other casters can produce. These will usually be the children of [spell lists](spelllist.md) but do not have to be. If they are not, they will appear as a card on the spells tab.
+A spell is a magical effect that wizards, clerics and other casters can produce. These will usually be the children of [spell lists](spell-list.md) but do not have to be. If they are not, they will appear as a card on the spells tab.
 
 ## Components
 
@@ -128,6 +128,6 @@ Returns the spell's school, in all lowercase characters.
 Additionally, all values that can be accessed using an ancestor reference in [actions](action.md) can also be accessed using an ancestor reference to a spell. {& endhint %}
 
 {% hint style="warning" %}
-Values marked with a \* can only be accessed using an ancestor reference.
+All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
 

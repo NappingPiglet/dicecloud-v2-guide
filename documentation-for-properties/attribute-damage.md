@@ -1,6 +1,6 @@
 # Attribute Damage
 
-Attribute damage is a way of causing an [action](action.md) or [attack](attackaction.md) to reduce an ability score, resource, or other attribute. They do nothing unless they are the child of an action in the tree, and only change the value of the attribute when you take that action.
+Attribute damage is a way of causing an [action](action.md) or [attack](attack-action.md) to reduce an ability score, resource, or other attribute. They do nothing unless they are the child of an action in the tree, and only change the value of the attribute when you take that action.
 
 ## Components
 
