@@ -1,6 +1,6 @@
 # Rolls
 
-A roll is used to store the result of a dice roll even after the character sheet recomputes.
+A roll component allows you to save a dice roll temporarily, allowing for the dice to have its value not change between components of an action that rely on the same roll.
 
 ## Components
 

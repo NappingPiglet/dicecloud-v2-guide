@@ -61,11 +61,42 @@ You can override any built-in variable by adding your own attribute with the sam
       </td>
       <td style="text-align:left">The amount of experience points your character has.</td>
     </tr>
+	<tr>
+	  <td style="text-align:left"><code>criticalHitTarget</code></td>
+	  <td style="text-align:left">The minimum dice roll needed to land a critical hit, 20 by default.</td>
+	</tr>
+	<tr>
+	  <td style="text-align:left"><code>attackRoll</code> *</td>
+	  <td>The roll, without modifiers, of the attack this property is a child of.</td>
+	</tr>
+	<tr>
+	  <td style="text-align:left"><code>attackRoll</code> *</td>
+	  <td>The roll, with modifiers, of the attack this proeprty is a child of.</td>
+	</tr>
+	<tr>
+	  <td style="text-align:left"><code>criticalHit</code> *</td>
+	  <td>True if the attack this property is a child of lands a critical hit, otherwise returns 0.</td>
+	<tr>
+	  <td style="text-align:left"><code>savingThrowRoll</code> *</td>
+	  <td>The roll, without modifiers, of the saving throw this property is a child of.</td>
+	</tr>
+	<tr>
+	  <td style="text-align:left"><code>savingThrow</code> *</td>
+	  <td>The roll, with modifiers, of the saving throw this property is a child of.</td>
+	</tr>
   </tbody>
 </table>
 
 {% hint style="info" %}
 The `xp` and `milestoneLevels` variables reflect the events created in the [Experience view](../creating-your-first-character/the-character-tab.md#levels) on the Character tab, and are intended for determining when a character is ready to level up. Calculations for most actual character functionality should be based on `level` or `<class>.level` instead.
+{% endhint %}
+
+{% hint style="warning" %}
+`attackRoll`, `toHit` and `criticalHit` only exist in the context of an action, attack or castable spell.
+{% endhint %}
+
+{% hint style="warning" %}
+`savingThrow` and `savingThrowRoll` only exist in the context of a saving throw.
 {% endhint %}
 
 {% hint style="warning" %}
