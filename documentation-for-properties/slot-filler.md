@@ -38,33 +38,6 @@ Tags are used to control which slots this property can be added to. This will us
 
 ## Accessible Values
 
-<<<<<<< HEAD:documentation-for-properties/slotfiller.md
-Note that all values listed here can only be accessed using the `#slotFiller.<valueName>` syntax from a child of the property.
-
-### name
-
-The name of the slot filler.
-
-### picture
-
-The URL given in the image field.
-
-### description
-
-The text entered into the description field, unparsed.
-
-### slotFillerType
-
-The type of property the slot filler is for the purposes of filling a slot, spelled the same way as you would to access it with the access ancestor syntax.
-
-### slotQuantityFilled
-
-The number in the quantity filled field.
-
-### slotFillerCondition
-
-The text in the condition field, unparsed.
-=======
 ### name\*
 
 The name of the slot.
@@ -92,5 +65,3 @@ This returns the string in the condition field.
 {% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
-
->>>>>>> origin/content-that-hasnt-gone-live:documentation-for-properties/slot-filler.md
