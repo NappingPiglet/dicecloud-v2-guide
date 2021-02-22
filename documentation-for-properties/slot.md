@@ -44,6 +44,7 @@ Tags are used to control which slots this property can be added to. This will us
 
 ## Accessible Values
 
+<<<<<<< HEAD
 Note that all values listed here can only be accessed using the `#propertySlot.<valueName>` syntax from a child of the property.
 
 ### name
@@ -89,3 +90,53 @@ The total number of properties filling the slot. If slot fillers that take up mo
 ### spaceRemaining
 
 The difference between quantityExpected and totalFilled.
+=======
+### name\*
+
+The name of the slot.
+
+### description\*
+
+The text of the description field, unparsed.
+
+### slotType\*
+
+The property type the slot expects. The string returned will be the one used to perform an ancestor reference to that property type.
+
+### quantityExpected\*
+
+The quantity of properties that the slot will accept at most.
+
+### ignored\*
+
+Returns true if the ignored field is set to true.
+
+### slotCondition\*
+
+Returns the string entered into the condition field, unparsed.
+
+### hideWhenFull\*
+
+Returns true if the hide when full field is set to true.
+
+### quantityExpectedResult\*
+
+Returns the parsed value of the quantity expected field.
+
+### totalFilled\*
+
+Returns the current quantity of properties that are filling the slot, with slot fillers filling up a number of properties equal to what is in their quantity field.
+
+### spaceLeft\*
+
+Returns the current number of properties that could be added to the slot before it is filled up.
+
+{% hint style="warning" %}
+All values marked with a \* can only be accessed using ancestor references.
+{% endhint %}
+
+{% hint style="info" %}
+In order to perform an ancestor reference to a slot, the syntax is `#propertySlot` rather than `#slot`.
+{% endhint %}
+
+>>>>>>> origin/content-that-hasnt-gone-live

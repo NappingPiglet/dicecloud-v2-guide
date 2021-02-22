@@ -10,7 +10,7 @@ The first thing you'll need to do when creating a new character is choose your b
 
 These are currently the most prominent bases for 5e:
 
-* [LinkTheBalrog's Base](https://beta.dicecloud.com/library/NMgBJwmFKjkxvM8HW) by LinkTheBalrog
+* [Link the Balrog's Base](https://beta.dicecloud.com/library/NMgBJwmFKjkxvM8HW) by LinkTheBalrog
   * Provides a simple, no-nonsense set of basic stats and so on. Only contains the basics and will need to be augmented with other libraries for races, classes, etc.
 * [Kat's Core](https://beta.dicecloud.com/library/dGb2n9TEheo3PnAZa) by KatrinaKitten
   * Provides a more heavily-automated experience, with most materials like races, classes, etc. self contained within one library.
@@ -32,4 +32,10 @@ Slots are primarily a library creation utility. The options they pull in aren't 
 {% endhint %}
 
 Once you've made your selections to create your character, you can switch to the Stats, Features, Inventory, and Spells tabs to see the result.
+
+### The Dice Roller
+
+When you first open a character sheet, you'll see an empty right-hand sidebar with a text field at the bottom. This is the dice roller, and it serves as an output log for the results of your character's actions. You can enter any [expression](../creating-a-library/parser-documentation.md) in the text field at the bottom to calculate it, and things like damage rolls from your actions and attacks will be automatically displayed here.
+
+You can show or hide the dice roller by clicking the three lines at the top right of the character sheet.
 

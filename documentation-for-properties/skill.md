@@ -57,17 +57,29 @@ The basic level of proficiency you have in a skill. By default, this is not prof
 
 ## Accessible Values
 
-### ability
-
-Returns the name of the ability score given for the skill's ability field. If the field has not been filled out, returns the text `<skillName>.ability`.
-
 ### name
 
 Returns the name of the skill.
 
+### variableName\*
+
+The variable name of the skill.
+
+### ability
+
+Returns the name of the ability score given for the skill's ability field. If the field has not been filled out, returns the text `<skillName>.ability`.
+
+### baseValueCalculation\*
+
+Returns the string in the base value field, unparsed.
+
 ### baseProficiency
 
 Returns the base proficiency of the skill, given in the base proficiency field. If the field has not been filled out, returns the text `<skillName>.baseProficiency`.
+
+### description\*
+
+Returns the description of the skill, unparsed.
 
 ### abilityMod
 
@@ -105,6 +117,7 @@ Should return an array containing all conditional benefits to the skill, but cur
 
 Should return an array containing all bonuses to rolls using to the skill, but currently just throws an error and hides whatever text it is part of.
 
+<<<<<<< HEAD
 ## Hidden Values
 
 Note that all values listed from here on out can only be accessed using the `#skill.<valueName>` syntax from a child of the property.
@@ -120,3 +133,13 @@ Returns the unparsed string entered into the base value field.
 ### hide
 
 Returns true if the skill's type is set to utility.
+=======
+### hide\*
+
+Returns true if the skill is hidden for some reason.
+
+{% hint style="warning" %}
+All values marked with a \* can only be accessed using an ancestor reference.
+{% endhint %}
+
+>>>>>>> origin/content-that-hasnt-gone-live

@@ -29,6 +29,7 @@ Tags are used to control which slots this property can be added to. This will us
 
 ## Accessible Values
 
+<<<<<<< HEAD
 Note that all values listed here can only be accessed using the `#damage.<valueName>` syntax from a child of the property.
 
 ### amount
@@ -46,3 +47,25 @@ Returns a string containing the damage type of the damage, in all lowercase.
 ### amountResult
 
 Returns the parsed value entered into the amount field. If dice rolls are included, it instead returns a string where all non-roll information has been parsed.
+=======
+### amount\*
+
+The text in the amount field, unparsed.
+
+### target\*
+
+Returns 'self' if the target field is set to self, 'each' if it set to roll once for every target, and 'every' if it is set to roll once and apply to every target.
+
+### damageType\*
+
+Returns the damage type of the damage, in all lowercase characters.
+
+### amountResult\*
+
+The parsed value in the amount field. If dice rolls are included, all non-dice components of the string are parsed and the dice are left unparsed.
+
+{% hint style="warning" %}
+All values marked with a \* can only be accessed using an ancestor reference.
+{% endhint %}
+
+>>>>>>> origin/content-that-hasnt-gone-live

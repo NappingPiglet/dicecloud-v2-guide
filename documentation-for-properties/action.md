@@ -21,7 +21,7 @@ The type of the action, which represents how much time or effort it takes to per
 * Bonus Action
   * A bonus action is less time intensive than a standard action, and is commonly used to represent performing a task that is either low effort or that you have trained to do in a very brief time.
 * Attack Action
-  * Unlike in normal D&D 5e, in DiceCloud an attack action represents one of the attacks you make when you attack on your turn. In most cases, you will want to use the [Attack](attackaction.md) property instead.
+  * Unlike in normal D&D 5e, in DiceCloud an attack action represents one of the attacks you make when you attack on your turn. In most cases, you will want to use the [Attack](attack-action.md) property instead.
 * Reaction
   * A reaction is something you can do when it isn't your turn in response to something else happening. Common examples include using a spell such as _Shield_ or responding after taking the ready action.
 * Free Action
@@ -71,6 +71,7 @@ This controls when the property is restored to its max value. The options are sh
 
 ## Accessible Values
 
+<<<<<<< HEAD
 Note that all values listed here can only be accessed using the `#action.<valueName>` syntax from a child of the property.
 
 ### name
@@ -117,3 +118,49 @@ Returns the number of times you can use the action before one resource, ammo or 
 
 Returns true if the action cannot be taken because the resources consumed aren't satisfied. If no resources are consumed, returns `#action.insufficientResources`.
 
+=======
+### name\*
+
+The name of the action.
+
+### description\*
+
+Returns the description of the action.
+
+### summary\*
+
+Returns the summary of the action.
+
+### actionType\*
+
+Returns what the action has is the action type field.
+
+### target\*
+
+Returns what has been selected in the target field under advanced, in camelCase.
+
+### uses\*
+
+Returns the number of uses the action has at max.
+
+### usesUsed\*
+
+Returns the number of times this action has been used since the uses were last reset.
+
+### reset\*
+
+Returns the type of rest need for the action's uses to reset, in camelCase.
+
+### usesResult\*
+
+Returns the number of times you can use the action before one resource, ammo or uses remaining is insufficient.
+
+### insufficientResources\*
+
+Returns true if the action cannot be taken because the resources consumed aren't satisfied. If no resources are consumed, returns `#action.insufficientResources`.
+
+{% hint style="warning" %}
+All values marked with \* can only be accessed using an ancestor reference.
+{% endhint %}
+
+>>>>>>> origin/content-that-hasnt-gone-live

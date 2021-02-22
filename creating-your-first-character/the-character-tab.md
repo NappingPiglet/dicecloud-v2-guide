@@ -10,6 +10,12 @@ The first card is your character details; this can display an image of your char
 
 ![The edit view for the Character Details card.](../.gitbook/assets/image%20%286%29.png)
 
+Under the settings dropdown, you can modify the following advanced features:
+
+* Hide redundant stats - if enabled, doesn't show stats with no base value set or effects targeting them.
+* Hit dice reset multiplier - allows for overriding the number of hit dice regained on a long rest.
+* Discord webhook URL - sends log output from actions to a Discord channel webhook. 
+
 ### Build
 
 The next card is the Build view, where you can work with the Slot system as discussed in [Character Creation 101](character-creation-101.md). Empty or important slots will show in the summary card view, and you can click the card heading to see a more detailed view, including filled slots that have been automatically hidden for organization purposes.

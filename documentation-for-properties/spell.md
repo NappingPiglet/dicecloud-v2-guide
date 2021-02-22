@@ -1,6 +1,6 @@
 # Spells
 
-A spell is a magical effect that wizards, clerics and other casters can produce. These will usually be the children of [spell lists](spelllist.md) but do not have to be. If they are not, they will appear as a card on the spells tab.
+A spell is a magical effect that wizards, clerics and other casters can produce. These will usually be the children of [spell lists](spell-list.md) but do not have to be. If they are not, they will appear as a card on the spells tab.
 
 ## Components
 
@@ -63,6 +63,7 @@ This section is identical to the [action](action.md) property, with the only dif
 
 ## Accessible Values
 
+<<<<<<< HEAD
 Note that all values listed here can only be accessed using the `#spell.<valueName>` syntax from a child of the spell.
 
 ### name
@@ -160,3 +161,73 @@ Returns the number of times you can use the spell before one resource, ammo or u
 ### insufficientResources
 
 Returns true if the action cannot be taken because the resources consumed aren't satisfied. If no resources are consumed, returns `#spell.insufficientResources`.
+=======
+### name\*
+
+The name of the spell.
+
+### alwaysPrepared\*
+
+Returns true if the always prepared field is set to true.
+
+### prepared\*
+
+Returns true if the property is prepared.
+
+### castWithoutSpellSlots\*
+
+Currently unimplemented.
+
+### hasAttackRoll\*
+
+Currently unimplemented.
+
+### castingTime\*
+
+Returns the string in the casting time field.
+
+### range\*
+
+Returns the string in the range field.
+
+### duration\*
+
+Returns the string in the duration field.
+
+### verbal\*
+
+Returns true if the spell has verbal components.
+
+### somatic\*
+
+Returns true if the spell has somatic components.
+
+### concentration\*
+
+Returns true if the spell requires concentration.
+
+### material\*
+
+Returns the string in the material field.
+
+### ritual\*
+
+Returns true if the spell can be cast as a ritual.
+
+### level\*
+
+Returns the spell's level.
+
+### school\*
+
+Returns the spell's school, in all lowercase characters.
+
+{% hint style="info" %}
+
+Additionally, all values that can be accessed using an ancestor reference in [actions](action.md) can also be accessed using an ancestor reference to a spell. {& endhint %}
+
+{% hint style="warning" %}
+All values marked with a \* can only be accessed using an ancestor reference.
+{% endhint %}
+
+>>>>>>> origin/content-that-hasnt-gone-live

@@ -4,15 +4,17 @@ Dicecloud uses a system called [Markdown](https://en.wikipedia.org/wiki/Markdown
 
 ## Inline Formatting
 
-* `*italic*` _italic_
-* `**bold**` **bold**
-* ```code``` `code`
-* `[link text](https://example.com)` [link text](https://example.com)
-* `~~strikethrough~~` ~~strikethrough~~
+| Formatting | Syntax |
+| :--- | :--- |
+| _italic_ | `*italic*` |
+| **bold** | `**bold**` |
+| `code` | ```code``` |
+| [link](https://example.com) | `[link](https://example.com)` |
+| ~~strikethrough~~ | `~~strikethrough~~` |
 
 ## Dicecloud Formulas
 
-While Markdown is used in many places across the internet, Dicecloud add a special feature in _formulas_; essentially, the ability to write math expressions in between curly brackets `{}` and have Dicecloud calculate it for you, using variables and functions the same way as you would when building automation functions using Dicecloud's property tree. You can see [The Parser](miscellaneous-documentation/parser-documentation.md) for more details on what all can be used in a formula.
+While Markdown is used in many places across the internet, Dicecloud adds a special feature in _formulas_; essentially, the ability to write math expressions in between curly brackets `{}` and have Dicecloud calculate it for you, using variables and functions the same way as you would when building automation functions using Dicecloud's property tree. You can see the [Parser Documentation](creating-a-library/parser-documentation.md) for more details on what all can be used in a formula.
 
 ```text
 You can use this feature {barbarian.level+2} times, after which you must
@@ -32,9 +34,7 @@ complete a long rest before you can use it again.
 ###### Heading 6
 ```
 
-### Block Formatting
-
-#### Ordered Lists
+### Ordered Lists
 
 ```text
 1. First item
@@ -46,7 +46,7 @@ complete a long rest before you can use it again.
 2. Second item
 3. Third item
 
-#### Unordered Lists
+### Unordered Lists
 
 ```text
 - First item
@@ -58,7 +58,7 @@ complete a long rest before you can use it again.
 * Second item
 * Third item
 
-#### Code Blocks
+### Code Blocks
 
 ```text
 ```
@@ -78,7 +78,7 @@ complete a long rest before you can use it again.
 }
 ```
 
-#### Tables
+### Tables
 
 ```text
 | Syntax | Description |
@@ -92,13 +92,13 @@ complete a long rest before you can use it again.
 | Header | Title |
 | Paragraph | Text |
 
-#### Horizontal Rules
+### Horizontal Rules
 
 ```text
 ---
 ```
 
-#### Images
+### Images
 
 ```text
 ![alt text](https://commons.wikimedia.org/wiki/File:Transgender_Pride_flag.svg)
