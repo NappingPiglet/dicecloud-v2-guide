@@ -24,17 +24,6 @@ Tags are used to control which slots this property can be added to. This will us
 
 ## Accessible Values
 
-<<<<<<< HEAD
-Note that all values listed here can only be accessed using the `#proficiency.<valueName>` syntax from a child of the property.
-
-### name
-
-The name of the proficiency.
-
-### value
-
-Returns the numeric value that `proficiencyBonus` is multiplied by before being added to the skill. 0.5 for half proficient, 1 for proficient and 2 for expertise.
-=======
 ### name\*
 
 The name of the proficiency.
@@ -47,4 +36,3 @@ Returns 0.5 if the property grants half proficiency, 1 if it grants normal profi
 All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
 
->>>>>>> origin/content-that-hasnt-gone-live
