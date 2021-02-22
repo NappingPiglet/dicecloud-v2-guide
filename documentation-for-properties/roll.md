@@ -1,10 +1,6 @@
 # Rolls
 
-<<<<<<< HEAD
-Unfortunately, the roll property currently has no functionality. However, we can learn it's functionality from comments in the DiceCloud code as well as the field names. The same is true of [saving throws](savingthrow.md).
-=======
 A roll component allows you to save a dice roll temporarily, allowing for the dice to have its value not change between components of an action that rely on the same roll.
->>>>>>> origin/content-that-hasnt-gone-live
 
 ## Components
 
@@ -26,20 +22,10 @@ Tags are used to control which slots this property can be added to. This will us
 
 ## Accessible Values
 
-<<<<<<< HEAD
-Note that all values listed her can only be accessed using the `#roll.<valueName>` syntax from a child of the property.
-
-=======
->>>>>>> origin/content-that-hasnt-gone-live
 ### name
 
 The name of the roll.
 
-<<<<<<< HEAD
-### rollResult
-
-The parsed value in the roll field, if dice rolls are included then all non-roll components are parsed.
-=======
 ### variableName\*
 
 The variable name used to access the roll's results.
@@ -55,5 +41,3 @@ The parsed result of the roll. If dice rolls are part of the calculation, this w
 {% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
-
->>>>>>> origin/content-that-hasnt-gone-live
