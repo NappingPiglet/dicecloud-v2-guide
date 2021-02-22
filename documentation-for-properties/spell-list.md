@@ -26,29 +26,6 @@ Tags are used to control which slots this property can be added to. This will us
 
 ## Accessible Values
 
-<<<<<<< HEAD:documentation-for-properties/spelllist.md
-Note that all values listed here can only be accessed using the `#spellList.<valueName>` syntax from a child of the property.
-
-### name
-
-The name of the spell list.
-
-### description
-
-The text entered into the description field, unparsed.
-
-### variableName
-
-The text entered into the variable name field.
-
-### maxPrepared
-
-The string entered into the max prepared field, unparsed.
-
-### maxPreparedResult
-
-The parsed value for the max prepared field.
-=======
 ### name\*
 
 Returns the name of the spell list.
@@ -72,5 +49,3 @@ Returns the string in the maximum spells prepared field, parsed.
 {% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
-
->>>>>>> origin/content-that-hasnt-gone-live:documentation-for-properties/spell-list.md
