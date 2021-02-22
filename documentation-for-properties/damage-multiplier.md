@@ -20,19 +20,6 @@ What the multiplier to damage of the selected types will be. Resistance is times
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
 
-<<<<<<< HEAD:documentation-for-properties/damagemultiplier.md
-## Hidden Values
-
-Note that all values listed here can only be accessed using the `#damageMultiplier.<valueName>` syntax from a child of the property.
-
-### name
-
-Returns the name of the damage multiplier.
-
-### value
-
-Returns 0.5 if the damage multiplier is set to resistance, 0 if it is set to immunity and 2 if it is set to vulnerability.
-=======
 ## Accessible Values
 
 ### name\*
@@ -56,5 +43,3 @@ This will most likely cause the multiplier to not affect damage that has certain
 ### Include Tags
 
 This will most likely cause the multiplier to only affect damage that has certain tags, such as how a Rakshasa has vulnerability to piercing damage from good aligned creatures.
-
->>>>>>> origin/content-that-hasnt-gone-live:documentation-for-properties/damage-multiplier.md
