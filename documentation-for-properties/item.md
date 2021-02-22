@@ -26,11 +26,7 @@ The cost of the item in GP. Accepts numbers only. Currently serves no purpose, b
 
 ### Weight
 
-<<<<<<< HEAD
-The weight of the item in pounds. Only accepts numbers. Currently serves no purpose, but this will change in later updates.
-=======
 The weight of the container in pounds. Only accepts numbers. Currently serves no purpose, but this will change in later updates.
->>>>>>> origin/content-that-hasnt-gone-live
 
 ### Quantity \(Required\)
 
@@ -60,49 +56,6 @@ Are you currently attuned to the item? Currently has no functionality.
 
 ## Accessible Values
 
-<<<<<<< HEAD
-Note that all values listed here can only be accessed using the `#item.<valueName>` syntax from a child of the property.
-
-### name
-
-Returns the name of the item.
-
-### plural
-
-Returns the plural name of the item.
-
-### description
-
-Returns the text in the description field, unparsed.
-
-### quantity
-
-Returns a number containing the quantity of items.
-
-### weight
-
-Returns the number entered into the weight field.
-
-### value
-
-Returns the number entered into the value field.
-
-### requiresAttunement
-
-Returns true if the requires attunement field is marked as true. Returns false otherwise.
-
-### attuned
-
-Returns true if the item is attuned to. Returns false otherwise.
-
-### showIncrement
-
-Returns true if the show increment field is marked as true. Returns false otherwise.
-
-### equipped
-
-Returns true if the item is currently equipped, returns false otherwise.
-=======
 ### name\*
 
 The name of the item.
@@ -147,4 +100,3 @@ Returns true if the item is currently equipped.
 All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
 
->>>>>>> origin/content-that-hasnt-gone-live
