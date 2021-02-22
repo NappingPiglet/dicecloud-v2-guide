@@ -117,23 +117,6 @@ Should return an array containing all conditional benefits to the skill, but cur
 
 Should return an array containing all bonuses to rolls using to the skill, but currently just throws an error and hides whatever text it is part of.
 
-<<<<<<< HEAD
-## Hidden Values
-
-Note that all values listed from here on out can only be accessed using the `#skill.<valueName>` syntax from a child of the property.
-
-### variableName
-
-Returns the variable name of the skill.
-
-### baseValueCalculation
-
-Returns the unparsed string entered into the base value field.
-
-### hide
-
-Returns true if the skill's type is set to utility.
-=======
 ### hide\*
 
 Returns true if the skill is hidden for some reason.
@@ -141,5 +124,3 @@ Returns true if the skill is hidden for some reason.
 {% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
-
->>>>>>> origin/content-that-hasnt-gone-live
