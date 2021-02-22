@@ -71,54 +71,6 @@ This controls when the property is restored to its max value. The options are sh
 
 ## Accessible Values
 
-<<<<<<< HEAD
-Note that all values listed here can only be accessed using the `#action.<valueName>` syntax from a child of the property.
-
-### name
-
-The name of the action.
-
-### description
-
-Returns the description of the action, unparsed.
-
-### summary
-
-Returns the summary of the action.
-
-### actionType
-
-Returns what the action has is the action type field.
-
-### target
-
-Returns what has been selected in the target field under advanced, in camelCase.
-
-### tags
-
-Returns an array containing all tags on the property, but because V2 cannot handle non-constant arrays yet, this causes an error to be thrown.
-
-### uses
-
-Returns the number of uses the action has at max.
-
-### usesUsed
-
-Returns the number of times this action has been used since the uses were last reset.
-
-### reset
-
-Returns the type of rest need for the action's uses to reset, in camelCase.
-
-### usesResult
-
-Returns the number of times you can use the action before one resource, ammo or uses remaining is insufficient.
-
-### insufficientResources
-
-Returns true if the action cannot be taken because the resources consumed aren't satisfied. If no resources are consumed, returns `#action.insufficientResources`.
-
-=======
 ### name\*
 
 The name of the action.
@@ -162,5 +114,3 @@ Returns true if the action cannot be taken because the resources consumed aren't
 {% hint style="warning" %}
 All values marked with \* can only be accessed using an ancestor reference.
 {% endhint %}
-
->>>>>>> origin/content-that-hasnt-gone-live
