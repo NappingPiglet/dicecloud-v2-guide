@@ -42,23 +42,6 @@ The name of the class.
 
 The current level you have in the class
 
-<<<<<<< HEAD:documentation-for-properties/classlevel.md
-## Hidden Values
-
-Note that all values listed from here on out can only be accessed using the `#classLevel.<valueName>` syntax from a child of the property.
-
-### description
-
-The text entered into the description field, unparsed.
-
-### variableName
-
-The text entered into the variable name field.
-
-### slotFillerCondition
-
-The string entered into the condition field, unparsed.
-=======
 ### description\*
 
 The text entered into the description field of the class level, unparsed.
@@ -74,5 +57,3 @@ The text entered into the condition field, unparsed.
 {% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
-
->>>>>>> origin/content-that-hasnt-gone-live:documentation-for-properties/class-level.md
