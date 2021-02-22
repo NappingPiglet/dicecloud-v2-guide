@@ -44,53 +44,6 @@ Tags are used to control which slots this property can be added to. This will us
 
 ## Accessible Values
 
-<<<<<<< HEAD
-Note that all values listed here can only be accessed using the `#propertySlot.<valueName>` syntax from a child of the property.
-
-### name
-
-The name of the slot.
-
-### description
-
-Returns the text entered into the slot's description field, unparsed.
-
-### slotType
-
-Returns the type of property the slot is set to accept. Will return the property type in the same format that you would use to access an ancestor of that type.
-
-### quantityExpected
-
-Returns the number contained in the quantity expected field.
-
-### ignored
-
-Returns true if the ignored field is set to true.
-
-### slotCondition
-
-Returns the string entered into the condition field, unparsed.
-
-### hideWhenFull
-
-Returns true if the hide when full field is set to true.
-
-### slotConditionResult
-
-Returns the parsed value of the string in the condition field. If this contains dice rolls, it will return the string with as much parsed as possible.
-
-### quantityExpectedResult
-
-Returns the same thing as `#propertySlot.quantityExpected`. This is likely to change in future updates.
-
-### totalFilled
-
-The total number of properties filling the slot. If slot fillers that take up more than one space are being used, then the space they take up is used instead of 1 for them.
-
-### spaceRemaining
-
-The difference between quantityExpected and totalFilled.
-=======
 ### name\*
 
 The name of the slot.
@@ -138,5 +91,3 @@ All values marked with a \* can only be accessed using ancestor references.
 {% hint style="info" %}
 In order to perform an ancestor reference to a slot, the syntax is `#propertySlot` rather than `#slot`.
 {% endhint %}
-
->>>>>>> origin/content-that-hasnt-gone-live
