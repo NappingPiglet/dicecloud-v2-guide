@@ -29,32 +29,6 @@ Tags are used to control which slots this property can be added to. This will us
 
 ## Accessible Values
 
-<<<<<<< HEAD
-Note that all of the values listed here can only be accessed using the `#buff.<valueName>` syntax from a child of the property.
-
-### name
-
-The name of buff.
-
-### description
-
-The text entered into the description field of the buff, unparsed.
-
-### duration
-
-Currently an unused value.
-
-### applied
-
-Returns true if the buff is currently applied, and returns false if it isn't applied. If the buff is a child of an action, it is not applied.
-
-### target
-This returns a string, containing the target of the buff. Returns 'self' for self, 'each' for roll once for each target and 'every' for roll once and apply to every target.
-
-### durationSpent
-
-Currently an unused value.
-=======
 ### name\*
 
 The name of the buff.
@@ -83,4 +57,3 @@ Currently unused.
 All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
 
->>>>>>> origin/content-that-hasnt-gone-live
