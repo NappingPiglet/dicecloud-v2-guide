@@ -39,11 +39,7 @@
 * [Attributes](documentation-for-properties/attribute.md)
 * [Attribute Damage](documentation-for-properties/attribute-damage.md)
 * [Buffs](documentation-for-properties/buff.md)
-<<<<<<< HEAD
-* [Class Levels](documentation-for-properties/classlevel.md)
-=======
 * [Class Levels](documentation-for-properties/class-level.md)
->>>>>>> origin/content-that-hasnt-gone-live
 * [Constants](documentation-for-properties/constant.md)
 * [Containers](documentation-for-properties/container.md)
 * [Damage](documentation-for-properties/damage.md)
