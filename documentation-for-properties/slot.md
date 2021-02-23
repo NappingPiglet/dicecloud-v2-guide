@@ -91,3 +91,4 @@ All values marked with a \* can only be accessed using ancestor references.
 {% hint style="info" %}
 In order to perform an ancestor reference to a slot, the syntax is `#propertySlot` rather than `#slot`.
 {% endhint %}
+

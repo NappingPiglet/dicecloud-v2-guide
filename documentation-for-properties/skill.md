@@ -124,3 +124,4 @@ Returns true if the skill is hidden for some reason.
 {% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
+

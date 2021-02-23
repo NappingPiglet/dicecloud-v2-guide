@@ -48,3 +48,4 @@ The parsed value in the amount field. If dice rolls are included, all non-dice c
 {% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
 {% endhint %}
+

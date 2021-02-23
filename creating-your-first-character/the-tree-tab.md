@@ -12,11 +12,11 @@ If you're building homebrew materials or other things you may want to reuse, it'
 
 ![The Tree tab for an example character, open to the Proficiency Bonus attribute.](../.gitbook/assets/image%20%288%29.png)
 
-Clicking on a property in the Tree tab will display its details on the right-hand side, or in a popup on mobile.  The arrow on the left-hand side of a property will expand it to show its children. The search field at the top left will allow you to filter the tree by property type.
+Clicking on a property in the Tree tab will display its details on the right-hand side, or in a popup on mobile. The arrow on the left-hand side of a property will expand it to show its children. The search field at the top left will allow you to filter the tree by property type.
 
-### Edit Mode
+## Edit Mode
 
-The pencil icon at the top right will switch your view into edit mode, which allows you to change the settings of any property. You can find the edit button at the top right of details cards on other tabs as well. You'll stay in edit mode even if you switch to a different property or away from the Tree tab, until you click the checkmark at the top right to exit edit mode. 
+The pencil icon at the top right will switch your view into edit mode, which allows you to change the settings of any property. You can find the edit button at the top right of details cards on other tabs as well. You'll stay in edit mode even if you switch to a different property or away from the Tree tab, until you click the checkmark at the top right to exit edit mode.
 
 You can add a new property or import one from a library by clicking the + button in the bottom right. See the [Documentation for Properties](../documentation-for-properties/action.md) section for details on different property types and their settings.
 
@@ -26,7 +26,7 @@ Once you're in edit mode, you can also duplicate or delete a property from the t
 
 ![The property color picker.](../.gitbook/assets/image%20%2822%29.png)
 
-### Organize Mode
+## Organize Mode
 
 Turning on the Organize switch at the top left will put your tree into organize mode, which will allow you to move properties within the tree by dragging and dropping on the two horizontal bars. It also allows you to expand properties with no children, so that you can drag other properties into them.
 

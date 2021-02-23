@@ -43,3 +43,4 @@ This will most likely cause the multiplier to not affect damage that has certain
 ### Include Tags
 
 This will most likely cause the multiplier to only affect damage that has certain tags, such as how a Rakshasa has vulnerability to piercing damage from good aligned creatures.
+
