@@ -20,6 +20,14 @@ A description of the spell list, which will appear when you click on the spell l
 
 The maximum number of spells that can be prepared at one time in this spell list. Accepts both numbers and calculations. If left empty, the spell list will ignore spell prepared limits.
 
+### Spell Save DC
+
+The calculation for the DC of the saving throws for spells that are a part of this spell list.
+
+### Attack Roll Bonus
+
+The bonus to attack rolls for spells that are a part of this spell list.
+
 ### Tags
 
 Tags are used to control which slots this property can be added to. This will usually be left blank unless you're making a library.
@@ -45,6 +53,22 @@ The string in the maximum spells prepared field, unparsed.
 ### maxPreparedResult\*
 
 Returns the string in the maximum spells prepared field, parsed.
+
+### attackRollBonus\*
+
+Returns the unparsed value of the spell attack bonus field.
+
+### dc\*
+
+Returns the unparsed value of the spell save DC field.
+
+### attackRollBonusResult\*
+
+Returns the parsed value of the spell attack bonus field.
+
+### dcResult\*
+
+Returns the parsed value of the spell save DC field.
 
 {% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
