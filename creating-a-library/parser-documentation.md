@@ -351,7 +351,7 @@ For the logical operators `&&` and `||`, as well as for the conditional operator
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><Table Lookup</td>
+      <td style="text-align:left">Table Lookup</td>
       <td style="text-align:left"><code>tableLookup(array, number)</code>
       </td>
       <td style="text-align:left">
