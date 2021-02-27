@@ -11,8 +11,8 @@ Instead of setting the base value of an attribute or an effect to your desired r
 * Set the base value of your attribute to the maximum roll result.
 * Create an Action with a Roll property inside it, with the "Roll" field set to your roll formula.
 * Create an [Attribute Damage](../documentation-for-properties/attribute-damage.md) property inside your action.
-* Set the "Attribute" field to your desired attribute, and the "Damage" field to your Roll's variable name.
-* Set the mode to "Set" and the target to "Self".
+  * Set the "Attribute" field to your attribute, and the "Damage" field to your Roll's variable name.
+  * Set the mode to "Set" and the target to "Self".
 
 Upon triggering the action, the result of the roll will be saved to the damage of your attribute, where it will be accessible with `attribute.currentValue`. This will lock the result in permanently until the action is triggered again, and prevent it from being recalculated.
 
