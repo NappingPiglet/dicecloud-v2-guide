@@ -4,7 +4,7 @@ A fairly common advanced technique in programming is the use of a "bitfield"; th
 
 ## Application
 
-If you want to use bitfields in your libraries, you can use the following formulas, replacing `bitfield` with the variable name your bitfield is stored in.
+If you want to use bitfields in your libraries, you can use the following formulas, replacing `bitfield` with the variable name your bitfield is stored in. An [Effect](../documentation-for-properties/effect.md) in Add mode can be substituted for the "set" formula by setting the effect target to `bitfield` and the value to the right-hand side of the `+`.
 
 | Operation | Formula | Example for n = 4 |
 | :--- | :--- | :--- |
@@ -95,8 +95,8 @@ truth = floor(bitfield / 8) % 2
 
 ### Workaround: Modulus
 
-{% hint style="warning" %}
-This section will become obsolete in a future update of Dicecloud V2.
+{% hint style="danger" %}
+This section is now obsolete as the modulus operator has been fully implemented. It has been left here for those interested in the math behind the original solution.
 {% endhint %}
 
 Unfortunately, our troubles don't end there, because due to an implementation oversight, Dicecloud doesn't have modulo either... yet. It will soon, which will make this process much cleaner, but for now, we need another layer of workarounds.
