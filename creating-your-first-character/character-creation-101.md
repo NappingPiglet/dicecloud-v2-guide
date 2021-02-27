@@ -10,6 +10,8 @@ The first thing you'll need to do when creating a new character is choose your b
 
 These are currently the most prominent bases for 5e:
 
+* [Dicecloud 5e SRD](https://beta.dicecloud.com/library/qkv8aptJH2fCXARcJ) by Thaum Rystra
+  * Currently WIP, but will eventually become Dicecloud's "built-in" default, which everyone will automatically be subscribed to.
 * [Link the Balrog's Base](https://beta.dicecloud.com/library/NMgBJwmFKjkxvM8HW) by LinkTheBalrog
   * Provides a simple, no-nonsense set of basic stats and so on. Only contains the basics and will need to be augmented with other libraries for races, classes, etc.
 * [Kat's Core](https://beta.dicecloud.com/library/dGb2n9TEheo3PnAZa) by KatrinaKitten
