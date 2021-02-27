@@ -22,7 +22,7 @@ How many properties can be put in the slot before it will stop accepting additio
 
 ### Condition
 
-When the condition inside this field is true, the slot will hide itself in the character tab and expanded view of the build card, meaning the only way to alter its contents will be the tree tab. This accepts both numbers and calculations, though numbers greater than 0 should be avoided as they are evaluated to true.
+When the condition inside this field is false, the slot will hide itself in the character tab and expanded view of the build card, meaning the only way to alter its contents will be the tree tab. This accepts both numbers and calculations, though numbers greater than 0 should be avoided as they are evaluated to true. Note that the contents of a slot who's condition becomes false still affect the sheet- condition only effects the user's ability to interact with the slot. To prevent the slot's children from affecting the sheet, a toggle should be used.
 
 ### Description
 
