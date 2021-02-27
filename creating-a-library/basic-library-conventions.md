@@ -18,6 +18,16 @@ In order for your custom base to work with the built-in Base slot that is create
 
 When creating properties meant to be used with slots, it's recommended to tag your properties with the names of whatever bases they're designed to be compatible with, for example `Kat's Core`. This allows those bases to filter out properties that don't work with their variable naming conventions, etc.
 
+Below is a list of known compatibility tags for various libraries. Note that this is not necessarily an exhaustive list, and only reflects compatibility tags for libraries shared in the Dicecloud Discord server. Some libraries use a prefix instead of a separate tag, which is noted in the right-hand column.
+
+| Library | Compatibility Tag | Prefix? |
+| :--- | :--- | :--- |
+| [Devkit](https://beta.dicecloud.com/library/zE7NkWeJ6zvFYTiie) | `devkit` | No |
+| [Dicecloud 5e SRD](https://beta.dicecloud.com/library/qkv8aptJH2fCXARcJ) | `5e` | No |
+| [Jon's Spell Slot Structure](https://beta.dicecloud.com/library/2wuq3G9FM9bJ4sdsu) | `jsss` | Yes |
+| [Kat's Core](https://beta.dicecloud.com/library/dGb2n9TEheo3PnAZa) | `Kat's Core` | No |
+| [Kat's SW5e Base](https://beta.dicecloud.com/library/p8kemKHcXQQuDwmxE) | `Kat's SW5e` | No |
+
 ## Install Flags
 
 Large libraries like bases are recommended to include a constant set to `true` in their core folder that other libraries can use to check if that library is present.
