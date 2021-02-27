@@ -29,19 +29,67 @@ You can override any built-in variable by adding your own attribute with the sam
       <td style="text-align:left">Target for bonuses to all attack to-hit rolls.</td>
     </tr>
     <tr>
-      <td style="text-align:left"><code>level</code>
+      <td style="text-align:left"><code>attackRoll</code>
       </td>
-      <td style="text-align:left">Your character&apos;s total level in all classes.</td>
+      <td style="text-align:left">
+        <p>The roll, without modifiers, of the attack this property is a child of.</p>
+        <p><em>Context: attack/spell children during execution</em>
+        </p>
+      </td>
     </tr>
     <tr>
-      <td style="text-align:left"><code>proficiencyBonus</code>
+      <td style="text-align:left"><code>criticalHit</code>
       </td>
-      <td style="text-align:left">Your character&apos;s proficiency bonus, calculated as <code>1+ceil(level&#x2215;4)</code>.</td>
+      <td style="text-align:left">
+        <p><code>true</code> if the attack is a critical hit (<code>attackRoll &gt;= criticalHitTarget</code>)</p>
+        <p><em>Context: attack/spell children during execution</em>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>criticalHitTarget</code>
+      </td>
+      <td style="text-align:left">The minimum dice roll needed to land a critical hit, <code>20</code> by
+        default.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>itemsAttuned</code>
+      </td>
+      <td style="text-align:left">The number of items you are currently attuned to.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>level</code>
+      </td>
+      <td style="text-align:left">The character&apos;s total level in all classes.</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>milestoneLevels</code>
       </td>
       <td style="text-align:left">The number of milestone levels your character has.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>proficiencyBonus</code>*</td>
+      <td style="text-align:left">The character&apos;s proficiency bonus.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>savingThrow</code>
+      </td>
+      <td style="text-align:left">
+        <p>The roll, with modifiers, of the saving throw this property is a child
+          of.</p>
+        <p><em>Context: saving throw children during action execution</em>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>savingThrowRoll</code>
+      </td>
+      <td style="text-align:left">
+        <p>The roll, without modifiers, of the saving throw this property is a child
+          of.</p>
+        <p><em>Context: saving throw children during action execution</em>
+        </p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left"><code>slotLevel</code>
@@ -53,15 +101,36 @@ You can override any built-in variable by adding your own attribute with the sam
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><code>weightCarried</code>
+      <td style="text-align:left"><code>toHit</code>
       </td>
-      <td style="text-align:left">The current weight of all carried items.</td>
+      <td style="text-align:left">
+        <p>The roll, with modifiers, of the attack this property is a child of.</p>
+        <p><em>Context: attack/spell children during execution</em>
+        </p>
+      </td>
     </tr>
     <tr>
-      <td style="text-align:left"><code>weightTotal</code>
+      <td style="text-align:left"><code>valueCarried</code>
       </td>
-      <td style="text-align:left">The weight of all items on your character sheet, including ones in container
-        with the weightless contents property set to true.</td>
+      <td style="text-align:left">The value of all items in the inventory, except items in containers with
+        &quot;Carried&quot; turned off.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>valueEquipment</code>
+      </td>
+      <td style="text-align:left">The value of all equipped items.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>valueTotal</code>
+      </td>
+      <td style="text-align:left">The value of all items in the inventory.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>weightCarried</code>
+      </td>
+      <td style="text-align:left">The weight of all items in the inventory, except items in containers with
+        &quot;Carried&quot; turned off or &quot;Contents are weightless&quot; turned
+        on.</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>weightEquipment</code>
@@ -69,57 +138,14 @@ You can override any built-in variable by adding your own attribute with the sam
       <td style="text-align:left">The weight of all equipped items.</td>
     </tr>
     <tr>
-      <td style="text-align:left"><code>valueTotal</code>
+      <td style="text-align:left"><code>weightTotal</code>
       </td>
-      <td style="text-align:left">The value of all items on your character sheet.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><code>valueEquipment</code>
-      </td>
-      <td style="text-align:left">The value of all currently equipped items.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><code>valueCarried</code>
-      </td>
-      <td style="text-align:left">The value of all items on your character sheet.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><code>itemsAttuned</code>
-      </td>
-      <td style="text-align:left">The number of items you are currently attuned to.</td>
+      <td style="text-align:left">The weight of all items in the inventory.</td>
     </tr>
     <tr>
       <td style="text-align:left"><code>xp</code>
       </td>
       <td style="text-align:left">The amount of experience points your character has.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><code>criticalHitTarget</code>
-      </td>
-      <td style="text-align:left">The minimum dice roll needed to land a critical hit, 20 by default.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><code>attackRoll</code> *</td>
-      <td style="text-align:left">The roll, without modifiers, of the attack this property is a child of.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><code>attackRoll</code> *</td>
-      <td style="text-align:left">The roll, with modifiers, of the attack this proeprty is a child of.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><code>criticalHit</code> *</td>
-      <td style="text-align:left">True if the attack this property is a child of lands a critical hit, otherwise
-        returns 0.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><code>savingThrowRoll</code> *</td>
-      <td style="text-align:left">The roll, without modifiers, of the saving throw this property is a child
-        of.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><code>savingThrow</code> *</td>
-      <td style="text-align:left">The roll, with modifiers, of the saving throw this property is a child
-        of.</td>
     </tr>
   </tbody>
 </table>
@@ -128,15 +154,19 @@ You can override any built-in variable by adding your own attribute with the sam
 The `xp` and `milestoneLevels` variables reflect the events created in the [Experience view](../creating-your-first-character/the-character-tab.md#levels) on the Character tab, and are intended for determining when a character is ready to level up. Calculations for most actual character functionality should be based on `level` or `<class>.level` instead.
 {% endhint %}
 
-{% hint style="warning" %}
-`attackRoll`, `toHit` and `criticalHit` only exist in the context of an action, attack or castable spell.
+{% hint style="info" %}
+All `value` and `weight` properties include container values/weights in their calculations.
 {% endhint %}
 
-{% hint style="warning" %}
-`savingThrow` and `savingThrowRoll` only exist in the context of a saving throw.
+{% hint style="info" %}
+`weightCarried` includes containers with "Contents are weightless" turned on, but not their items. It does not include containers or their items if "Carried" is turned off.
 {% endhint %}
 
 {% hint style="warning" %}
 `allChecks`, `allSaves`, and `attackRolls` are present in Dicecloud's code, but do not currently function.
+{% endhint %}
+
+{% hint style="warning" %}
+`proficiencyBonus` is added by default to attack bonus calculations on property creation, but not set or used anywhere internally. It will need to be created and managed by a base to have any useful function.
 {% endhint %}
 
