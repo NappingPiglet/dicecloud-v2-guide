@@ -29,6 +29,7 @@ The users who have contributed to this guide are as follows:
 
 * KatrinaKitten\#2401 \(@KatrinaKitten on Github\)
 * Ganonslayer\#4160 \(@Ganonslayer on Github\)
+* Jonpot\#9988 \(@Jonpot on Github\)
 
 ## Typos and Incorrect Information
 
