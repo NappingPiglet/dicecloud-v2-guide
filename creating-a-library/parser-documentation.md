@@ -136,7 +136,7 @@ Division by `0` will not result in an error, but will instead return `Infinity`.
 {% endhint %}
 
 {% hint style="info" %}
-Dice rolls can use any variable or equation on either side of the `d` operator. They will be rerolled whenever the property using them is recalculated; if you want to save the result of a roll indefinitely, you should use an [action](../documentation-for-properties/action.md) with [attribute damage](https://github.com/KatrinaKitten/dicecloud-v2-guide/tree/ff4636b9bb41ba60c336b24a892a18a2f84ef7fc/documentation-for-properties/attribute-damage.md) to store the result.
+Dice rolls can use any variable or equation on either side of the `d` operator. They will be rerolled whenever the property using them is recalculated; if you want to save the result of a roll indefinitely, see [Saving Roll Results Permanently](../advanced-library-techniques/saving-roll-results-permanently.md).
 {% endhint %}
 
 ### Logic and Comparisons
