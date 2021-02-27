@@ -458,3 +458,4 @@ The syntax `sign(number)` will return positive 1 if the number is greater than 0
 ### Table Lookup
 
 The syntax `tableLookup([number, number, ...], number)` will return the index of the last number that is less than the second parameter of the function from the matrix given. This matrix can also be a constant.
+

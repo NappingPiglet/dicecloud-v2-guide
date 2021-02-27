@@ -18,20 +18,21 @@ In order for your custom base to work with the built-in Base slot that is create
 
 When creating properties meant to be used with slots, it's recommended to tag your properties with the names of whatever bases they're designed to be compatible with, for example `Kat's Core`. This allows those bases to filter out properties that don't work with their variable naming conventions, etc.
 
-## Installed Attributes
+## Install Flags
 
-Large libraries like bases are recommended to include an attribute with a base value of `1` in their core folder that other libraries can use to check if that library is present.
+Large libraries like bases are recommended to include a constant set to `true` in their core folder that other libraries can use to check if that library is present.
 
-Below is a list of known installed attributes for various libraries. Note that this is not necessarily an exhaustive list, and only reflects installed attributes for libraries shared in the Dicecloud Discord server.
+Below is a list of known install flags for various libraries. Note that this is not necessarily an exhaustive list, and only reflects install flags for libraries shared in the Dicecloud Discord server.
 
-| Library | Installed Attribute |
+| Library | Install Flag |
 | :--- | :--- |
-| Jon's Spell Slot Structure | `jonsSpellSlotStructureInstalled` |
-| Jon's Sorcery Point Exchange | `jspeInstalled` |
+| [Devkit](https://beta.dicecloud.com/library/zE7NkWeJ6zvFYTiie) | `devkit_installed` |
+| [Jon's Sorcery Point Exchange](https://beta.dicecloud.com/library/pnWpT9E76DejeCLxc) | `jspeInstalled` |
+| [Jon's Spell Slot Structure](https://beta.dicecloud.com/library/2wuq3G9FM9bJ4sdsu) | `jonsSpellSlotStructureInstalled` |
+| [Kat's Core](https://beta.dicecloud.com/library/dGb2n9TEheo3PnAZa) | `katsCoreInstalled` |
+| [Kat's SW5e Base](https://beta.dicecloud.com/library/p8kemKHcXQQuDwmxE) | `katsSW5eInstalled` |
+| [Link the Balrog's Base](https://beta.dicecloud.com/library/NMgBJwmFKjkxvM8HW) | `balrogBaseInstalled` |
 | Tameran's Library of Everything | `TLoEInstalled` |
-| Kat's Core | `katsCoreInstalled` |
-| Kat's SW5e Base | `katsSW5eInstalled` |
-| Link the Balrog's Base | `balrogBaseInstalled` |
 
 ## Minimal Inclusion
 

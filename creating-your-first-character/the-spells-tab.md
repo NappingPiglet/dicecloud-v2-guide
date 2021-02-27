@@ -10,7 +10,7 @@ Like the Inventory tab, you can click the individual spells or list heading to s
 
 If you just leveled up or changed what spells are on your sheet, you may see this switch at the top of one or more of your spell lists. You can click the switch to enter spell preparation mode, which will replace the drag and drop dots with checkboxes so you can select which spells you want prepared. You can also always access this switch from the three dots at the top right of a given list.
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../.gitbook/assets/image%20%2810%29%20%281%29.png)
 
 A filled red checkbox means the spell is prepared. An empty checkbox means it isn't prepared, and won't be available to cast, nor will it be shown on your list except in preparation mode. A filled checkbox that is grayed out means the spell is always prepared; it will always be shown and available to cast, and doesn't count against your total number of prepared spells.
 

@@ -53,33 +53,41 @@ You can override any built-in variable by adding your own attribute with the sam
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><code>weightCarried</code></td>
+      <td style="text-align:left"><code>weightCarried</code>
+      </td>
       <td style="text-align:left">The current weight of all carried items.</td>
     </tr>
-	<tr>
-	 <td style="text-align:left"><code>weightTotal</code></td>
-	 <td style="text-align:left">The weight of all items on your character sheet, including ones in container with the weightless contents property set to true.</td>
-	</tr>
-	<tr>
-	  <td style="text-align:left"><code>weightEquipment</code></td>
-	  <td style="text-align:left">The weight of all equipped items.</td>
-	</tr>
-	<tr>
-	  <td style="text-align:left"><code>valueTotal</code></td>
-	  <td style="text-align:left">The value of all items on your character sheet.</td>
-	</tr>
-	<tr>
-	  <td style="text-align:left"><code>valueEquipment</code></td>
-	  <td style="text-align:left">The value of all currently equipped items.</td>
-	</tr>
-	<tr>
-	  <td style="text-align:left"><code>valueCarried</code></td>
-	  <td style="text-align:left">The value of all items on your character sheet.</td>
-	</tr>
-	<tr>
-	  <td style="text-align:left"><code>itemsAttuned</code></td>
-	  <td style="text-align:left">The number of items you are currently attuned to.</td>
-	</tr>
+    <tr>
+      <td style="text-align:left"><code>weightTotal</code>
+      </td>
+      <td style="text-align:left">The weight of all items on your character sheet, including ones in container
+        with the weightless contents property set to true.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>weightEquipment</code>
+      </td>
+      <td style="text-align:left">The weight of all equipped items.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>valueTotal</code>
+      </td>
+      <td style="text-align:left">The value of all items on your character sheet.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>valueEquipment</code>
+      </td>
+      <td style="text-align:left">The value of all currently equipped items.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>valueCarried</code>
+      </td>
+      <td style="text-align:left">The value of all items on your character sheet.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><code>itemsAttuned</code>
+      </td>
+      <td style="text-align:left">The number of items you are currently attuned to.</td>
+    </tr>
     <tr>
       <td style="text-align:left"><code>xp</code>
       </td>
