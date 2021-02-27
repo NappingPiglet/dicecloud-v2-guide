@@ -28,6 +28,7 @@ Below is a list of known installed attributes for various libraries. Note that t
 | :--- | :--- |
 | Jon's Spell Slot Structure | `jonsSpellSlotStructureInstalled` |
 | Jon's Sorcery Point Exchange | `jspeInstalled` |
+| Tameran's Library of Everything | `TLoEInstalled` |
 | Kat's Core | `katsCoreInstalled` |
 | Kat's SW5e Base | `katsSW5eInstalled` |
 | Link the Balrog's Base | `balrogBaseInstalled` |
