@@ -459,3 +459,9 @@ The syntax `sign(number)` will return positive 1 if the number is greater than 0
 
 The syntax `tableLookup([number, number, ...], number)` will return the index of the last number that is less than the second parameter of the function from the array given. This array can also be a constant.
 
+#### Examples
+
+* `tableLookup([100, 300, 900], 457) == 2`
+* `tableLookup([100, 300, 900], 23) == 0`
+* `tableLookup([100, 300, 900, 1200], 900) == 3`
+* `tableLookup([100, 300], 594) == 2`
