@@ -8,7 +8,7 @@ Dicecloud uses a system called [Markdown](https://en.wikipedia.org/wiki/Markdown
 | :--- | :--- |
 | _italic_ | `*italic*` |
 | **bold** | `**bold**` |
-| `code` | `code` |
+| `code` | \`code\` |
 | [link](https://example.com) | `[link](https://example.com)` |
 | ~~strikethrough~~ | `~~strikethrough~~` |
 
@@ -60,13 +60,13 @@ complete a long rest before you can use it again.
 
 ### Code Blocks
 
-```text
-
 ```
+
+`‌``
 
 { "firstName": "John", "lastName": "Smith", "age": 25 }
 
-```text
+`‌``
 
 ```
 
