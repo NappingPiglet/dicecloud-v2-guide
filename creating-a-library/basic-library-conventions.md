@@ -27,6 +27,7 @@ Below is a list of known compatibility tags for various libraries. Note that thi
 | [Jon's Spell Slot Structure](https://beta.dicecloud.com/library/2wuq3G9FM9bJ4sdsu) | `jsss` | Yes |
 | [Kat's Core](https://beta.dicecloud.com/library/dGb2n9TEheo3PnAZa) | `Kat's Core` | No |
 | [Kat's SW5e Base](https://beta.dicecloud.com/library/p8kemKHcXQQuDwmxE) | `Kat's SW5e` | No |
+| [Obediah's Bag of Slot Fillers](https://beta.dicecloud.com/library/8weFtT657czESN8bc) | `OBoSF` | No |
 | [Tameran's Library of Everything](https://beta.dicecloud.com/library/hYPp44b6DvkgZkL2o) | `TLoE` | No |
 
 ## Install Flags
