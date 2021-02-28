@@ -167,6 +167,6 @@ All `value` and `weight` properties include container values/weights in their ca
 {% endhint %}
 
 {% hint style="warning" %}
-`proficiencyBonus` is added by default to attack bonus calculations on property creation and added to the modifier for skills that a character is proficient in, but not set or used anywhere else internally. It will need to be created and managed by a base to have any useful function.
+`proficiencyBonus` is added by default to attack bonus calculations on property creation, and automatically calculated for application to skill proficiencies. However, it is not accessible anywhere else, and will need to be created and managed by a base to be accessible in any other context.
 {% endhint %}
 
