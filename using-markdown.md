@@ -8,7 +8,7 @@ Dicecloud uses a system called [Markdown](https://en.wikipedia.org/wiki/Markdown
 | :--- | :--- |
 | _italic_ | `*italic*` |
 | **bold** | `**bold**` |
-| `code` | \`code\` |
+| `code` | ``code`` |
 | [link](https://example.com) | `[link](https://example.com)` |
 | ~~strikethrough~~ | `~~strikethrough~~` |
 
@@ -25,7 +25,7 @@ complete a long rest before you can use it again.
 
 ### Headings
 
-```text
+```markdown
 # Heading 1
 ## Heading 2
 ### Heading 3
@@ -36,7 +36,7 @@ complete a long rest before you can use it again.
 
 ### Ordered Lists
 
-```text
+```markdown
 1. First item
 2. Second item
 3. Third item
@@ -48,7 +48,7 @@ complete a long rest before you can use it again.
 
 ### Unordered Lists
 
-```text
+```markdown
 - First item
 - Second item
 - Third item
@@ -60,7 +60,7 @@ complete a long rest before you can use it again.
 
 ### Code Blocks
 
-```
+```text
 
 `‌``
 
@@ -80,7 +80,7 @@ complete a long rest before you can use it again.
 
 ### Tables
 
-```text
+```markdown
 | Syntax | Description |
 | ----------- | ----------- |
 | Header | Title |
@@ -94,13 +94,13 @@ complete a long rest before you can use it again.
 
 ### Horizontal Rules
 
-```text
+```markdown
 ---
 ```
 
 ### Images
 
-```text
+```markdown
 ![alt text](https://commons.wikimedia.org/wiki/File:Transgender_Pride_flag.svg)
 ```
 
