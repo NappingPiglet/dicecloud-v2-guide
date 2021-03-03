@@ -465,3 +465,4 @@ The syntax `tableLookup([number, number, ...], number)` will return the index of
 * `tableLookup([100, 300, 900], 23) == 0`
 * `tableLookup([100, 300, 900, 1200], 900) == 3`
 * `tableLookup([100, 300], 594) == 2`
+
