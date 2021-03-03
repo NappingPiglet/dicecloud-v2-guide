@@ -33,7 +33,7 @@ Below is a list of known compatibility tags for various libraries. Note that thi
 
 ## Install Flags
 
-Large libraries like bases are recommended to include a constant set to `true` in their core folder that other libraries can use to check if that library is present.
+Large libraries like bases are recommended to include a constant set to `true` in their core folder that other libraries can use to check if that library is present. Alternatively, you can set the constant to the library's version number, which will function the same thanks to truthy values, but also allow other libraries to check your library's version.
 
 Below is a list of known install flags for various libraries. Note that this is not necessarily an exhaustive list, and only reflects install flags for libraries shared in the Dicecloud Discord server.
 
