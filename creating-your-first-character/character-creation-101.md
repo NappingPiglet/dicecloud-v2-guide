@@ -12,10 +12,12 @@ These are currently the most prominent bases for 5e:
 
 * [Dicecloud 5e SRD](https://beta.dicecloud.com/library/qkv8aptJH2fCXARcJ) by Thaum Rystra
   * Currently WIP, but will eventually become Dicecloud's "built-in" default, which everyone will automatically be subscribed to.
-* [Link the Balrog's Base](https://beta.dicecloud.com/library/NMgBJwmFKjkxvM8HW) by LinkTheBalrog
-  * Provides a simple, no-nonsense set of basic stats and so on. Only contains the basics and will need to be augmented with other libraries for races, classes, etc.
 * [Kat's Core](https://beta.dicecloud.com/library/dGb2n9TEheo3PnAZa) by KatrinaKitten
   * Provides a more heavily-automated experience, with most materials like races, classes, etc. self contained within one library.
+* [Link the Balrog's Base](https://beta.dicecloud.com/library/NMgBJwmFKjkxvM8HW) by LinkTheBalrog
+  * Provides a simple, no-nonsense set of basic stats and so on. Only contains the basics and will need to be augmented with other libraries for races, classes, etc.
+* [Owlbear Essentials](https://beta.dicecloud.com/library/cBiPuuN2wbrBp2tbg) by KatrinaKitten
+  * Just the \(Owl\)bare essentials. Primarily serves as a more up-to-date alternative to Link's base, by supporting features like slots and constants.
 
 Once you've subscribed to the library for the base of your choice, you can create your character! Head to the Characters tab in the sidebar, and hit the + button at the bottom right. You'll be taken to the Character tab, with the Build view open - it should look something like this.
 
