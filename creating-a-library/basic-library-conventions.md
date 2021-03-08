@@ -35,18 +35,19 @@ Below is a list of known compatibility tags for various libraries. Note that thi
 
 Large libraries like bases are recommended to include a constant set to `true` in their core folder that other libraries can use to check if that library is present. Alternatively, you can set the constant to the library's version number, which will function the same thanks to truthy values, but also allow other libraries to check your library's version.
 
-Below is a list of known install flags for various libraries. Note that this is not necessarily an exhaustive list, and only reflects install flags for libraries shared in the Dicecloud Discord server.
+Below is a list of known install flags for various libraries. Note that this is not necessarily an exhaustive list, and only reflects install flags for libraries shared in the Dicecloud Discord server. Libraries which use the version number convention are noted in the right-hand column.
 
-| Library | Install Flag |
-| :--- | :--- |
-| [Devkit](https://beta.dicecloud.com/library/zE7NkWeJ6zvFYTiie) | `devkit_installed` |
-| [Jon's Sorcery Point Exchange](https://beta.dicecloud.com/library/pnWpT9E76DejeCLxc) | `jspeInstalled` |
-| [Jon's Spell Slot Structure](https://beta.dicecloud.com/library/2wuq3G9FM9bJ4sdsu) | `jonsSpellSlotStructureInstalled` |
-| [Kat's Core](https://beta.dicecloud.com/library/dGb2n9TEheo3PnAZa) | `katsCoreInstalled` |
-| [Kat's SW5e Base](https://beta.dicecloud.com/library/p8kemKHcXQQuDwmxE) | `katsSW5eInstalled` |
-| [Link the Balrog's Base](https://beta.dicecloud.com/library/NMgBJwmFKjkxvM8HW) | `balrogBaseInstalled` |
-| [Owlbear Essentials](https://beta.dicecloud.com/library/cBiPuuN2wbrBp2tbg) | `owlbeInstalled` |
-| [Tameran's Library of Everything](https://beta.dicecloud.com/library/hYPp44b6DvkgZkL2o) | `TLoEInstalled` |
+| Library | Install Flag | Uses Version \# |
+| :--- | :--- | :--- |
+| [Devkit](https://beta.dicecloud.com/library/zE7NkWeJ6zvFYTiie) | `devkit_installed` | No |
+| [Jon's Sorcery Point Exchange](https://beta.dicecloud.com/library/pnWpT9E76DejeCLxc) | `jspeInstalled` | No |
+| [Jon's Spell Slot Structure](https://beta.dicecloud.com/library/2wuq3G9FM9bJ4sdsu) | `jonsSpellSlotStructureInstalled` | No |
+| [Kat's Core](https://beta.dicecloud.com/library/dGb2n9TEheo3PnAZa) | `katsCoreInstalled` | No |
+| [Kat's SW5e Base](https://beta.dicecloud.com/library/p8kemKHcXQQuDwmxE) | `katsSW5eInstalled` | No |
+| [Link the Balrog's Base](https://beta.dicecloud.com/library/NMgBJwmFKjkxvM8HW) | `balrogBaseInstalled` | No |
+| [Owlbear Essentials](https://beta.dicecloud.com/library/cBiPuuN2wbrBp2tbg) | `owlbeInstalled` | Yes |
+| [Owlbear Extensions](https://beta.dicecloud.com/library/mZjyNMxYNNaHRgpA2) | Various \(all prefixed `owlbe_ext_`\) | Yes |
+| [Tameran's Library of Everything](https://beta.dicecloud.com/library/hYPp44b6DvkgZkL2o) | `TLoEInstalled` | No |
 
 ## Minimal Inclusion
 
