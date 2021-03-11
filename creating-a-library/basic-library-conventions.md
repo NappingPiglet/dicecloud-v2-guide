@@ -25,8 +25,6 @@ Below is a list of known compatibility tags for various libraries. Note that thi
 | [Devkit](https://beta.dicecloud.com/library/zE7NkWeJ6zvFYTiie) | `devkit` | No |
 | [Dicecloud 5e SRD](https://beta.dicecloud.com/library/qkv8aptJH2fCXARcJ) | `5e` | No |
 | [Jon's Spell Slot Structure](https://beta.dicecloud.com/library/2wuq3G9FM9bJ4sdsu) | `jsss` | Yes |
-| [Kat's Core](https://beta.dicecloud.com/library/dGb2n9TEheo3PnAZa) | `Kat's Core` | No |
-| [Kat's SW5e Base](https://beta.dicecloud.com/library/p8kemKHcXQQuDwmxE) | `Kat's SW5e` | No |
 | [Obediah's Bag of Slot Fillers](https://beta.dicecloud.com/library/8weFtT657czESN8bc) | `OBoSF` | No |
 | [Owlbear Essentials](https://beta.dicecloud.com/library/cBiPuuN2wbrBp2tbg) | `OwlBE` | No |
 | [Tameran's Library of Everything](https://beta.dicecloud.com/library/hYPp44b6DvkgZkL2o) | `TLoE` | No |
@@ -42,8 +40,6 @@ Below is a list of known install flags for various libraries. Note that this is 
 | [Devkit](https://beta.dicecloud.com/library/zE7NkWeJ6zvFYTiie) | `devkit_installed` | No |
 | [Jon's Sorcery Point Exchange](https://beta.dicecloud.com/library/pnWpT9E76DejeCLxc) | `jspeInstalled` | No |
 | [Jon's Spell Slot Structure](https://beta.dicecloud.com/library/2wuq3G9FM9bJ4sdsu) | `jonsSpellSlotStructureInstalled` | No |
-| [Kat's Core](https://beta.dicecloud.com/library/dGb2n9TEheo3PnAZa) | `katsCoreInstalled` | No |
-| [Kat's SW5e Base](https://beta.dicecloud.com/library/p8kemKHcXQQuDwmxE) | `katsSW5eInstalled` | No |
 | [Link the Balrog's Base](https://beta.dicecloud.com/library/NMgBJwmFKjkxvM8HW) | `balrogBaseInstalled` | No |
 | [Owlbear Essentials](https://beta.dicecloud.com/library/cBiPuuN2wbrBp2tbg) | `owlbeInstalled` | Yes |
 | [Owlbear Extensions](https://beta.dicecloud.com/library/mZjyNMxYNNaHRgpA2) | Various \(all prefixed `owlbe_ext_`\) | Yes |
