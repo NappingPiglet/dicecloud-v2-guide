@@ -13,7 +13,8 @@ These are currently the most prominent bases for 5e:
 * [Dicecloud 5e SRD](https://beta.dicecloud.com/library/qkv8aptJH2fCXARcJ) by Thaum Rystra
   * Currently WIP, but will eventually become Dicecloud's "built-in" default, which everyone will automatically be subscribed to.
 * [Link the Balrog's Base](https://beta.dicecloud.com/library/NMgBJwmFKjkxvM8HW) by LinkTheBalrog
-  * Provides a simple, no-nonsense set of basic stats and so on. Only contains the basics and will need to be augmented with other libraries for races, classes, etc.
+  * Provides a simple, no-nonsense set of stats and so on. Contains a large infastructure, laying the groundwork for libraries to be built off of, but will need to be augmented with other libraries for races, classes, etc.
+  * [Tameran's Library of Everything](https://beta.dicecloud.com/library/hYPp44b6DvkgZkL2o) by Jonpot can be used to modify Link the Balrog's Base to support features like slots and constants. It also adds classes and backgrounds that can be added via slots.
 * [Owlbear Essentials](https://beta.dicecloud.com/library/cBiPuuN2wbrBp2tbg) by KatrinaKitten
   * Just the \(Owl\)bare essentials. Primarily serves as a more up-to-date alternative to Link's base, by supporting features like slots and constants.
 
