@@ -50,6 +50,7 @@
 * [Items](documentation-for-properties/item.md)
 * [Notes](documentation-for-properties/note.md)
 * [Proficiencies](documentation-for-properties/proficiency.md)
+* [References](documentation-for-properties/reference.md)
 * [Rolls](documentation-for-properties/roll.md)
 * [Saving Throws](documentation-for-properties/saving-throw.md)
 * [Skills](documentation-for-properties/skill.md)
