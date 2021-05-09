@@ -28,6 +28,8 @@ Below is a list of known compatibility tags for various libraries. Note that thi
 | [Obediah's Bag of Slot Fillers](https://beta.dicecloud.com/library/8weFtT657czESN8bc) | `OBoSF` | No |
 | [Owlbear Essentials](https://beta.dicecloud.com/library/cBiPuuN2wbrBp2tbg) | `OwlBE` | No |
 | [Tameran's Library of Everything](https://beta.dicecloud.com/library/hYPp44b6DvkgZkL2o) | `TLoE` | No |
+| [Langston and Jon's Races](https://beta.dicecloud.com/library/nAX82dWJvjYaqRiQf) | `LJR` | No |
+| [Langston's Backpacks](https://beta.dicecloud.com/library/zH9DBYk2PWCACCany) | `langstonsBackpacks` | No |
 
 ## Install Flags
 
