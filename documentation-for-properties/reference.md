@@ -10,16 +10,23 @@ In order to limit the strain that references can place on DiceCloud's database, 
 
 ### Link
 
-This is the only property of a reference. When you click on this, it will prompt you to select another property from a library. After you select a property and click confirm, a string of characters will appear in this box. This string is a reference to that property, and though it is meaningless to the user in most cases, it is what allows these to work.
+This is the only property of a reference. When you click on this, it will prompt you to select another property from a library. After you select a property and click confirm, a string of characters will appear in this box. This string is a reference to that property, and though it is meaningless to the user in most cases, it is what allows these to work. On repeat viewings, this will display the name of the referenced property instead.
 
 ## Accessible Values
 
-Because a reference can only exist within a library, none of it's values can be accessed using either variable name or ancestor references. For completeness however, their internal values are still listed here.
+{% hint style="info" %}
+Since references are immediately replaced by the property they reference when imported, these values will only be accessible if the reference fails to resolve, whether due to the depth limit, a missing library subscription, or other reasons.
+{% endhint %}
 
-### ref
+### ref\*
 
 This contains an object, which replaces the reference when it is added to a character.
 
-### cache
+### cache\*
 
 This contains denormalised information about the object in the reference, including errors and the library it originates from.
+
+{% hint style="warning" %}
+All values marked with a \* can only be accessed using an ancestor reference.
+{% endhint %}
+
