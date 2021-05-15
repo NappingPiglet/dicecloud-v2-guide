@@ -18,18 +18,18 @@ In order for your custom base to work with the built-in Base slot that is create
 
 When creating properties meant to be used with slots, it's recommended to tag your properties with the names of whatever bases they're designed to be compatible with, for example `Kat's Core`. This allows those bases to filter out properties that don't work with their variable naming conventions, etc.
 
-Below is a list of known compatibility tags for various libraries. Note that this is not necessarily an exhaustive list, and only reflects compatibility tags for libraries shared in the Dicecloud Discord server. Some libraries use a prefix instead of a separate tag, which is noted in the right-hand column.
+Below is a list of known compatibility tags for various libraries. Note that this is not necessarily an exhaustive list, and only reflects compatibility tags for libraries shared in the Dicecloud Discord server.
 
-| Library | Compatibility Tag | Prefix? |
-| :--- | :--- | :--- |
-| [Devkit](https://beta.dicecloud.com/library/zE7NkWeJ6zvFYTiie) | `devkit` | No |
-| [Dicecloud 5e SRD](https://beta.dicecloud.com/library/qkv8aptJH2fCXARcJ) | `5e` | No |
-| [Jon's Spell Slot Structure](https://beta.dicecloud.com/library/2wuq3G9FM9bJ4sdsu) | `jsss` | No |
-| [Obediah's Bag of Slot Fillers](https://beta.dicecloud.com/library/8weFtT657czESN8bc) | `OBoSF` | No |
-| [Owlbear Essentials](https://beta.dicecloud.com/library/cBiPuuN2wbrBp2tbg) | `OwlBE` | No |
-| [Tameran's Library of Everything](https://beta.dicecloud.com/library/hYPp44b6DvkgZkL2o) | `TLoE` | No |
-| [Langston and Jon's Races](https://beta.dicecloud.com/library/nAX82dWJvjYaqRiQf) | `LJR` | No |
-| [Langston's Backpacks](https://beta.dicecloud.com/library/zH9DBYk2PWCACCany) | `langstonsBackpacks` | No |
+| Library | Compatibility Tag |
+| :--- | :--- |
+| [Devkit](https://beta.dicecloud.com/library/zE7NkWeJ6zvFYTiie) | `devkit` |
+| [Dicecloud 5e SRD](https://beta.dicecloud.com/library/qkv8aptJH2fCXARcJ) | `5e` |
+| [Jon's Spell Slot Structure](https://beta.dicecloud.com/library/2wuq3G9FM9bJ4sdsu) | `jsss` |
+| [Obediah's Bag of Slot Fillers](https://beta.dicecloud.com/library/8weFtT657czESN8bc) | `OBoSF` |
+| [Owlbear Essentials](https://beta.dicecloud.com/library/cBiPuuN2wbrBp2tbg) | `OwlBE` |
+| [Tameran's Library of Everything](https://beta.dicecloud.com/library/hYPp44b6DvkgZkL2o) | `TLoE` |
+| [Langston and Jon's Races](https://beta.dicecloud.com/library/nAX82dWJvjYaqRiQf) | `LJR` |
+| [Langston's Backpacks](https://beta.dicecloud.com/library/zH9DBYk2PWCACCany) | `langstonsBackpacks` |
 
 ## Install Flags
 
