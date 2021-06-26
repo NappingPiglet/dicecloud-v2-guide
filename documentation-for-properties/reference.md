@@ -27,6 +27,6 @@ This contains an object, which replaces the reference when it is added to a char
 This contains denormalised information about the object in the reference, including errors and the library it originates from.
 
 {% hint style="warning" %}
-All values marked with a \* can only be accessed using an ancestor reference.
+All values marked with a \* can only be accessed using an ancestor reference. It is worth noting that the values stored here cannot be accessed in practice however, as DiceCloud doesn't have a method of handling this data type.
 {% endhint %}
 
