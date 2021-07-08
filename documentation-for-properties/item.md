@@ -10,7 +10,7 @@ Select an icon to represent this item on the inventory page. Icons come from [ga
 
 ### Equipped
 
-Is this item currently being worn or otherwise in a position from which it can be immediately used? If this is false, then the item must be equipped before any of its children become active.
+Is this item currently being worn or otherwise in a position from which it can be immediately used? If this is false, then the item's children will be inactive until the item is equipped.
 
 ### Name
 
