@@ -3,7 +3,7 @@
 The Tree tab is where all the structure that makes up a Dicecloud character sheet lives. Here you can dig into how your character sheet actually works, or change it to your heart's content.
 
 {% hint style="danger" %}
-The Tree tab is an advanced feature, and you should rarely ever need to touch it in the course of normal character use. As V2 is still in heavy development, there are some cases where you'll need to work in the Tree - like for adding items, spells, etc. if slots don't exist for them - but those will eventually be moved more and more away from the Tree tab and towards slots or dedicated UI sections on the appropriate tabs.
+The Tree tab is an advanced feature, and you should rarely ever need to touch it in the course of normal character use. In order to access it, you will need to go to your character settings and enable the toggle labelled "Show Tree Tab". As V2 is still in heavy development, there are some cases where you'll need to work in the Tree - like for adding items, spells, etc. if slots don't exist for them - but those will eventually be moved more and more away from the Tree tab and towards slots or dedicated UI sections on the appropriate tabs.
 {% endhint %}
 
 {% hint style="info" %}
@@ -33,6 +33,6 @@ Turning on the Organize switch at the top left will put your tree into organize 
 ![The top of the tree from the example in Organize mode.](../.gitbook/assets/image%20%2821%29.png)
 
 {% hint style="info" %}
-When working on a character's sheet, adding a property will always add it at the top level of the tree, at the very bottom of the list. When working in a library, the same is true unless you're in organize mode; in that case, new properties will be added as children of the currently selected property.
+When working in either a character's tree or library, properties will be added at the bottom of the list if the property selected currently is not expanded. If it is expanded, then it will be added as the bottommost child of the selected property.
 {% endhint %}
 
