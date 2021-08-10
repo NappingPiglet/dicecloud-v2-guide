@@ -16,7 +16,7 @@ A list of the variable names of all skills you want this property to affect.
 
 ### Proficiency \(Required\)
 
-The level of proficiency this property grants. Proficient means you can add your proficiency bonus to checks with the skill, half proficient means you can add half your proficiency bonus to checks, and double proficiency bonus means you can add twice your proficiency bonus to checks.
+The level of proficiency this property grants. Proficient means you can add your proficiency bonus to checks with the skill, half proficient means you can add half your proficiency bonus to checks, rounded in the direction the proficiency states, and double proficiency bonus means you can add twice your proficiency bonus to checks.
 
 ### Tags
 
@@ -30,7 +30,7 @@ The name of the proficiency.
 
 ### value\*
 
-Returns 0.5 if the property grants half proficiency, 1 if it grants normal proficiency and 2 if it grants double proficiency.
+Returns 0.49 if the property grants half proficiency rounded down, 0.5 if the property grants half proficiency rounded up, 1 if it grants normal proficiency and 2 if it grants double proficiency.
 
 {% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.

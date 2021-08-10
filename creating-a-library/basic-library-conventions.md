@@ -30,6 +30,7 @@ Below is a list of known compatibility tags for various libraries. Note that thi
 | [Tameran's Library of Everything](https://beta.dicecloud.com/library/hYPp44b6DvkgZkL2o) | `TLoE` |
 | [Langston and Jon's Races](https://beta.dicecloud.com/library/nAX82dWJvjYaqRiQf) | `LJR` |
 | [Langston's Backpacks](https://beta.dicecloud.com/library/zH9DBYk2PWCACCany) | `langstonsBackpacks` |
+| [Khourdaet's Forge of Relics](https://beta.dicecloud.com/library/6zSDbwmiQvfccRWdw) | `KFoR` |
 
 ## Install Flags
 
