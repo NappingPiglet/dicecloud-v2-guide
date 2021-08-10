@@ -27,10 +27,6 @@ This contains an object, which replaces the reference when it is added to a char
 This contains denormalised information about the object in the reference, including errors and the library it originates from.
 
 {% hint style="warning" %}
-<<<<<<< HEAD
 All values marked with a \* can only be accessed using an ancestor reference. However, doing so will cause the error `#reference returned an unexpected type`, as V2 does not have a way of handling accessing a value that has more than one data value associated with it, such as arrays or objects.
-=======
-All values marked with a \* can only be accessed using an ancestor reference. It is worth noting that the values stored here cannot be accessed in practice however, as DiceCloud doesn't have a method of handling this data type.
->>>>>>> 08e5117554a65444569b78683672c3adf2c5e26c
 {% endhint %}
 

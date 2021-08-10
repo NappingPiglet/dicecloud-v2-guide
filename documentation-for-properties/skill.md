@@ -39,7 +39,7 @@ The type of skill this is.
 
 ### Description
 
-A description of the purpose of the skill, which will display when the skill is clicked on. This field accepts Markdown, HTML, and calculations contained within {}.
+A description of the purpose of the skill, which will display when the skill is clicked on. This field accepts Markdown and HTML.
 
 ## Advanced
 

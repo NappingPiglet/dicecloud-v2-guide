@@ -16,6 +16,8 @@ The type of property that this slot wants to fill it. Only properties who's type
 
 The tags that a property must have in order to fill the slot. You may add as many tags as you want here, but keep in mind that the property needs to match ALL the tags. Because they have additional functionality, the tags `inventory`, `equipment` and `carried` should generally be avoided in this field.
 
+Selecting the plus button adds another row for tags, which have an additional option for Operation. This can be set to either OR or NOT. If set to OR, then the slot can be filled so long as the property filling it has at least one of these tags. If it is set to NOT, then any property that has at least one of the listed tags cannot be used to fill it.
+
 ### Quantity \(Required\)
 
 How many properties can be put in the slot before it will stop accepting additional properties. Entering 0 means unlimited properties.
@@ -24,9 +26,15 @@ How many properties can be put in the slot before it will stop accepting additio
 
 When the condition inside this field is false, the slot will hide itself in the character tab and expanded view of the build card, meaning the only way to alter its contents will be the tree tab. This accepts both numbers and calculations, though numbers greater than 0 should be avoided as they are evaluated to true. Note that the contents of a slot who's condition becomes false still affect the sheet- condition only effects the user's ability to interact with the slot. To prevent the slot's children from affecting the sheet, a toggle should be used.
 
+### Unique
+
+This determines whether or not the same property can be added multiple times to a slot, or to the character as a whole. It defaults to "Each property inside this slot should be unique", which prevents the same property from being added to the slot multiple times. It can also be set to "Properties in this slot should be unique accross the whole character", which prevents the same property from filling any slot again across the entire character.
+
+{% hint style="info" %} Note that this means a given library node cannot be used multiple times. An exact copy of said node however, could be used after the original has been added. {% endhint %}
+
 ### Description
 
-A description of the slot, which cannot be viewed outside of the tree. This field accepts markdown, HTML, and calculations within {}.
+A description of the slot, which cannot be viewed outside of the tree. This field accepts markdown and HTML.
 
 ## Advanced
 
@@ -83,6 +91,10 @@ Returns the current quantity of properties that are filling the slot, with slot 
 ### spaceLeft\*
 
 Returns the current number of properties that could be added to the slot before it is filled up.
+
+### unique\*
+
+Returns "uniqueInSlot" if the slot has the field Unique set to "Each property inside this slot should be unique" and returns "uniqueInCreature" if the field is set to "Properties in this slot should be unique accross the whole character". If the field has been unset, it instead returns `#propertySlot.unique`.
 
 {% hint style="warning" %}
 All values marked with a \* can only be accessed using ancestor references.

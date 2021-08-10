@@ -14,7 +14,7 @@ The name of the slot filler, visible under the slot it is added to from the char
 
 ### Description
 
-A description of the slot filler, which will appear when you click on the slot filler's name on the character tab. This field accepts markdown, HTML, and calculations within {}.
+A description of the slot filler, which will appear when you click on the slot filler's name on the character tab. This field accepts markdown and HTML.
 
 ### Picture URL
 

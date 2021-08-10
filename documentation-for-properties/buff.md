@@ -8,6 +8,12 @@ A buff is an effect that is given to a creature as a result of an action. These 
 
 The name of this buff, which is displayed next to the buff icon on the stats page.
 
+### Applied
+
+When set to true, the buff is active on the character and its children are active as well. When set to false, the buff will be duplicated with the value set to active when it is applied by an action.
+
+Setting a buff to have this value as true in a library allows for the creation of character-universal buffs, such as grappled or poisoned, which can be added to the character from the stats page.
+
 ### Description
 
 A long description of the buff, which will appear when you click on the buff's name on the stats tab. This field accepts markdown, HTML, and calculations within {}.

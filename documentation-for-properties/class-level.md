@@ -18,7 +18,7 @@ The variable name used to access information about the class. This accepts both 
 
 ### Description
 
-The description of the class. This field accepts markdown, HTML, and calculations within {}.
+The description of the class. This field accepts markdown and HTML.
 
 ### Condition
 
