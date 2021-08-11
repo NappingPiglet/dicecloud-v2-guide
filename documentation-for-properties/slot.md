@@ -28,7 +28,9 @@ When the condition inside this field is false, the slot will hide itself in the 
 
 ### Unique
 
-This determines whether or not the same property can be added multiple times to a slot, or to the character as a whole. It defaults to "Each property inside this slot should be unique", which prevents the same property from being added to the slot multiple times. It can also be set to "Properties in this slot should be unique accross the whole character", which prevents the same property from filling any slot again across the entire character.
+This determines whether or not the same property can be added multiple times to a slot, or to the character as a whole. It defaults to "Each property inside this slot should be unique", which prevents the same property from being added to the slot multiple times. It can also be set to "Properties in this slot should be unique across the whole character", which prevents the same property from filling any slot again across the entire character.
+
+{% hint style="info" %} This field defaults to "Each property inside this slot should be unique", but this field can be set to empty by using the X button on the right side of the field. {% endhint %}
 
 {% hint style="info" %} Note that this means a given library node cannot be used multiple times. An exact copy of said node however, could be used after the original has been added. {% endhint %}
 
@@ -94,7 +96,7 @@ Returns the current number of properties that could be added to the slot before 
 
 ### unique\*
 
-Returns "uniqueInSlot" if the slot has the field Unique set to "Each property inside this slot should be unique" and returns "uniqueInCreature" if the field is set to "Properties in this slot should be unique accross the whole character". If the field has been unset, it instead returns `#propertySlot.unique`.
+Returns "uniqueInSlot" if the slot has the field Unique set to "Each property inside this slot should be unique" and returns "uniqueInCreature" if the field is set to "Properties in this slot should be unique across the whole character". If the field has been unset, it instead returns `#propertySlot.unique`.
 
 {% hint style="warning" %}
 All values marked with a \* can only be accessed using ancestor references.
