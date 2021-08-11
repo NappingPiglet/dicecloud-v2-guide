@@ -16,7 +16,9 @@ The type of property that this slot wants to fill it. Only properties who's type
 
 The tags that a property must have in order to fill the slot. You may add as many tags as you want here, but keep in mind that the property needs to match ALL the tags. Because they have additional functionality, the tags `inventory`, `equipment` and `carried` should generally be avoided in this field.
 
-Selecting the plus button adds another row for tags, which have an additional option for Operation. This can be set to either OR or NOT. If set to OR, then the slot can be filled so long as the property filling it has at least one of these tags. If it is set to NOT, then any property that has at least one of the listed tags cannot be used to fill it.
+Selecting the plus button adds another row for tags, which have an additional option for Operation. This can be set to either OR or NOT.
+- OR: OR means that the slot can be filled with a property either matching the original list of tags, or the list of tags in the OR list.
+- NOT: NOT means that if a property has any of the tags listed in the not field, then that cannot be added to the slot.
 
 ### Quantity \(Required\)
 
