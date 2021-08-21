@@ -13,8 +13,14 @@ These are currently the most prominent bases for 5e:
 * [Dicecloud 5e SRD](https://beta.dicecloud.com/library/qkv8aptJH2fCXARcJ) by Thaum Rystra
   * Currently WIP, but will eventually become Dicecloud's "built-in" default, which everyone will automatically be subscribed to.
 * [Link the Balrog's Base](https://beta.dicecloud.com/library/NMgBJwmFKjkxvM8HW) by LinkTheBalrog
-  * Provides a simple, no-nonsense set of stats and so on. Contains a large infastructure, laying the groundwork for libraries to be built off of, but will need to be augmented with other libraries for races, classes, etc.
-  * [Tameran's Library of Everything](https://beta.dicecloud.com/library/hYPp44b6DvkgZkL2o) by Jonpot can be used to modify Link the Balrog's Base to support features like slots and constants. It also adds classes and backgrounds that can be added via slots.
+  * Provides a simple, no-nonsense set of stats and so on. Contains a large infastructure, laying the groundwork for libraries to be built off of, but will need to be augmented with other libraries for races, classes, etc. It should be noted that this library was created in the early days of V2, and as such does not make use of various features, such as slots or references.
+* [Tameran's Library of Everything](https://beta.dicecloud.com/library/hYPp44b6DvkgZkL2o) by Jonpot
+  * Currently the most complete base in terms of content, this library is structured to use multiple sub-libraries in order to store all of its content. TLoE itself provides classes and backgrounds as well as the character base.
+  * [Obediah's Bag of Slot Fillers](https://beta.dicecloud.com/library/8weFtT657czESN8bc) by Jonpot is the primary sub-library for TLoE, containing slot fillers used across all the other bases, such as proficiencies, spells, and feats.
+  * [Langston & Jon's Races](https://beta.dicecloud.com/library/nAX82dWJvjYaqRiQf) by Langston_Hughes and Jonpot is the race sub-library for TLoE, containing the various published races for D&D 5e.
+  * [Khourdaet's Forge of Relics](https://beta.dicecloud.com/library/6zSDbwmiQvfccRWdw) by Ganonslayer is the primary item library for TLoE, containing weapons and armor, as well as adventuring gear and spell components. Currently contains very few magic items, but if a specific item is needed, one can contact Ganonslayer#4106 on Discord to see about having it added.
+  * [Arianna's Tome of Beasts](https://beta.dicecloud.com/library/EDBGcBPh2xsEvTvfh) by Jonpot is a library containing wildshape slot fillers for duids. Currently far from complete.
+  * [Jon's Spell Slot Structure](https://beta.dicecloud.com/library/2wuq3G9FM9bJ4sdsu) & [Jon's Sorcerery Point Exchange](https://beta.dicecloud.com/library/pnWpT9E76DejeCLxc) by Jonpot are the spellcasting libraries for TLoE, with JSSS providing spell slots for the various spellcasting classes and JSPE being used by sorcerers to convert spell points into spell slots.
 * [Owlbear Essentials](https://beta.dicecloud.com/library/cBiPuuN2wbrBp2tbg) by KatrinaKitten
   * Just the \(Owl\)bare essentials. Primarily serves as a more up-to-date alternative to Link's base, by supporting features like slots and constants.
 
