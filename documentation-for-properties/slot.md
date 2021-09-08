@@ -17,8 +17,9 @@ The type of property that this slot wants to fill it. Only properties who's type
 The tags that a property must have in order to fill the slot. You may add as many tags as you want here, but keep in mind that the property needs to match ALL the tags. Because they have additional functionality, the tags `inventory`, `equipment` and `carried` should generally be avoided in this field.
 
 Selecting the plus button adds another row for tags, which have an additional option for Operation. This can be set to either OR or NOT.
-- OR: OR means that the slot can be filled with a property either matching the original list of tags, or the list of tags in the OR list.
-- NOT: NOT means that if a property has any of the tags listed in the not field, then that cannot be added to the slot.
+
+* OR: OR means that the slot can be filled with a property either matching the original list of tags, or the list of tags in the OR list.
+* NOT: NOT means that if a property has any of the tags listed in the not field, then that cannot be added to the slot.
 
 ### Quantity \(Required\)
 
@@ -32,9 +33,13 @@ When the condition inside this field is false, the slot will hide itself in the 
 
 This determines whether or not the same property can be added multiple times to a slot, or to the character as a whole. It defaults to "Each property inside this slot should be unique", which prevents the same property from being added to the slot multiple times. It can also be set to "Properties in this slot should be unique across the whole character", which prevents the same property from filling any slot again across the entire character.
 
-{% hint style="info" %} This field defaults to "Each property inside this slot should be unique", but this field can be set to empty by using the X button on the right side of the field. {% endhint %}
+{% hint style="info" %}
+This field defaults to "Each property inside this slot should be unique", but this field can be set to empty by using the X button on the right side of the field.
+{% endhint %}
 
-{% hint style="info" %} Note that this means a given library node cannot be used multiple times. An exact copy of said node however, could be used after the original has been added. {% endhint %}
+{% hint style="info" %}
+Note that this means a given library node cannot be used multiple times. An exact copy of said node however, could be used after the original has been added.
+{% endhint %}
 
 ### Description
 
