@@ -12,7 +12,7 @@ Keep in mind that many things in Markdown are picky about line spacing. If somet
 | :--- | :--- |
 | _italic_ | `*italic*` |
 | **bold** | `**bold**` |
-| `code` | ```code``` |
+| \`code\` | ```code``` |
 | [link](https://example.com) | `[link](https://example.com)` |
 | ~~strikethrough~~ | `~~strikethrough~~` |
 
