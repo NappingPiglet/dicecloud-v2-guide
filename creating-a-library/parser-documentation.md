@@ -62,7 +62,7 @@ DiceCloud V2 uses a custom parser that accepts all the common mathematical equat
 </table>
 
 {% hint style="info" %}
-If a variable doesn't exist, its value will default to `0`.
+If a variable doesn't exist, its value will default to `0`, however this is not true for inline calculations. Inline calculations will break if the variable doesn't exist.
 {% endhint %}
 
 {% hint style="info" %}
