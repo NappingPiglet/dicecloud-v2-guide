@@ -2,13 +2,17 @@
 
 Dicecloud uses a system called [Markdown](https://en.wikipedia.org/wiki/Markdown) in most of its text fields \(summaries, descriptions, etc.\). Markdown lets you add formatting like **bold**, _italic_, and more to your text, to keep your features looking fresh. Note that these examples will look slightly different when used on Dicecloud, but will work more or less the same way.
 
+{% hint style="info" %}
+Keep in mind that many things in Markdown are picky about line spacing. If something isn't working properly, try putting an empty line between it and whatever is directly above/below it.
+{% endhint %}
+
 ## Inline Formatting
 
 | Formatting | Syntax |
 | :--- | :--- |
 | _italic_ | `*italic*` |
 | **bold** | `**bold**` |
-| `code` | ```code``` |
+| \`code\` | ```code``` |
 | [link](https://example.com) | `[link](https://example.com)` |
 | ~~strikethrough~~ | `~~strikethrough~~` |
 

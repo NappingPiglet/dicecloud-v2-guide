@@ -118,3 +118,4 @@ All values marked with \* can only be accessed using an ancestor reference.
 {% hint style="warning" %}
 All values marked with \*\* can only be accessed using an ancestor reference. However, doing so will cause the error `#action returned an unexpected type`, as V2 does not have a way of handling accessing a value that has more than one data value associated with it, such as arrays or objects.
 {% endhint %}
+
