@@ -4,62 +4,13 @@ DiceCloud V2 uses a custom parser that accepts all the common mathematical equat
 
 ## Data Types
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Data Type</th>
-      <th style="text-align:left">Examples</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Numbers</td>
-      <td style="text-align:left">
-        <p><code>54</code>
-        </p>
-        <p><code>3.14</code>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Strings</td>
-      <td style="text-align:left">
-        <p><code>&quot;Hello, world!&quot;</code>
-        </p>
-        <p><code>&apos;Hello, world!&apos;</code>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Booleans</td>
-      <td style="text-align:left">
-        <p><code>true</code>
-        </p>
-        <p><code>false</code>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Arrays</td>
-      <td style="text-align:left">
-        <p><code>[1,2,3,4,5,6][index]</code>
-        </p>
-        <p><code>[1,2,3,4,5,6]</code> (constants only)</p>
-        <p><code>arrayConstant[index]</code>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Variables</td>
-      <td style="text-align:left">
-        <p><code>cantripDice</code>
-        </p>
-        <p><code>barbarian.level</code> (sub-properties)</p>
-        <p><code>#attribute</code> (ancestor reference by type)</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Data Type | Examples                                                                                                                                       |
+| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| Numbers   | <p><code>54</code></p><p><code>3.14</code></p>                                                                                                 |
+| Strings   | <p><code>"Hello, world!"</code></p><p><code>'Hello, world!'</code></p>                                                                         |
+| Booleans  | <p><code>true</code></p><p><code>false</code></p>                                                                                              |
+| Arrays    | <p><code>[1,2,3,4,5,6][index]</code></p><p><code>[1,2,3,4,5,6]</code> (constants only)</p><p><code>arrayConstant[index]</code></p>             |
+| Variables | <p><code>cantripDice</code></p><p><code>barbarian.level</code> (sub-properties)</p><p><code>#attribute</code> (ancestor reference by type)</p> |
 
 {% hint style="info" %}
 If a variable doesn't exist, its value will default to `0`, however this is not true for inline calculations. Inline calculations will break if the variable doesn't exist.
@@ -70,66 +21,22 @@ Array indexes start from `1`.
 {% endhint %}
 
 {% hint style="info" %}
-Arrays must normally be declared in the same place they are accessed \(the first syntax example\), with the exception of declaring an array in a constant, which allows for storing non-numeric data types.
+Arrays must normally be declared in the same place they are accessed (the first syntax example), with the exception of declaring an array in a constant, which allows for storing non-numeric data types.
 {% endhint %}
 
 ## Operators
 
 ### Basic Math
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Name</th>
-      <th style="text-align:left">Syntax</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Add</td>
-      <td style="text-align:left"><code>5 + 7</code>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Subtract</td>
-      <td style="text-align:left"><code>5 - 7</code>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Multiply</td>
-      <td style="text-align:left"><code>5 * 7</code>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Divide</td>
-      <td style="text-align:left"><code>5 / 7</code>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Exponents</td>
-      <td style="text-align:left"><code>5 ^ 7</code>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Modulus (remainder)</td>
-      <td style="text-align:left"><code>5 % 7</code>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Dice Rolls</td>
-      <td style="text-align:left">
-        <p><code>d6</code>
-        </p>
-        <p><code>2d20</code>
-        </p>
-        <p><code>cantripDice d8</code>
-        </p>
-        <p><code>4d(3+level)</code>
-        </p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Name                | Syntax                                                                                                          |
+| ------------------- | --------------------------------------------------------------------------------------------------------------- |
+| Add                 | `5 + 7`                                                                                                         |
+| Subtract            | `5 - 7`                                                                                                         |
+| Multiply            | `5 * 7`                                                                                                         |
+| Divide              | `5 / 7`                                                                                                         |
+| Exponents           | `5 ^ 7`                                                                                                         |
+| Modulus (remainder) | `5 % 7`                                                                                                         |
+| Dice Rolls          | <p><code>d6</code></p><p><code>2d20</code></p><p><code>cantripDice d8</code></p><p><code>4d(3+level)</code></p> |
 
 {% hint style="info" %}
 Division by `0` will not result in an error, but will instead return `Infinity`.
@@ -141,83 +48,19 @@ Dice rolls can use any variable or equation on either side of the `d` operator. 
 
 ### Logic and Comparisons
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Name</th>
-      <th style="text-align:left">Syntax</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Equal</td>
-      <td style="text-align:left">
-        <p><code>5 = 7</code>
-        </p>
-        <p><code>5 == 7</code>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Strict equal</td>
-      <td style="text-align:left"><code>5 === 7</code>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Not equal</td>
-      <td style="text-align:left"><code>5 != 7</code>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Strict not equal</td>
-      <td style="text-align:left"><code>5 !== 7</code>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Greater than</td>
-      <td style="text-align:left"><code>5 &gt; 7</code>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Greater than or equal to</td>
-      <td style="text-align:left"><code>5 &gt;= 7</code>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Less than</td>
-      <td style="text-align:left"><code>5 &lt; 7</code>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Less than or equal to</td>
-      <td style="text-align:left"><code>5 &lt;= 7</code>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Logical AND</td>
-      <td style="text-align:left">
-        <p><code>true &amp; false</code>
-        </p>
-        <p><code>true &amp;&amp; false</code>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Logical OR</td>
-      <td style="text-align:left">
-        <p><code>true | false</code>
-        </p>
-        <p><code>true || false</code>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Conditional</td>
-      <td style="text-align:left"><code>condition ? ifTrue : ifFalse</code>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Name                     | Syntax                                                                           |
+| ------------------------ | -------------------------------------------------------------------------------- |
+| Equal                    | <p><code>5 = 7</code></p><p><code>5 == 7</code></p>                              |
+| Strict equal             | `5 === 7`                                                                        |
+| Not equal                | `5 != 7`                                                                         |
+| Strict not equal         | `5 !== 7`                                                                        |
+| Greater than             | `5 > 7`                                                                          |
+| Greater than or equal to | `5 >= 7`                                                                         |
+| Less than                | `5 < 7`                                                                          |
+| Less than or equal to    | `5 <= 7`                                                                         |
+| Logical AND              | <p><code>true &#x26; false</code></p><p><code>true &#x26;&#x26; false</code></p> |
+| Logical OR               | <p><code>true | false</code></p><p><code>true || false</code></p>                |
+| Conditional              | `condition ? ifTrue : ifFalse`                                                   |
 
 {% hint style="info" %}
 The normal `==` and `!=` will convert types to check equality; for example, `5 == "5"` will return `true`. The strict `===` and `!==` will not; for example, `5 === "5"` will return `false`.
@@ -228,145 +71,24 @@ For the logical operators `&&` and `||`, as well as for the conditional operator
 
 * `false`
 * `0` and all equivalent values
-* `NaN` \(results from some calculation errors\)
-* Empty strings \(`""` and `''`\)
+* `NaN` (results from some calculation errors)
+* Empty strings (`""` and `''`)
 {% endhint %}
 
 ## Functions
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Name</th>
-      <th style="text-align:left">Syntax</th>
-      <th style="text-align:left">Examples</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Absolute Value</td>
-      <td style="text-align:left"><code>abs(number)</code>
-      </td>
-      <td style="text-align:left">
-        <p><code>abs(9) == 9</code>
-        </p>
-        <p><code>abs(-3) == 3</code>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Square Root</td>
-      <td style="text-align:left"><code>sqrt(number)</code>
-      </td>
-      <td style="text-align:left">
-        <p><code>sqrt(16) == 4</code>
-        </p>
-        <p><code>sqrt(10) == 3.1622776601683795</code>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Maximum</td>
-      <td style="text-align:left"><code>max(number, ...)</code>
-      </td>
-      <td style="text-align:left"><code>max(12, 6, 3, 168) == 168</code>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Minimum</td>
-      <td style="text-align:left"><code>min(number, ...)</code>
-      </td>
-      <td style="text-align:left"><code>min(12, 6, 3, 168) == 3</code>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Round (round to nearest whole)</td>
-      <td style="text-align:left"><code>round(number)</code>
-      </td>
-      <td style="text-align:left">
-        <p><code>round(5.95) == 6</code>
-        </p>
-        <p><code>round(5.5) == 6</code>
-        </p>
-        <p><code>round(5.05) == 5</code>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Floor (round down)</td>
-      <td style="text-align:left"><code>floor(number)</code>
-      </td>
-      <td style="text-align:left">
-        <p><code>floor(5.95) == 5</code>
-        </p>
-        <p><code>floor(5.05) == 5</code>
-        </p>
-        <p><code>floor(5) = 5</code>
-        </p>
-        <p><code>floor(-5.5) == -6</code>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Ceiling (round up)</td>
-      <td style="text-align:left"><code>ceil(number)</code>
-      </td>
-      <td style="text-align:left">
-        <p><code>ceil(5.95) == 6</code>
-        </p>
-        <p><code>ceil(5.05) == 6</code>
-        </p>
-        <p><code>ceil(5) == 5</code>
-        </p>
-        <p><code>ceil(-5.5) == -5</code>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Truncate (round toward 0)</td>
-      <td style="text-align:left"><code>trunc(number)</code>
-      </td>
-      <td style="text-align:left">
-        <p><code>trunc(5.95) == 5</code>
-        </p>
-        <p><code>trunc(5.05) == 5</code>
-        </p>
-        <p><code>trunc(5) == 5</code>
-        </p>
-        <p><code>trunc(-5.5) == -5</code>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Sign</td>
-      <td style="text-align:left"><code>sign(number)</code>
-      </td>
-      <td style="text-align:left">
-        <p><code>sign(-3) == -1</code>
-        </p>
-        <p><code>sign(3) == 1</code>
-        </p>
-        <p><code>sign(0) == 0</code>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Table Lookup</td>
-      <td style="text-align:left"><code>tableLookup(array, number)</code>
-      </td>
-      <td style="text-align:left">
-        <p><code>tableLookup([100, 300, 900], 457) == 2</code>
-        </p>
-        <p><code>tableLookup([100, 300, 900], 23) == 0</code>
-        </p>
-        <p><code>tableLookup([100, 300, 900, 1200], 900) == 3</code>
-        </p>
-        <p><code>tableLookup([100, 300], 594) == 2</code>
-        </p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| Name                           | Syntax                       | Examples                                                                                                                                                                                                                                 |
+| ------------------------------ | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Absolute Value                 | `abs(number)`                | <p><code>abs(9) == 9</code></p><p><code>abs(-3) == 3</code></p>                                                                                                                                                                          |
+| Square Root                    | `sqrt(number)`               | <p><code>sqrt(16) == 4</code></p><p><code>sqrt(10) == 3.1622776601683795</code></p>                                                                                                                                                      |
+| Maximum                        | `max(number, ...)`           | `max(12, 6, 3, 168) == 168`                                                                                                                                                                                                              |
+| Minimum                        | `min(number, ...)`           | `min(12, 6, 3, 168) == 3`                                                                                                                                                                                                                |
+| Round (round to nearest whole) | `round(number)`              | <p><code>round(5.95) == 6</code></p><p><code>round(5.5) == 6</code></p><p><code>round(5.05) == 5</code></p>                                                                                                                              |
+| Floor (round down)             | `floor(number)`              | <p><code>floor(5.95) == 5</code></p><p><code>floor(5.05) == 5</code></p><p><code>floor(5) = 5</code></p><p><code>floor(-5.5) == -6</code></p>                                                                                            |
+| Ceiling (round up)             | `ceil(number)`               | <p><code>ceil(5.95) == 6</code></p><p><code>ceil(5.05) == 6</code></p><p><code>ceil(5) == 5</code></p><p><code>ceil(-5.5) == -5</code></p>                                                                                               |
+| Truncate (round toward 0)      | `trunc(number)`              | <p><code>trunc(5.95) == 5</code></p><p><code>trunc(5.05) == 5</code></p><p><code>trunc(5) == 5</code></p><p><code>trunc(-5.5) == -5</code></p>                                                                                           |
+| Sign                           | `sign(number)`               | <p><code>sign(-3) == -1</code></p><p><code>sign(3) == 1</code></p><p><code>sign(0) == 0</code></p>                                                                                                                                       |
+| Table Lookup                   | `tableLookup(array, number)` | <p><code>tableLookup([100, 300, 900], 457) == 2</code></p><p><code>tableLookup([100, 300, 900], 23) == 0</code></p><p><code>tableLookup([100, 300, 900, 1200], 900) == 3</code></p><p><code>tableLookup([100, 300], 594) == 2</code></p> |
 
 ### Absolute Value
 
@@ -465,4 +187,3 @@ The syntax `tableLookup([number, number, ...], number)` will return the index of
 * `tableLookup([100, 300, 900], 23) == 0`
 * `tableLookup([100, 300, 900, 1200], 900) == 3`
 * `tableLookup([100, 300], 594) == 2`
-

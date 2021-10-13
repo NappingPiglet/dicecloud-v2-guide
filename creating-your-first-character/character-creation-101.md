@@ -17,16 +17,16 @@ These are currently the most prominent bases for 5e:
 * [Tameran's Library of Everything](https://beta.dicecloud.com/library/hYPp44b6DvkgZkL2o) by Jonpot
   * Currently the most complete base in terms of content, this library is structured to use multiple sub-libraries in order to store all of its content. TLoE itself provides classes and backgrounds as well as the character base.
   * [Obediah's Bag of Slot Fillers](https://beta.dicecloud.com/library/8weFtT657czESN8bc) by Jonpot is the primary sub-library for TLoE, containing slot fillers used across all the other bases, such as proficiencies, spells, and feats.
-  * [Langston & Jon's Races](https://beta.dicecloud.com/library/nAX82dWJvjYaqRiQf) by Langston\_Hughes and Jonpot is the race sub-library for TLoE, containing the various published races for D&D 5e.
-  * [Khourdaet's Forge of Relics](https://beta.dicecloud.com/library/6zSDbwmiQvfccRWdw) by Ganonslayer is the primary item library for TLoE, containing weapons and armor, as well as adventuring gear and spell components. Currently contains very few magic items, but if a specific item is needed, one can contact Ganonslayer\#4106 on Discord to see about having it added.
+  * [Langston & Jon's Races](https://beta.dicecloud.com/library/nAX82dWJvjYaqRiQf) by Langston_Hughes and Jonpot is the race sub-library for TLoE, containing the various published races for D\&D 5e.
+  * [Khourdaet's Forge of Relics](https://beta.dicecloud.com/library/6zSDbwmiQvfccRWdw) by Ganonslayer is the primary item library for TLoE, containing weapons and armor, as well as adventuring gear and spell components. Currently contains very few magic items, but if a specific item is needed, one can contact Ganonslayer#4106 on Discord to see about having it added.
   * [Arianna's Tome of Beasts](https://beta.dicecloud.com/library/EDBGcBPh2xsEvTvfh) by Jonpot is a library containing wildshape slot fillers for duids. Currently far from complete.
   * [Jon's Spell Slot Structure](https://beta.dicecloud.com/library/2wuq3G9FM9bJ4sdsu) & [Jon's Sorcerery Point Exchange](https://beta.dicecloud.com/library/pnWpT9E76DejeCLxc) by Jonpot are the spellcasting libraries for TLoE, with JSSS providing spell slots for the various spellcasting classes and JSPE being used by sorcerers to convert spell points into spell slots.
 * [Owlbear Essentials](https://beta.dicecloud.com/library/cBiPuuN2wbrBp2tbg) by KatrinaKitten
-  * Just the \(Owl\)bare essentials. Primarily serves as a more up-to-date alternative to Link's base, by supporting features like slots and constants.
+  * Just the (Owl)bare essentials. Primarily serves as a more up-to-date alternative to Link's base, by supporting features like slots and constants.
 
 Once you've subscribed to the library for the base of your choice, you can create your character! Head to the Characters tab in the sidebar, and hit the + button at the bottom right. You'll be taken to the Character tab, with the Build view open - it should look something like this.
 
-![The Build view shown when you first create a character.](../.gitbook/assets/image%20%283%29.png)
+![The Build view shown when you first create a character.](<../.gitbook/assets/image (3) (1).png>)
 
 ## The Slot System
 
@@ -47,4 +47,3 @@ Once you've made your selections to create your character, you can switch to the
 When you first open a character sheet, you'll see an empty right-hand sidebar with a text field at the bottom. This is the dice roller, and it serves as an output log for the results of your character's actions. You can enter any [expression](../creating-a-library/parser-documentation.md) in the text field at the bottom to calculate it, and things like damage rolls from your actions and attacks will be automatically displayed here.
 
 You can show or hide the dice roller by clicking the three lines at the top right of the character sheet.
-

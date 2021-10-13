@@ -6,13 +6,13 @@ When creating a library, there are certain conventions that should generally be 
 
 It's recommended to include a note called README at the top level of your library, especially for larger libraries, with links, instructions, and other information on the library itself. Larger libraries should include sections or child notes with a list of all variable and tag names used in the library, to aid others in developing libraries that interact with theirs.
 
-![An example README with attached attribute and tag lists.](../.gitbook/assets/image%20%2820%29.png)
+![An example README with attached attribute and tag lists.](<../.gitbook/assets/image (20) (1).png>)
 
 ## Base Folders
 
 In order for your custom base to work with the built-in Base slot that is created automatically for new characters, you'll need to tag the parent folder or slot filler for your base with the `base` tag.
 
-![The tags field for the Kat&apos;s Core parent folder.](../.gitbook/assets/image%20%2823%29.png)
+![The tags field for the Kat's Core parent folder.](<../.gitbook/assets/image (23).png>)
 
 ## Base Compatibility Tags
 
@@ -20,17 +20,17 @@ When creating properties meant to be used with slots, it's recommended to tag yo
 
 Below is a list of known compatibility tags for various libraries. Note that this is not necessarily an exhaustive list, and only reflects compatibility tags for libraries shared in the Dicecloud Discord server.
 
-| Library | Compatibility Tag |
-| :--- | :--- |
-| [Devkit](https://beta.dicecloud.com/library/zE7NkWeJ6zvFYTiie) | `devkit` |
-| [Dicecloud 5e SRD](https://beta.dicecloud.com/library/qkv8aptJH2fCXARcJ) | `5e` |
-| [Jon's Spell Slot Structure](https://beta.dicecloud.com/library/2wuq3G9FM9bJ4sdsu) | `jsss` |
-| [Obediah's Bag of Slot Fillers](https://beta.dicecloud.com/library/8weFtT657czESN8bc) | `OBoSF` |
-| [Owlbear Essentials](https://beta.dicecloud.com/library/cBiPuuN2wbrBp2tbg) | `OwlBE` |
-| [Tameran's Library of Everything](https://beta.dicecloud.com/library/hYPp44b6DvkgZkL2o) | `TLoE` |
-| [Langston and Jon's Races](https://beta.dicecloud.com/library/nAX82dWJvjYaqRiQf) | `LJR` |
-| [Langston's Backpacks](https://beta.dicecloud.com/library/zH9DBYk2PWCACCany) | `langstonsBackpacks` |
-| [Khourdaet's Forge of Relics](https://beta.dicecloud.com/library/6zSDbwmiQvfccRWdw) | `KFoR` |
+| Library                                                                                 | Compatibility Tag    |
+| --------------------------------------------------------------------------------------- | -------------------- |
+| [Devkit](https://beta.dicecloud.com/library/zE7NkWeJ6zvFYTiie)                          | `devkit`             |
+| [Dicecloud 5e SRD](https://beta.dicecloud.com/library/qkv8aptJH2fCXARcJ)                | `5e`                 |
+| [Jon's Spell Slot Structure](https://beta.dicecloud.com/library/2wuq3G9FM9bJ4sdsu)      | `jsss`               |
+| [Obediah's Bag of Slot Fillers](https://beta.dicecloud.com/library/8weFtT657czESN8bc)   | `OBoSF`              |
+| [Owlbear Essentials](https://beta.dicecloud.com/library/cBiPuuN2wbrBp2tbg)              | `OwlBE`              |
+| [Tameran's Library of Everything](https://beta.dicecloud.com/library/hYPp44b6DvkgZkL2o) | `TLoE`               |
+| [Langston and Jon's Races](https://beta.dicecloud.com/library/nAX82dWJvjYaqRiQf)        | `LJR`                |
+| [Langston's Backpacks](https://beta.dicecloud.com/library/zH9DBYk2PWCACCany)            | `langstonsBackpacks` |
+| [Khourdaet's Forge of Relics](https://beta.dicecloud.com/library/6zSDbwmiQvfccRWdw)     | `KFoR`               |
 
 ## Install Flags
 
@@ -38,15 +38,15 @@ Large libraries like bases are recommended to include a constant set to `true` i
 
 Below is a list of known install flags for various libraries. Note that this is not necessarily an exhaustive list, and only reflects install flags for libraries shared in the Dicecloud Discord server. Libraries which use the version number convention are noted in the right-hand column.
 
-| Library | Install Flag | Uses Version \# |
-| :--- | :--- | :--- |
-| [Devkit](https://beta.dicecloud.com/library/zE7NkWeJ6zvFYTiie) | `devkit_installed` | No |
-| [Jon's Sorcery Point Exchange](https://beta.dicecloud.com/library/pnWpT9E76DejeCLxc) | `jspeInstalled` | No |
-| [Jon's Spell Slot Structure](https://beta.dicecloud.com/library/2wuq3G9FM9bJ4sdsu) | `jsssInstalled` | No |
-| [Link the Balrog's Base](https://beta.dicecloud.com/library/NMgBJwmFKjkxvM8HW) | `balrogBaseInstalled` | No |
-| [Owlbear Essentials](https://beta.dicecloud.com/library/cBiPuuN2wbrBp2tbg) | `owlbeInstalled` | Yes |
-| [Owlbear Extensions](https://beta.dicecloud.com/library/mZjyNMxYNNaHRgpA2) | Various \(all prefixed `owlbe_ext_`\) | Yes |
-| [Tameran's Library of Everything](https://beta.dicecloud.com/library/hYPp44b6DvkgZkL2o) | `TLoEInstalled` | No |
+| Library                                                                                 | Install Flag                        | Uses Version # |
+| --------------------------------------------------------------------------------------- | ----------------------------------- | -------------- |
+| [Devkit](https://beta.dicecloud.com/library/zE7NkWeJ6zvFYTiie)                          | `devkit_installed`                  | No             |
+| [Jon's Sorcery Point Exchange](https://beta.dicecloud.com/library/pnWpT9E76DejeCLxc)    | `jspeInstalled`                     | No             |
+| [Jon's Spell Slot Structure](https://beta.dicecloud.com/library/2wuq3G9FM9bJ4sdsu)      | `jsssInstalled`                     | No             |
+| [Link the Balrog's Base](https://beta.dicecloud.com/library/NMgBJwmFKjkxvM8HW)          | `balrogBaseInstalled`               | No             |
+| [Owlbear Essentials](https://beta.dicecloud.com/library/cBiPuuN2wbrBp2tbg)              | `owlbeInstalled`                    | Yes            |
+| [Owlbear Extensions](https://beta.dicecloud.com/library/mZjyNMxYNNaHRgpA2)              | Various (all prefixed `owlbe_ext_`) | Yes            |
+| [Tameran's Library of Everything](https://beta.dicecloud.com/library/hYPp44b6DvkgZkL2o) | `TLoEInstalled`                     | No             |
 
 ## Minimal Inclusion
 
@@ -54,5 +54,4 @@ When creating a library, especially a base, you should include as little as poss
 
 A folder named something like "Internal" is recommended for larger libraries to separate your fillers, etc. from your core folder itself.
 
-![An example Internal folder from Kat&apos;s Core, with subfolders for different types of fillers.](../.gitbook/assets/image%20%2824%29.png)
-
+![An example Internal folder from Kat's Core, with subfolders for different types of fillers.](<../.gitbook/assets/image (24) (1).png>)
