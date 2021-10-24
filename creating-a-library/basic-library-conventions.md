@@ -41,7 +41,6 @@ Below is a list of known install flags for various libraries. Note that this is 
 | Library                                                                                 | Install Flag                        | Uses Version # |
 | --------------------------------------------------------------------------------------- | ----------------------------------- | -------------- |
 | [Devkit](https://beta.dicecloud.com/library/zE7NkWeJ6zvFYTiie)                          | `devkit_installed`                  | No             |
-| [Jon's Sorcery Point Exchange](https://beta.dicecloud.com/library/pnWpT9E76DejeCLxc)    | `jspeInstalled`                     | No             |
 | [Jon's Spell Slot Structure](https://beta.dicecloud.com/library/2wuq3G9FM9bJ4sdsu)      | `jsssInstalled`                     | No             |
 | [Link the Balrog's Base](https://beta.dicecloud.com/library/NMgBJwmFKjkxvM8HW)          | `balrogBaseInstalled`               | No             |
 | [Owlbear Essentials](https://beta.dicecloud.com/library/cBiPuuN2wbrBp2tbg)              | `owlbeInstalled`                    | Yes            |

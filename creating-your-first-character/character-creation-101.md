@@ -20,7 +20,7 @@ These are currently the most prominent bases for 5e:
   * [Langston & Jon's Races](https://beta.dicecloud.com/library/nAX82dWJvjYaqRiQf) by Langston_Hughes and Jonpot is the race sub-library for TLoE, containing the various published races for D\&D 5e.
   * [Khourdaet's Forge of Relics](https://beta.dicecloud.com/library/6zSDbwmiQvfccRWdw) by Ganonslayer is the primary item library for TLoE, containing weapons and armor, as well as adventuring gear and spell components. Currently contains very few magic items, but if a specific item is needed, one can contact Ganonslayer#4106 on Discord to see about having it added.
   * [Arianna's Tome of Beasts](https://beta.dicecloud.com/library/EDBGcBPh2xsEvTvfh) by Jonpot is a library containing wildshape slot fillers for duids. Currently far from complete.
-  * [Jon's Spell Slot Structure](https://beta.dicecloud.com/library/2wuq3G9FM9bJ4sdsu) & [Jon's Sorcerery Point Exchange](https://beta.dicecloud.com/library/pnWpT9E76DejeCLxc) by Jonpot are the spellcasting libraries for TLoE, with JSSS providing spell slots for the various spellcasting classes and JSPE being used by sorcerers to convert spell points into spell slots.
+  * [Jon's Spell Slot Structure](https://beta.dicecloud.com/library/2wuq3G9FM9bJ4sdsu) by Jonpot is the spellcasting library for TLoE, providing spell slots for the various spellcasting classes.
 * [Owlbear Essentials](https://beta.dicecloud.com/library/cBiPuuN2wbrBp2tbg) by KatrinaKitten
   * Just the (Owl)bare essentials. Primarily serves as a more up-to-date alternative to Link's base, by supporting features like slots and constants.
 
