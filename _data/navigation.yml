@@ -4,8 +4,6 @@
       url: https://beta.dicecloud.com
     - name: Dicecloud Discord Server
       url: https://discord.gg/qEvdfeB
-    - name: View on Github
-      url: https://github.com/KatrinaKitten/dicecloud-v2-guide
 
 - name: Creating Your First Character
   pages:
