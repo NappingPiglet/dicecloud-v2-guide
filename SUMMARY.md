@@ -18,6 +18,7 @@
 * [The Spells Tab](creating-your-first-character/the-spells-tab.md)
 * [The Character Tab](creating-your-first-character/the-character-tab.md)
 * [The Tree Tab](creating-your-first-character/the-tree-tab.md)
+* [Transitioning from V1](creating-your-first-character/transitioning-from-v1.md)
 
 ## Creating a Library
 
@@ -59,4 +60,3 @@
 * [Spell Lists](documentation-for-properties/spell-list.md)
 * [Spells](documentation-for-properties/spell.md)
 * [Toggles](documentation-for-properties/toggle.md)
-
