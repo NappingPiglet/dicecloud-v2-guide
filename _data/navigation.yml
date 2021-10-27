@@ -1,9 +1,9 @@
 - name: Important Pages
   pages:
     - name: Dicecloud V2 Unofficial User Guide
-      url: /dicecloud-v2-guide/README.md
+      url: /dicecloud-v2-guide/README
     - name: Using Markdown
-      url: /dicecloud-v2-guide/using-markdown.md
+      url: /dicecloud-v2-guide/using-markdown
 
 - name: External Links
   pages:
@@ -17,91 +17,91 @@
 - name: Creating Your First Character
   pages:
     - name: Character Creation 101
-      url: /dicecloud-v2-guide/creating-your-first-character/character-creation-101.md
+      url: /dicecloud-v2-guide/creating-your-first-character/character-creation-101
     - name: The Stats Tab
-      url: /dicecloud-v2-guide/creating-your-first-character/the-stats-tab.md
+      url: /dicecloud-v2-guide/creating-your-first-character/the-stats-tab
     - name: The Features Tab
-      url: /dicecloud-v2-guide/creating-your-first-character/the-features-tab.md
+      url: /dicecloud-v2-guide/creating-your-first-character/the-features-tab
     - name: The Inventory Tab
-      url: /dicecloud-v2-guide/creating-your-first-character/the-inventory-tab.md
+      url: /dicecloud-v2-guide/creating-your-first-character/the-inventory-tab
     - name: The Spells Tab
-      url: /dicecloud-v2-guide/creating-your-first-character/the-spells-tab.md
+      url: /dicecloud-v2-guide/creating-your-first-character/the-spells-tab
     - name: The Character Tab
-      url: /dicecloud-v2-guide/creating-your-first-character/the-character-tab.md
+      url: /dicecloud-v2-guide/creating-your-first-character/the-character-tab
     - name: The Tree Tab
-      url: /dicecloud-v2-guide/creating-your-first-character/the-tree-tab.md
+      url: /dicecloud-v2-guide/creating-your-first-character/the-tree-tab
     - name: Transitioning from V1
-      url: /dicecloud-v2-guide/creating-your-first-character/transitioning-from-v1.md
+      url: /dicecloud-v2-guide/creating-your-first-character/transitioning-from-v1
 
 - name: Creating a Library
   pages:
     - name: Basic Library Conventions
-      url: /dicecloud-v2-guide/creating-a-library/basic-library-conventions.md
+      url: /dicecloud-v2-guide/creating-a-library/basic-library-conventions
     - name: Parser Documentation
-      url: /dicecloud-v2-guide/creating-a-library/parser-documentation.md
+      url: /dicecloud-v2-guide/creating-a-library/parser-documentation
     - name: Built-in Variables
-      url: /dicecloud-v2-guide/creating-a-library/built-in-variables.md
+      url: /dicecloud-v2-guide/creating-a-library/built-in-variables
     - name: Built-in Tags
-      url: /dicecloud-v2-guide/creating-a-library/built-in-tags.md
+      url: /dicecloud-v2-guide/creating-a-library/built-in-tags
 
 - name: Advanced Library Techniques
   pages:
     - name: Bitfields
-      url: /dicecloud-v2-guide/advanced-library-techniques/bitfields.md
+      url: /dicecloud-v2-guide/advanced-library-techniques/bitfields
     - name: Saving Roll Results Permanently
-      url: /dicecloud-v2-guide/advanced-library-techniques/saving-roll-results-permanently.md
+      url: /dicecloud-v2-guide/advanced-library-techniques/saving-roll-results-permanently
     - name: Zero-Quantity Slot Fillers
-      url: /dicecloud-v2-guide/advanced-library-techniques/zero-quantity-slot-fillers.md
+      url: /dicecloud-v2-guide/advanced-library-techniques/zero-quantity-slot-fillers
 
 - name: Documentation for Properties
   pages:
     - name: Actions
-      url: /dicecloud-v2-guide/documentation-for-properties/action.md
+      url: /dicecloud-v2-guide/documentation-for-properties/action
     - name: Attacks
-      url: /dicecloud-v2-guide/documentation-for-properties/attack-action.md
+      url: /dicecloud-v2-guide/documentation-for-properties/attack-action
     - name: Attributes
-      url: /dicecloud-v2-guide/documentation-for-properties/attribute.md
+      url: /dicecloud-v2-guide/documentation-for-properties/attribute
     - name: Attribute Damage
-      url: /dicecloud-v2-guide/documentation-for-properties/attribute-damage.md
+      url: /dicecloud-v2-guide/documentation-for-properties/attribute-damage
     - name: Buffs
-      url: /dicecloud-v2-guide/documentation-for-properties/buff.md
+      url: /dicecloud-v2-guide/documentation-for-properties/buff
     - name: Class Levels
-      url: /dicecloud-v2-guide/documentation-for-properties/class-level.md
+      url: /dicecloud-v2-guide/documentation-for-properties/class-level
     - name: Constants
-      url: /dicecloud-v2-guide/documentation-for-properties/constant.md
+      url: /dicecloud-v2-guide/documentation-for-properties/constant
     - name: Containers
-      url: /dicecloud-v2-guide/documentation-for-properties/container.md
+      url: /dicecloud-v2-guide/documentation-for-properties/container
     - name: Damage
-      url: /dicecloud-v2-guide/documentation-for-properties/damage.md
+      url: /dicecloud-v2-guide/documentation-for-properties/damage
     - name: Damage Multipliers
-      url: /dicecloud-v2-guide/documentation-for-properties/damage-multiplier.md
+      url: /dicecloud-v2-guide/documentation-for-properties/damage-multiplier
     - name: Effects
-      url: /dicecloud-v2-guide/documentation-for-properties/effect.md
+      url: /dicecloud-v2-guide/documentation-for-properties/effect
     - name: Features
-      url: /dicecloud-v2-guide/documentation-for-properties/feature.md
+      url: /dicecloud-v2-guide/documentation-for-properties/feature
     - name: Folders
-      url: /dicecloud-v2-guide/documentation-for-properties/folder.md
+      url: /dicecloud-v2-guide/documentation-for-properties/folder
     - name: Items
-      url: /dicecloud-v2-guide/documentation-for-properties/item.md
+      url: /dicecloud-v2-guide/documentation-for-properties/item
     - name: Notes
-      url: /dicecloud-v2-guide/documentation-for-properties/note.md
+      url: /dicecloud-v2-guide/documentation-for-properties/note
     - name: Proficiencies
-      url: /dicecloud-v2-guide/documentation-for-properties/proficiency.md
+      url: /dicecloud-v2-guide/documentation-for-properties/proficiency
     - name: References
-      url: /dicecloud-v2-guide/documentation-for-properties/reference.md
+      url: /dicecloud-v2-guide/documentation-for-properties/reference
     - name: Rolls
-      url: /dicecloud-v2-guide/documentation-for-properties/roll.md
+      url: /dicecloud-v2-guide/documentation-for-properties/roll
     - name: Saving Throws
-      url: /dicecloud-v2-guide/documentation-for-properties/saving-throw.md
+      url: /dicecloud-v2-guide/documentation-for-properties/saving-throw
     - name: Skills
-      url: /dicecloud-v2-guide/documentation-for-properties/skill.md
+      url: /dicecloud-v2-guide/documentation-for-properties/skill
     - name: Slots
-      url: /dicecloud-v2-guide/documentation-for-properties/slot.md
+      url: /dicecloud-v2-guide/documentation-for-properties/slot
     - name: Slot Fillers
-      url: /dicecloud-v2-guide/documentation-for-properties/slot-filler.md
+      url: /dicecloud-v2-guide/documentation-for-properties/slot-filler
     - name: Spell Lists
-      url: /dicecloud-v2-guide/documentation-for-properties/spell-list.md
+      url: /dicecloud-v2-guide/documentation-for-properties/spell-list
     - name: Spells
-      url: /dicecloud-v2-guide/documentation-for-properties/spell.md
+      url: /dicecloud-v2-guide/documentation-for-properties/spell
     - name: Toggles
-      url: /dicecloud-v2-guide/documentation-for-properties/toggle.md
+      url: /dicecloud-v2-guide/documentation-for-properties/toggle
