@@ -38,7 +38,7 @@ The string entered into the roll field, unparsed.
 
 The parsed result of the roll. If dice rolls are part of the calculation, this will return the result of the dice from the most recent time it was rolled.
 
-{% hint style="warning" %}
+<p class="hint warning">
 All values marked with a \* can only be accessed using an ancestor reference.
-{% endhint %}
+</p>
 

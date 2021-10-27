@@ -70,7 +70,7 @@ Returns the parsed value of the spell attack bonus field.
 
 Returns the parsed value of the spell save DC field.
 
-{% hint style="warning" %}
+<p class="hint warning">
 All values marked with a \* can only be accessed using an ancestor reference.
-{% endhint %}
+</p>
 

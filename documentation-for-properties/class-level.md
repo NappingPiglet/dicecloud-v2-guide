@@ -24,9 +24,9 @@ The description of the class. This field accepts markdown and HTML.
 
 A condition to check if you can take levels in this class. Unless you are making a library, this can be left blank. For this class level to be added to a slot, this condition must evaluate to true.
 
-{% hint style="info" %}
+<p class="hint info">
 One useful example of a condition is `<classVariableName>.level==<classLevel>-1`, which will only allow you to take this particular level if you already had taken the previous level in the class.
-{% endhint %}
+</p>
 
 ### Tags
 
@@ -54,7 +54,7 @@ The text entered into the variable name field of the class level.
 
 The text entered into the condition field, unparsed.
 
-{% hint style="warning" %}
+<p class="hint warning">
 All values marked with a \* can only be accessed using an ancestor reference.
-{% endhint %}
+</p>
 

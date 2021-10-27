@@ -15,7 +15,7 @@ While this may seem backwards and unintuitive at first, it allows for the exact 
 
 This trick can even be applied to slots that weren't intentionally designed to use zero-quantity fillers. While the cases in which you might want to insert something additional into a slot alongside an actual intended value are rare, using a ZQF allows you to achieve just that; for example, you can use a ZQF to allow multiple bases in the auto-generated slot.
 
-{% hint style="warning" %}
+<p class="hint warning">
 Since the add button for a full slot disappears, it is impossible to add a ZQF to a slot that is already full, even though it would fit by quantity. This means ZQFs must always be added before any filler that would completely fill the slot.
-{% endhint %}
+</p>
 

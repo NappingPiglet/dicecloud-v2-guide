@@ -2,13 +2,13 @@
 
 The Tree tab is where all the structure that makes up a Dicecloud character sheet lives. Here you can dig into how your character sheet actually works, or change it to your heart's content.
 
-{% hint style="danger" %}
+<p class="hint danger">
 The Tree tab is an advanced feature, and you should rarely ever need to touch it in the course of normal character use. In order to access it, you will need to go to your character settings and enable the toggle labelled "Show Tree Tab". As V2 is still in heavy development, there are some cases where you'll need to work in the Tree - like for adding items, spells, etc. if slots don't exist for them - but those will eventually be moved more and more away from the Tree tab and towards slots or dedicated UI sections on the appropriate tabs.
-{% endhint %}
+</p>
 
-{% hint style="info" %}
+<p class="hint info">
 If you're building homebrew materials or other things you may want to reuse, it's recommended that you work in the Library section in the sidebar instead. Most of the principles are the same as working in a character's Tree tab, but it will keep you from having to do your work multiple times for future characters.
-{% endhint %}
+</p>
 
 ![The Tree tab for an example character, open to the Proficiency Bonus attribute.](<../.gitbook/assets/image (8) (2).png>)
 
@@ -32,6 +32,6 @@ Turning on the Organize switch at the top left will put your tree into organize 
 
 ![The top of the tree from the example in Organize mode.](<../.gitbook/assets/image (21) (1).png>)
 
-{% hint style="info" %}
+<p class="hint info">
 When working in either a character's tree or library, properties will be added at the bottom of the list if the property selected currently is not expanded. If it is expanded, then it will be added as the bottommost child of the selected property.
-{% endhint %}
+</p>

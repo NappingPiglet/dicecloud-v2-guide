@@ -95,9 +95,9 @@ truth = floor(bitfield / 8) % 2
 
 ### Workaround: Modulus
 
-{% hint style="danger" %}
+<p class="hint danger">
 This section is now obsolete as the modulus operator has been fully implemented. It has been left here for those interested in the math behind the original solution.
-{% endhint %}
+</p>
 
 Unfortunately, our troubles don't end there, because due to an implementation oversight, Dicecloud doesn't have modulo either... yet. It will soon, which will make this process much cleaner, but for now, we need another layer of workarounds.
 
