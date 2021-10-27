@@ -26,7 +26,7 @@ These are currently the most prominent bases for 5e:
 
 Once you've subscribed to the library for the base of your choice, you can create your character! Head to the Characters tab in the sidebar, and hit the + button at the bottom right. You'll be taken to the Character tab, with the Build view open - it should look something like this.
 
-![The Build view shown when you first create a character.](/dicecloud-v2-guide/assets/image (3) (1).png)
+![The Build view shown when you first create a character.](/dicecloud-v2-guide/assets/build-empty.png)
 
 ## The Slot System
 
