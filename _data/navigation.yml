@@ -26,7 +26,7 @@
     - name: Transitioning from V1
       url: /dicecloud-v2-guide/creating-your-first-character/transitioning-from-v1
     - name: Using Markdown
-      url: /dicecloud-v2-guide/using-markdown
+      url: /dicecloud-v2-guide/creating-your-first-character/using-markdown
 
 - name: Creating a Library
   pages:
