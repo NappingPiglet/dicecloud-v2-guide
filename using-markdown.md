@@ -106,7 +106,7 @@ complete a long rest before you can use it again.
 ![alt text](https://commons.wikimedia.org/wiki/File:Transgender_Pride_flag.svg)
 ```
 
-![alt text](<.gitbook/assets/image\_2021-02-04\_221924 (1).png>)
+![alt text](/dicecloud-v2-guide/assets/image\_2021-02-04\_221924 (1).png)
 
 ### HTML
 

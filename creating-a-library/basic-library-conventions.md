@@ -6,13 +6,13 @@ When creating a library, there are certain conventions that should generally be 
 
 It's recommended to include a note called README at the top level of your library, especially for larger libraries, with links, instructions, and other information on the library itself. Larger libraries should include sections or child notes with a list of all variable and tag names used in the library, to aid others in developing libraries that interact with theirs.
 
-![An example README with attached attribute and tag lists.](<../.gitbook/assets/image (20) (1).png>)
+![An example README with attached attribute and tag lists.](/dicecloud-v2-guide/assets/image (20) (1).png)
 
 ## Base Folders
 
 In order for your custom base to work with the built-in Base slot that is created automatically for new characters, you'll need to tag the parent folder or slot filler for your base with the `base` tag.
 
-![The tags field for the Kat's Core parent folder.](<../.gitbook/assets/image (23).png>)
+![The tags field for the Kat's Core parent folder.](/dicecloud-v2-guide/assets/image (23).png)
 
 ## Base Compatibility Tags
 
@@ -53,4 +53,4 @@ When creating a library, especially a base, you should include as little as poss
 
 A folder named something like "Internal" is recommended for larger libraries to separate your fillers, etc. from your core folder itself.
 
-![An example Internal folder from Kat's Core, with subfolders for different types of fillers.](<../.gitbook/assets/image (24) (1).png>)
+![An example Internal folder from Kat's Core, with subfolders for different types of fillers.](/dicecloud-v2-guide/assets/image (24) (1).png)

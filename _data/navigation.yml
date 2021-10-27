@@ -1,10 +1,3 @@
-- name: Important Pages
-  pages:
-    - name: Dicecloud V2 Unofficial User Guide
-      url: /dicecloud-v2-guide/README
-    - name: Using Markdown
-      url: /dicecloud-v2-guide/using-markdown
-
 - name: External Links
   pages:
     - name: Dicecloud V2
@@ -32,6 +25,8 @@
       url: /dicecloud-v2-guide/creating-your-first-character/the-tree-tab
     - name: Transitioning from V1
       url: /dicecloud-v2-guide/creating-your-first-character/transitioning-from-v1
+    - name: Using Markdown
+      url: /dicecloud-v2-guide/using-markdown
 
 - name: Creating a Library
   pages:

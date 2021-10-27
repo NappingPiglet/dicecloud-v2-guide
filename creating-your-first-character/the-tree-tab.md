@@ -10,7 +10,7 @@ The Tree tab is an advanced feature, and you should rarely ever need to touch it
 If you're building homebrew materials or other things you may want to reuse, it's recommended that you work in the Library section in the sidebar instead. Most of the principles are the same as working in a character's Tree tab, but it will keep you from having to do your work multiple times for future characters.
 </p>
 
-![The Tree tab for an example character, open to the Proficiency Bonus attribute.](<../.gitbook/assets/image (8) (2).png>)
+![The Tree tab for an example character, open to the Proficiency Bonus attribute.](/dicecloud-v2-guide/assets/image (8) (2).png)
 
 Clicking on a property in the Tree tab will display its details on the right-hand side, or in a popup on mobile. The arrow on the left-hand side of a property will expand it to show its children. The search field at the top left will allow you to filter the tree by property type.
 
@@ -20,17 +20,17 @@ The pencil icon at the top right will switch your view into edit mode, which all
 
 You can add a new property or import one from a library by clicking the + button in the bottom right. See the [Documentation for Properties](../documentation-for-properties/action.md) section for details on different property types and their settings.
 
-![The edit view for the Proficiency Bonus attribute from the first example.](<../.gitbook/assets/image (19) (1).png>)
+![The edit view for the Proficiency Bonus attribute from the first example.](/dicecloud-v2-guide/assets/image (19) (1).png)
 
 Once you're in edit mode, you can also duplicate or delete a property from the three dots at the top right, or change the property's color with the paint roller button.
 
-![The property color picker.](<../.gitbook/assets/image (22) (1).png>)
+![The property color picker.](/dicecloud-v2-guide/assets/image (22) (1).png)
 
 ## Organize Mode
 
 Turning on the Organize switch at the top left will put your tree into organize mode, which will allow you to move properties within the tree by dragging and dropping on the two horizontal bars. It also allows you to expand properties with no children, so that you can drag other properties into them.
 
-![The top of the tree from the example in Organize mode.](<../.gitbook/assets/image (21) (1).png>)
+![The top of the tree from the example in Organize mode.](/dicecloud-v2-guide/assets/image (21) (1).png)
 
 <p class="hint info">
 When working in either a character's tree or library, properties will be added at the bottom of the list if the property selected currently is not expanded. If it is expanded, then it will be added as the bottommost child of the selected property.
