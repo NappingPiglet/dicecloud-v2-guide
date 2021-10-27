@@ -6,11 +6,11 @@ DiceCloud V2 uses a custom parser that accepts all the common mathematical equat
 
 | Data Type | Examples                                                                                                                                       |
 | --------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| Numbers   | <p><code>54</code></p><p><code>3.14</code></p>                                                                                                 |
-| Strings   | <p><code>"Hello, world!"</code></p><p><code>'Hello, world!'</code></p>                                                                         |
-| Booleans  | <p><code>true</code></p><p><code>false</code></p>                                                                                              |
-| Arrays    | <p><code>[1,2,3,4,5,6][index]</code></p><p><code>[1,2,3,4,5,6]</code> (constants only)</p><p><code>arrayConstant[index]</code></p>             |
-| Variables | <p><code>cantripDice</code></p><p><code>barbarian.level</code> (sub-properties)</p><p><code>#attribute</code> (ancestor reference by type)</p> |
+| Numbers   | `54`<br>`3.14`                                                                                                 |
+| Strings   | `"Hello, world!"`<br>`'Hello, world!'`                                                                         |
+| Booleans  | `true`<br>`false`                                                                                              |
+| Arrays    | `[1,2,3,4,5,6][index]`<br>`[1,2,3,4,5,6]` (constants only)<br>`arrayConstant[index]`             |
+| Variables | `cantripDice`<br>`barbarian.level` (sub-properties)<br>`#attribute` (ancestor reference by type) |
 
 <p class="hint info">
 If a variable doesn't exist, its value will default to `0`, however this is not true for inline calculations. Inline calculations will break if the variable doesn't exist.
@@ -36,7 +36,7 @@ Arrays must normally be declared in the same place they are accessed (the first 
 | Divide              | `5 / 7`                                                                                                         |
 | Exponents           | `5 ^ 7`                                                                                                         |
 | Modulus (remainder) | `5 % 7`                                                                                                         |
-| Dice Rolls          | <p><code>d6</code></p><p><code>2d20</code></p><p><code>cantripDice d8</code></p><p><code>4d(3+level)</code></p> |
+| Dice Rolls          | `d6`<br>`2d20`<br>`cantripDice d8`<br>`4d(3+level)` |
 
 <p class="hint info">
 Division by `0` will not result in an error, but will instead return `Infinity`.
@@ -50,7 +50,7 @@ Dice rolls can use any variable or equation on either side of the `d` operator. 
 
 | Name                     | Syntax                                                                           |
 | ------------------------ | -------------------------------------------------------------------------------- |
-| Equal                    | <p><code>5 = 7</code></p><p><code>5 == 7</code></p>                              |
+| Equal                    | `5 = 7`<br>`5 == 7`                              |
 | Strict equal             | `5 === 7`                                                                        |
 | Not equal                | `5 != 7`                                                                         |
 | Strict not equal         | `5 !== 7`                                                                        |
@@ -58,8 +58,8 @@ Dice rolls can use any variable or equation on either side of the `d` operator. 
 | Greater than or equal to | `5 >= 7`                                                                         |
 | Less than                | `5 < 7`                                                                          |
 | Less than or equal to    | `5 <= 7`                                                                         |
-| Logical AND              | <p><code>true &#x26; false</code></p><p><code>true &#x26;&#x26; false</code></p> |
-| Logical OR               | <p><code>true | false</code></p><p><code>true || false</code></p>                |
+| Logical AND              | `true &#x26; false`<br>`true &#x26;&#x26; false` |
+| Logical OR               | `true | false`<br>`true || false`                |
 | Conditional              | `condition ? ifTrue : ifFalse`                                                   |
 
 <p class="hint info">
@@ -79,16 +79,16 @@ For the logical operators `&&` and `||`, as well as for the conditional operator
 
 | Name                           | Syntax                       | Examples                                                                                                                                                                                                                                 |
 | ------------------------------ | ---------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Absolute Value                 | `abs(number)`                | <p><code>abs(9) == 9</code></p><p><code>abs(-3) == 3</code></p>                                                                                                                                                                          |
-| Square Root                    | `sqrt(number)`               | <p><code>sqrt(16) == 4</code></p><p><code>sqrt(10) == 3.1622776601683795</code></p>                                                                                                                                                      |
+| Absolute Value                 | `abs(number)`                | `abs(9) == 9`<br>`abs(-3) == 3`                                                                                                                                                                          |
+| Square Root                    | `sqrt(number)`               | `sqrt(16) == 4`<br>`sqrt(10) == 3.1622776601683795`                                                                                                                                                      |
 | Maximum                        | `max(number, ...)`           | `max(12, 6, 3, 168) == 168`                                                                                                                                                                                                              |
 | Minimum                        | `min(number, ...)`           | `min(12, 6, 3, 168) == 3`                                                                                                                                                                                                                |
-| Round (round to nearest whole) | `round(number)`              | <p><code>round(5.95) == 6</code></p><p><code>round(5.5) == 6</code></p><p><code>round(5.05) == 5</code></p>                                                                                                                              |
-| Floor (round down)             | `floor(number)`              | <p><code>floor(5.95) == 5</code></p><p><code>floor(5.05) == 5</code></p><p><code>floor(5) = 5</code></p><p><code>floor(-5.5) == -6</code></p>                                                                                            |
-| Ceiling (round up)             | `ceil(number)`               | <p><code>ceil(5.95) == 6</code></p><p><code>ceil(5.05) == 6</code></p><p><code>ceil(5) == 5</code></p><p><code>ceil(-5.5) == -5</code></p>                                                                                               |
-| Truncate (round toward 0)      | `trunc(number)`              | <p><code>trunc(5.95) == 5</code></p><p><code>trunc(5.05) == 5</code></p><p><code>trunc(5) == 5</code></p><p><code>trunc(-5.5) == -5</code></p>                                                                                           |
-| Sign                           | `sign(number)`               | <p><code>sign(-3) == -1</code></p><p><code>sign(3) == 1</code></p><p><code>sign(0) == 0</code></p>                                                                                                                                       |
-| Table Lookup                   | `tableLookup(array, number)` | <p><code>tableLookup([100, 300, 900], 457) == 2</code></p><p><code>tableLookup([100, 300, 900], 23) == 0</code></p><p><code>tableLookup([100, 300, 900, 1200], 900) == 3</code></p><p><code>tableLookup([100, 300], 594) == 2</code></p> |
+| Round (round to nearest whole) | `round(number)`              | `round(5.95) == 6`<br>`round(5.5) == 6`<br>`round(5.05) == 5`                                                                                                                              |
+| Floor (round down)             | `floor(number)`              | `floor(5.95) == 5`<br>`floor(5.05) == 5`<br>`floor(5) = 5`<br>`floor(-5.5) == -6`                                                                                            |
+| Ceiling (round up)             | `ceil(number)`               | `ceil(5.95) == 6`<br>`ceil(5.05) == 6`<br>`ceil(5) == 5`<br>`ceil(-5.5) == -5`                                                                                               |
+| Truncate (round toward 0)      | `trunc(number)`              | `trunc(5.95) == 5`<br>`trunc(5.05) == 5`<br>`trunc(5) == 5`<br>`trunc(-5.5) == -5`                                                                                           |
+| Sign                           | `sign(number)`               | `sign(-3) == -1`<br>`sign(3) == 1`<br>`sign(0) == 0`                                                                                                                                       |
+| Table Lookup                   | `tableLookup(array, number)` | `tableLookup([100, 300, 900], 457) == 2`<br>`tableLookup([100, 300, 900], 23) == 0`<br>`tableLookup([100, 300, 900, 1200], 900) == 3`<br>`tableLookup([100, 300], 594) == 2` |
 
 ### Absolute Value
 
