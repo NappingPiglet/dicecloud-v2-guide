@@ -111,11 +111,11 @@ Returns the number of times you can use the action before one resource, ammo or 
 
 Returns true if the action cannot be taken because the resources consumed aren't satisfied. If no resources are consumed, returns `#action.insufficientResources`.
 
-<p class="hint warning">
+{% hint style="warning" %}
 All values marked with \* can only be accessed using an ancestor reference.
-</p>
+{% endhint %}
 
-<p class="hint warning">
+{% hint style="warning" %}
 All values marked with \*\* can only be accessed using an ancestor reference. However, doing so will cause the error `#action returned an unexpected type`, as V2 does not have a way of handling accessing a value that has more than one data value associated with it, such as arrays or objects.
-</p>
+{% endhint %}
 

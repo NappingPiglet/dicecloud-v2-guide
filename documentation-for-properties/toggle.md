@@ -42,7 +42,7 @@ Returns the string in the toggle's condition field.
 
 Returns true if the condition field is evaluated to true.
 
-<p class="hint warning">
+{% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
-</p>
+{% endhint %}
 

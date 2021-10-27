@@ -70,7 +70,7 @@ The string in the calculation field, unparsed.
 
 The string in the calculation field, parsed. If dice rolls are included, all non-dice components are parsed.
 
-<p class="hint warning">
+{% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
-</p>
+{% endhint %}
 

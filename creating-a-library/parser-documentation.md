@@ -12,17 +12,17 @@ DiceCloud V2 uses a custom parser that accepts all the common mathematical equat
 | Arrays    | <p><code>[1,2,3,4,5,6][index]</code></p><p><code>[1,2,3,4,5,6]</code> (constants only)</p><p><code>arrayConstant[index]</code></p>             |
 | Variables | <p><code>cantripDice</code></p><p><code>barbarian.level</code> (sub-properties)</p><p><code>#attribute</code> (ancestor reference by type)</p> |
 
-<p class="hint info">
+{% hint style="info" %}
 If a variable doesn't exist, its value will default to `0`, however this is not true for inline calculations. Inline calculations will break if the variable doesn't exist.
-</p>
+{% endhint %}
 
-<p class="hint info">
+{% hint style="info" %}
 Array indexes start from `1`.
-</p>
+{% endhint %}
 
-<p class="hint info">
+{% hint style="info" %}
 Arrays must normally be declared in the same place they are accessed (the first syntax example), with the exception of declaring an array in a constant, which allows for storing non-numeric data types.
-</p>
+{% endhint %}
 
 ## Operators
 
@@ -38,13 +38,13 @@ Arrays must normally be declared in the same place they are accessed (the first 
 | Modulus (remainder) | `5 % 7`                                                                                                         |
 | Dice Rolls          | <p><code>d6</code></p><p><code>2d20</code></p><p><code>cantripDice d8</code></p><p><code>4d(3+level)</code></p> |
 
-<p class="hint info">
+{% hint style="info" %}
 Division by `0` will not result in an error, but will instead return `Infinity`.
-</p>
+{% endhint %}
 
-<p class="hint info">
+{% hint style="info" %}
 Dice rolls can use any variable or equation on either side of the `d` operator. They will be rerolled whenever the property using them is recalculated; if you want to save the result of a roll indefinitely, see [Saving Roll Results Permanently](../advanced-library-techniques/saving-roll-results-permanently.md).
-</p>
+{% endhint %}
 
 ### Logic and Comparisons
 
@@ -62,18 +62,18 @@ Dice rolls can use any variable or equation on either side of the `d` operator. 
 | Logical OR               | <p><code>true | false</code></p><p><code>true || false</code></p>                |
 | Conditional              | `condition ? ifTrue : ifFalse`                                                   |
 
-<p class="hint info">
+{% hint style="info" %}
 The normal `==` and `!=` will convert types to check equality; for example, `5 == "5"` will return `true`. The strict `===` and `!==` will not; for example, `5 === "5"` will return `false`.
-</p>
+{% endhint %}
 
-<p class="hint info">
+{% hint style="info" %}
 For the logical operators `&&` and `||`, as well as for the conditional operator `? :` and built-in condition checks like for toggles, most values will be considered equivalent to `true`, except for the following:
 
 * `false`
 * `0` and all equivalent values
 * `NaN` (results from some calculation errors)
 * Empty strings (`""` and `''`)
-</p>
+{% endhint %}
 
 ## Functions
 

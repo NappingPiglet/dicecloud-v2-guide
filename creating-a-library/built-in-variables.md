@@ -4,9 +4,9 @@ Dicecloud V2 has some built-in variables available by default. This page is a li
 
 Some variables listed here are only available in certain contexts. These variables will have an additional line in their description which states the context in which they're available for use.
 
-<p class="hint info">
+{% hint style="info" %}
 You can override any built-in variable by adding your own attribute with the same name! Do keep in mind that this isn't recommended in most situations, since it may interfere with some default functionality if done improperly.
-</p>
+{% endhint %}
 
 <table>
   <thead>
@@ -150,23 +150,23 @@ You can override any built-in variable by adding your own attribute with the sam
   </tbody>
 </table>
 
-<p class="hint info">
+{% hint style="info" %}
 The `xp` and `milestoneLevels` variables reflect the events created in the [Experience view](../creating-your-first-character/the-character-tab.md#levels) on the Character tab, and are intended for determining when a character is ready to level up. Calculations for most actual character functionality should be based on `level` or `<class>.level` instead.
-</p>
+{% endhint %}
 
-<p class="hint info">
+{% hint style="info" %}
 All `value` and `weight` properties include container values/weights in their calculations.
-</p>
+{% endhint %}
 
-<p class="hint info">
+{% hint style="info" %}
 `weightCarried` includes containers with "Contents are weightless" turned on, but not their items. It does not include containers or their items if "Carried" is turned off.
-</p>
+{% endhint %}
 
-<p class="hint warning">
+{% hint style="warning" %}
 `allChecks`, `allSaves`, and `attackRolls` are present in Dicecloud's code, but do not currently function.
-</p>
+{% endhint %}
 
-<p class="hint warning">
+{% hint style="warning" %}
 `proficiencyBonus` is added by default to attack bonus calculations on property creation, and automatically calculated for application to skill proficiencies. However, it is not accessible anywhere else, and will need to be created and managed by a base to be accessible in any other context.
-</p>
+{% endhint %}
 

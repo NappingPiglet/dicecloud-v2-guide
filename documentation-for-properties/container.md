@@ -68,7 +68,7 @@ Currently unimplemented.
 
 Currently unimplemented.
 
-<p class="hint warning">
+{% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
-</p>
+{% endhint %}
 

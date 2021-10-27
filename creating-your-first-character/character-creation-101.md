@@ -36,9 +36,9 @@ A slot is, in essence, a hole in your character sheet, which can be filled with 
 
 Selecting which base to use for a given character is just as simple as making further decisions via slots; just hit the + button, select your base, and hit Insert. From there, you're good to go!
 
-<p class="hint info">
+{% hint style="info" %}
 Slots are primarily a library creation utility. The options they pull in aren't actually in your sheet until you click "Insert"; rather, they're stored in whatever libraries you've subscribed to. You should almost never need to create a slot in your own sheet manually.
-</p>
+{% endhint %}
 
 Once you've made your selections to create your character, you can switch to the Stats, Features, Inventory, and Spells tabs to see the result.
 

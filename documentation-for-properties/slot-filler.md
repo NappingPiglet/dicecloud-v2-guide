@@ -62,7 +62,7 @@ This returns the number in the quantity field.
 
 This returns the string in the condition field.
 
-<p class="hint warning">
+{% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
-</p>
+{% endhint %}
 

@@ -59,7 +59,7 @@ Returns 'self' if the buff's target field is set to self, 'every' if it is set t
 
 Currently unused.
 
-<p class="hint warning">
+{% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
-</p>
+{% endhint %}
 

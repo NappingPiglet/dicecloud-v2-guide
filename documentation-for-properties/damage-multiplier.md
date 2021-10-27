@@ -30,9 +30,9 @@ The name of the property.
 
 Returns 2 if the damage multiplier is set to vulnerability, 0.5 if it is set to resistance and 0 if it is set to immunity.
 
-<p class="hint warning">
+{% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
-</p>
+{% endhint %}
 
 ## Unimplemented Functionality
 

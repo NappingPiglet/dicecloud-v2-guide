@@ -33,13 +33,13 @@ When the condition inside this field is false, the slot will hide itself in the 
 
 This determines whether or not the same property can be added multiple times to a slot, or to the character as a whole. It defaults to "Each property inside this slot should be unique", which prevents the same property from being added to the slot multiple times. It can also be set to "Properties in this slot should be unique across the whole character", which prevents the same property from filling any slot again across the entire character.
 
-<p class="hint info">
+{% hint style="info" %}
 This field defaults to "Each property inside this slot should be unique", but this field can be set to empty by using the X button on the right side of the field.
-</p>
+{% endhint %}
 
-<p class="hint info">
+{% hint style="info" %}
 Note that this means a given library node cannot be used multiple times. An exact copy of said node however, could be used after the original has been added.
-</p>
+{% endhint %}
 
 ### Description
 
@@ -105,11 +105,11 @@ Returns the current number of properties that could be added to the slot before 
 
 Returns "uniqueInSlot" if the slot has the field Unique set to "Each property inside this slot should be unique" and returns "uniqueInCreature" if the field is set to "Properties in this slot should be unique across the whole character". If the field has been unset, it instead returns `#propertySlot.unique`.
 
-<p class="hint warning">
+{% hint style="warning" %}
 All values marked with a \* can only be accessed using ancestor references.
-</p>
+{% endhint %}
 
-<p class="hint info">
+{% hint style="info" %}
 In order to perform an ancestor reference to a slot, the syntax is `#propertySlot` rather than `#slot`.
-</p>
+{% endhint %}
 

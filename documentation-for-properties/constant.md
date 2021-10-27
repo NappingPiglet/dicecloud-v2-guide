@@ -16,9 +16,9 @@ The name of the variable used to access the constant in calculations. This can c
 
 The value of the constant. This cannot reference another variable, or contain dice rolls but can include arrays.
 
-<p class="hint info">
+{% hint style="info" %}
 One other unique property of constants is that they can never be overwritten, even by other constants that use the same variable name later in the tree. This means that they are unique in that they are the only property that will use the highest instance in the tree as their base value rather than the lowest instance.
-</p>
+{% endhint %}
 
 ## Accessible Values
 
@@ -34,7 +34,7 @@ Returns the variable name of the constant.
 
 Returns the string in the value field, parsed.
 
-<p class="hint warning">
+{% hint style="warning" %}
 All values marked with a \* can only be accessed using an ancestor reference.
-</p>
+{% endhint %}
 

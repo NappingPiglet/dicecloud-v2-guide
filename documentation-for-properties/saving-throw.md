@@ -42,7 +42,7 @@ Returns 'self' if the target of the saving throw is set to self, 'each' if it is
 
 The DC of the saving throw, parsed. If dice rolls are included, then all non-dice rolls are parsed.
 
-<p class="hint warning">
+{% hint style="warning" %}
 All values marked by a \* can only be accessed using an ancestor reference.
-</p>
+{% endhint %}
 
