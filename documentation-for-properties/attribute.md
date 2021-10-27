@@ -121,7 +121,7 @@ Returns the text entered into the slot level field, unparsed. If the attribute i
 
 Returns the modifier for the constitution attribute. This can only be accessed if the attribute is of type hit dice. This does not return a value with any relation to this particular attribute, but instead equivalent to putting `constitution.modifier`.
 
-{% hint style="warning" %}
+<p class="hint warning">
 All values marked with a \* can only be accessed using an ancestor reference.
-{% endhint %}
+</p>
 

@@ -18,7 +18,7 @@ Tags are used to control which slots this property can be added to. This will us
 
 The name of the folder.
 
-{% hint style="warning" %}
+<p class="hint warning">
 All values marked with a \* can only be accessed using an ancestor reference.
-{% endhint %}
+</p>
 
