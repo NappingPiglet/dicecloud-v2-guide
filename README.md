@@ -1,4 +1,4 @@
-# Dicecloud V2 Unofficial User Guide
+# Dicecloud V2 Unofficial User Guide 
 
 This is an unofficial guide for users and library developers working with [Dicecloud V2](https://beta.dicecloud.com). This guide is written by users, for users, and is not officially sponsored or maintained by Thaum, the developer of Dicecloud.
 
